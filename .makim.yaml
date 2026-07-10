@@ -1,0 +1,49 @@
+groups:
+  pages:
+    tasks:
+      pre-build:
+        help: pre-build step
+        backend: bash
+        run: |
+          # not used yet
+          exit 0
+          mkdir -p build
+          # Directory to search for .ipynb files
+          export SEARCH_DIR="pages/blog"
+
+          # Find all .ipynb files, excluding .ipynb_checkpoints,
+          # and convert them to Markdown named 'index.md'
+          find "$SEARCH_DIR" -path "*/.ipynb_checkpoints/*" -prune -o -name \
+            "*.ipynb" -exec sh -c \
+            'jupyter nbconvert --to markdown --template=theme/custom-markdown.tpl --output-dir "$(dirname "$0")" --output "index" "$0"' {} \;
+
+      build:
+        help: build the static page
+        hooks:
+          pre-run:
+            - task: pages.pre-build
+        run: mkdocs build --verbose --clean
+
+      preview:
+        help: preview the web page dynamically
+        hooks:
+          pre-run:
+            - task: pages.pre-build
+        backend: bash
+        run: |
+          set -euo pipefail
+
+          HOST="${HOST:-127.0.0.1}"
+          PORT="${PORT:-$(HOST="${HOST}" python - <<'PY'
+          import os
+          import socket
+
+          host = os.environ["HOST"]
+          with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+              sock.bind((host, 0))
+              print(sock.getsockname()[1])
+          PY
+          )}"
+
+          echo "Starting MkDocs preview at http://${HOST}:${PORT}/"
+          mkdocs serve --dev-addr "${HOST}:${PORT}" --watch pages --watch theme

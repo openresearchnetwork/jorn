@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block content %}
+<section class="error-page">
+  <div class="shell shell--text">
+    <p class="eyebrow">Error 404</p>
+    <h1>This page is outside the network.</h1>
+    <p>The address may have changed, or the page may no longer be available.</p>
+    <a class="button button--ink" href="{{ '.' | url }}">Return to JORN</a>
+  </div>
+</section>
+{% endblock %}

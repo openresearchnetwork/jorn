@@ -1,0 +1,61 @@
+site_name: Journal of the Open Research Network
+site_description: A community-governed, Diamond Open Access overlay journal for connected and reproducible research.
+site_author: Open Science Labs
+site_url: https://openresearchnet.org/jorn/
+
+docs_dir: pages
+site_dir: build
+
+theme:
+  name: null
+  custom_dir: theme
+  language: en
+  static_templates:
+    - 404.html
+
+nav:
+  - Home: index.md
+  - Research: publications/index.md
+  - Publish with us:
+      - Overview: submit/index.md
+      - Aims & scope: scope/index.md
+      - Editorial process: editorial-process/index.md
+  - About:
+      - About JORN: about/index.md
+      - Publishing model: about/model/index.md
+      - Governance: about/governance/index.md
+      - Policies: about/policies/index.md
+  - Network: network/index.md
+  - Support: support/index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\\s\\-\\.\\_]+'
+
+extra_css:
+  - assets/styles.css
+
+extra_javascript:
+  - assets/site.js
+
+extra:
+  journal_short_name: JORN
+  support_organization: Open Science Labs
+  social:
+    github: https://github.com/openresearchnet
+
+copyright: Copyright &copy; 2026 Open Science Labs. Content available under open licenses unless otherwise noted.

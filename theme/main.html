@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="{{ config.theme.language or 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#082f35">
+    <meta name="description" content="{{ page.meta.description if page and page.meta.description else config.site_description }}">
+    <meta name="author" content="{{ config.site_author }}">
+    <link rel="canonical" href="{{ page.canonical_url if page else config.site_url }}">
+    <link rel="icon" href="{{ 'assets/favicon.svg' | url }}" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+    <title>{% if page and not page.is_homepage %}{{ page.meta.title or page.title }} · {% endif %}{{ config.site_name }}</title>
+    {% for path in config.extra_css %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Periodical",
+        "name": "{{ config.site_name }}",
+        "alternateName": "JORN",
+        "url": "{{ config.site_url }}",
+        "description": "{{ config.site_description }}",
+        "publisher": {"@type": "Organization", "name": "Open Science Labs"},
+        "isAccessibleForFree": true
+      }
+    </script>
+  </head>
+  <body class="{{ page.meta.body_class if page and page.meta.body_class else '' }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="notice-bar">
+      <div class="shell notice-bar__inner">
+        <span><strong>Diamond Open Access</strong> · No fees for authors or readers</span>
+        <span class="notice-bar__support">A journal initiative supported by <strong>Open Science Labs</strong></span>
+      </div>
+    </div>
+
+    <header class="site-header" data-header>
+      <div class="shell header-main">
+        <a class="brand" href="{{ '.' | url }}" aria-label="JORN home">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/>
+          </svg>
+          <span class="brand__text">
+            <strong>JORN</strong>
+            <span>Journal of the<br>Open Research Network</span>
+          </span>
+        </a>
+
+        <div class="header-actions">
+          <button class="icon-button search-trigger" type="button" data-search-open aria-label="Search the journal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+            <span>Search</span>
+          </button>
+          <a class="button button--small button--ink header-submit" href="{{ 'submit/' | url }}">Submit research</a>
+          <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-navigation">
+            <span class="sr-only">Toggle navigation</span><i></i><i></i><i></i>
+          </button>
+        </div>
+      </div>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+        <div class="shell site-nav__inner">
+          <ul>
+            {% for nav_item in nav %}
+              <li class="{% if nav_item.active %}is-active{% endif %} {% if nav_item.children %}has-children{% endif %}">
+                {% if nav_item.children %}
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    {{ nav_item.title }}
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    {% for nav_item in nav_item.children %}
+                      <li class="{% if nav_item.active %}is-active{% endif %}"><a href="{{ nav_item.url | url }}">{{ nav_item.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <a href="{{ nav_item.url | url }}">{{ nav_item.title }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      {% block content %}
+      <div class="page-masthead">
+        <div class="shell shell--text">
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="{{ '.' | url }}">Home</a><span aria-hidden="true">/</span><span>{{ page.meta.title or page.title }}</span>
+          </nav>
+          {% if page.meta.eyebrow %}<p class="eyebrow">{{ page.meta.eyebrow }}</p>{% endif %}
+          <h1>{{ page.meta.display_title or page.title }}</h1>
+          {% if page.meta.lede %}<p class="page-lede">{{ page.meta.lede }}</p>{% endif %}
+        </div>
+      </div>
+      <div class="shell page-layout">
+        <article class="prose">
+          {{ page.content }}
+        </article>
+        {% if page.toc %}
+        <aside class="page-aside" aria-label="On this page">
+          <div class="toc-card">
+            <p>On this page</p>
+            <ul>
+              {% for toc_item in page.toc %}
+                <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </aside>
+        {% endif %}
+      </div>
+      {% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="{{ '.' | url }}">
+            <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
+            <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
+          </a>
+          <p>Open research, reviewed by an open network.</p>
+          <span class="footer-badge">Diamond Open Access</span>
+        </div>
+        <div>
+          <h2>Journal</h2>
+          <a href="{{ 'publications/' | url }}">Research</a>
+          <a href="{{ 'scope/' | url }}">Aims &amp; scope</a>
+          <a href="{{ 'editorial-process/' | url }}">Editorial process</a>
+          <a href="{{ 'submit/' | url }}">Publish with us</a>
+        </div>
+        <div>
+          <h2>About</h2>
+          <a href="{{ 'about/model/' | url }}">Publishing model</a>
+          <a href="{{ 'about/governance/' | url }}">Governance</a>
+          <a href="{{ 'about/policies/' | url }}">Policies</a>
+          <a href="{{ 'network/' | url }}">The network</a>
+        </div>
+        <div>
+          <h2>Participate</h2>
+          <a href="{{ 'submit/' | url }}#pilot">Join the pilot</a>
+          <a href="{{ 'network/' | url }}#reviewers">Become a reviewer</a>
+          <a href="{{ 'support/' | url }}">Support JORN</a>
+          <a href="{{ config.extra.social.github }}">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>{{ config.copyright }}</p>
+        <p>Built openly with MkDocs · <a href="{{ 'about/policies/' | url }}#accessibility">Accessibility</a></p>
+      </div>
+    </footer>
+
+    <div class="search-modal" data-search-modal hidden>
+      <button class="search-backdrop" type="button" data-search-close aria-label="Close search"></button>
+      <section class="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
+        <div class="search-panel__top">
+          <div>
+            <span class="eyebrow">Journal search</span>
+            <h2 id="search-title">Search JORN</h2>
+          </div>
+          <button class="search-close" type="button" data-search-close aria-label="Close search">×</button>
+        </div>
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <input type="search" placeholder="Search research, policies, and guidance…" autocomplete="off" data-search-input>
+          <kbd>esc</kbd>
+        </label>
+        <div class="search-status" data-search-status>Start typing to search the journal.</div>
+        <div class="search-results" data-search-results data-search-index="{{ 'search/search_index.json' | url }}"></div>
+      </section>
+    </div>
+
+    {% for path in config.extra_javascript %}
+      {% if path != 'search/main.js' %}<script src="{{ path | url }}" defer></script>{% endif %}
+    {% endfor %}
+  </body>
+</html>

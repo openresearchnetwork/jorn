@@ -1,0 +1,17 @@
+name: jorn
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python <3.12
+  - pip
+  - nodejs
+  - pip:
+    - pre-commit
+    - mkdocs ==1.4.2
+    - makim
+    - mkdocs-blogging-plugin
+    - mkdocs-rss-plugin <1.9.0
+    - jupyterlab
+    - nbconvert
+    - pymdown-extensions
