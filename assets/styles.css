@@ -293,6 +293,7 @@ button { color: inherit; }
 .anatomy-grid span { color: var(--muted); font-size: 9px; }
 
 .card-grid { display: grid; gap: 18px; margin: 30px 0; }
+.card-grid--two { grid-template-columns: repeat(2, 1fr); }
 .card-grid--three { grid-template-columns: repeat(3, 1fr); }
 .plain-card { padding: 26px; border-top: 3px solid var(--teal); background: #f1f5f1; }
 .plain-card h3 { margin-top: 0; font-size: 21px; }
@@ -330,7 +331,7 @@ button { color: inherit; }
 
 .statement-quote { margin: 45px 0; padding: 34px 0 34px 35px; border-left: 5px solid var(--lime-dark); }
 .statement-quote p { margin: 0; color: var(--ink-deep); font-family: var(--serif); font-size: 37px; line-height: 1.2; }
-.statement-quote cite { display: block; margin-top: 12px; color: var(--muted); font-size: 11px; font-style: normal; text-transform: uppercase; letter-spacing: .1em; }
+.statement-quote cite { display: block; max-width: 680px; margin-top: 12px; color: var(--muted); font-size: 13px; font-style: normal; line-height: 1.55; }
 .responsibility-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin: 30px 0; background: var(--line); }
 .responsibility-grid > div { padding: 25px; background: #f4f6f2; }
 .responsibility-grid h3 { margin-top: 0; }
@@ -505,7 +506,7 @@ button { color: inherit; }
   .page-layout { padding-block: 55px 75px; }
   .prose h2 { margin-top: 50px; font-size: 31px; }
   .prose table { display: block; overflow-x: auto; }
-  .card-grid--three, .requirement-grid, .responsibility-grid, .participation-grid, .funding-grid { grid-template-columns: 1fr; }
+  .card-grid--two, .card-grid--three, .requirement-grid, .responsibility-grid, .participation-grid, .funding-grid { grid-template-columns: 1fr; }
   .anatomy-card { padding: 25px 20px; }
   .anatomy-card__top > span { display: none; }
   .anatomy-grid { grid-template-columns: repeat(2, 1fr); }

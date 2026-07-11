@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Understand JORN's proposed overlay publishing model and connected scholarly record.">
+    <meta name="description" content="Understand JORN's proposed overlay architecture, DOI model, versioning, metadata, preservation, and certification boundary.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/about/model/">
     <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
@@ -22,8 +22,8 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A community-governed, Diamond Open Access overlay journal for connected and reproducible research.",
-        "publisher": {"@type": "Organization", "name": "Open Science Labs"},
+        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
     </script>
@@ -33,8 +33,8 @@
 
     <div class="notice-bar">
       <div class="shell notice-bar__inner">
-        <span><strong>Diamond Open Access</strong> · No fees for authors or readers</span>
-        <span class="notice-bar__support">A journal initiative supported by <strong>Open Science Labs</strong></span>
+        <span><strong>Founding phase</strong> · Formal submissions are not yet open</span>
+        <span class="notice-bar__support">Designed as a <strong>Diamond Open Access</strong> journal</span>
       </div>
     </div>
 
@@ -57,7 +57,7 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
             <span>Search</span>
           </button>
-          <a class="button button--small button--ink header-submit" href="../../submit/">Submit research</a>
+          <a class="button button--small button--ink header-submit" href="../../submit/">Propose pilot work</a>
           <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-navigation">
             <span class="sr-only">Toggle navigation</span><i></i><i></i><i></i>
           </button>
@@ -83,16 +83,34 @@
               <li class=" has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Publish with us
+                    Publish
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
-                      <li class=""><a href="../../submit/">Overview</a></li>
+                      <li class=""><a href="../../pilot/">Founding pilot</a></li>
+                    
+                      <li class=""><a href="../../submit/">Propose pilot work</a></li>
                     
                       <li class=""><a href="../../scope/">Aims & scope</a></li>
                     
                       <li class=""><a href="../../editorial-process/">Editorial process</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Certification
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../certification/">JORN certification</a></li>
+                    
+                      <li class=""><a href="../../badges/">Evidence badges</a></li>
                     
                   </ul>
                 
@@ -130,6 +148,12 @@
                 
               </li>
             
+              <li class=" ">
+                
+                  <a href="../../faq/">FAQ</a>
+                
+              </li>
+            
           </ul>
         </div>
       </nav>
@@ -142,73 +166,73 @@
           <nav class="breadcrumbs" aria-label="Breadcrumb">
             <a href="../..">Home</a><span aria-hidden="true">/</span><span>Publishing model</span>
           </nav>
-          <p class="eyebrow">Distributed by design</p>
-          <h1>The journal is the connective layer.</h1>
-          <p class="page-lede">Repositories preserve research objects. JORN coordinates review, certifies an accepted version, and maintains the authoritative relationship among them.</p>
+          <p class="eyebrow">Overlay architecture</p>
+          <h1>Repositories hold the objects. JORN publishes the journal record.</h1>
+          <p class="page-lede">The proposed model separates repository preservation from editorial responsibility while connecting exact versions through a permanent, citable JORN Publication Record.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <h2 id="an-overlay-journal">An overlay journal<a class="headerlink" href="#an-overlay-journal" title="Link to this section">&para;</a></h2>
-<p>A conventional journal often combines submission, file storage, peer review, production, metadata, and preservation in one system. JORN’s proposed overlay model separates these responsibilities so that each service can focus on what it does best.</p>
-<p>Authors deposit research objects in established open services. JORN then provides editorial selection, peer review, integrity checks, certification, publication metadata, and continuing stewardship.</p>
-<h2 id="a-distributed-architecture">A distributed architecture<a class="headerlink" href="#a-distributed-architecture" title="Link to this section">&para;</a></h2>
+          <h2 id="how-the-overlay-works">How the overlay works<a class="headerlink" href="#how-the-overlay-works" title="Link to this section">&para;</a></h2>
+<p>Authors place manuscripts and supporting objects in repositories appropriate to each object. JORN does not merely point to those deposits. It conducts editorial screening, appoints reviewers, assesses revisions, makes a formal decision, and publishes accepted work under the JORN title.</p>
 <table>
 <thead>
 <tr>
-<th>Research component</th>
-<th>Possible host</th>
-<th>JORN’s role</th>
+<th>Layer</th>
+<th>Holds or performs</th>
+<th>Continuing responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Manuscript or preprint</td>
-<td>arXiv, bioRxiv, medRxiv, Zenodo, or another trusted repository</td>
-<td>Review and certify an exact version</td>
+<td>External repositories</td>
+<td>Manuscript files, data, software releases, protocols, preregistrations, and version history</td>
+<td>Object access and preservation under repository terms</td>
 </tr>
 <tr>
-<td>Data</td>
-<td>Zenodo, Figshare, OSF, institutional or disciplinary repositories</td>
-<td>Assess availability, documentation, licensing, and links</td>
+<td>JORN editorial process</td>
+<td>Screening, editor assignment, scientific review, optional artifact or computational assessment, revision, and decision</td>
+<td>Fair process, conflicts, integrity, appeals, and decision quality</td>
 </tr>
 <tr>
-<td>Software</td>
-<td>GitHub, GitLab, Codeberg, archived releases, Software Heritage</td>
-<td>Review code, tests, documentation, license, and reproducibility</td>
-</tr>
-<tr>
-<td>Protocol or preregistration</td>
-<td>OSF, protocols.io, Zenodo, specialist services</td>
-<td>Connect the study plan and methods to the reported work</td>
-</tr>
-<tr>
-<td>Researcher identity</td>
-<td>ORCID</td>
-<td>Reliably identify authors, editors, and reviewers</td>
-</tr>
-<tr>
-<td>Contributor roles</td>
-<td>CRediT</td>
-<td>Describe individual contributions</td>
-</tr>
-<tr>
-<td>Journal record</td>
-<td>JORN</td>
-<td>Publish the certification, review history, metadata, and status</td>
+<td>JORN Publication Record</td>
+<td>Citation, DOI, abstract, accepted versions, connections, reports, decision, certification profile, and current status</td>
+<td>Metadata, evidence, corrections, retractions, and continuity</td>
 </tr>
 </tbody>
 </table>
-<h2 id="two-identifiers-two-purposes">Two identifiers, two purposes<a class="headerlink" href="#two-identifiers-two-purposes" title="Link to this section">&para;</a></h2>
-<p>The repository identifier describes the deposited research object and its version history. A separate JORN DOI will identify the journal-certified publication. Metadata will connect the two, allowing readers to distinguish the preprint from the accepted work without erasing the research chronology.</p>
-<h2 id="what-jorn-cannot-outsource">What JORN cannot outsource<a class="headerlink" href="#what-jorn-cannot-outsource" title="Link to this section">&para;</a></h2>
-<p>The journal may distribute hosting and technical work, but it remains accountable for its identity, scope, governance, editorial independence, reviewer selection, final decisions, conflicts, integrity investigations, corrections, retractions, metadata, and continuity.</p>
-<div class="note-card">
-<h3 id="platform-direction">Platform direction<a class="headerlink" href="#platform-direction" title="Link to this section">&para;</a></h3>
-<p>The first option to evaluate is Episciences, which is designed for repository-based overlay journals. Open Journal Systems or a lightweight open workflow may be considered if they better meet JORN’s needs. A fully custom platform is not the preferred starting point because it would add avoidable security, privacy, maintenance, and preservation responsibilities.</p>
-</div>
-<h2 id="preservation-and-portability">Preservation and portability<a class="headerlink" href="#preservation-and-portability" title="Link to this section">&para;</a></h2>
-<p>Distributed publishing does not eliminate preservation duties. JORN will need exportable metadata, off-site backups, archived editorial records, stable identifiers, documented migration procedures, domain continuity, and a succession plan. It should avoid dependence on any single commercial platform.</p>
+<h2 id="what-jorn-publishes">What JORN publishes<a class="headerlink" href="#what-jorn-publishes" title="Link to this section">&para;</a></h2>
+<p>The primary publication is the <strong>JORN Publication Record</strong>. It identifies the exact accepted manuscript and every supporting object within the review scope; states which objects were unavailable, restricted, or not applicable; presents the editorial history; and records the scope and limits of certification.</p>
+<p>The manuscript may remain in its repository rather than being silently copied into an independent, unversioned journal file. JORN must nevertheless retain enough metadata and editorial evidence to preserve the meaning of its decision.</p>
+<h2 id="the-certificate-supports-the-publication-it-does-not-replace-it">The certificate supports the publication; it does not replace it<a class="headerlink" href="#the-certificate-supports-the-publication-it-does-not-replace-it" title="Link to this section">&para;</a></h2>
+<p>The <strong>JORN Certified Record</strong> seal is a status attached after JORN has reviewed, accepted, and published the work. It links back to the Publication Record. A technical certificate, successful software run, or badge without a formal editorial decision is not a JORN publication.</p>
+<p>Optional badges document specific additional assessments and do not create levels of publication quality.</p>
+<h2 id="identifiers-have-different-purposes">Identifiers have different purposes<a class="headerlink" href="#identifiers-have-different-purposes" title="Link to this section">&para;</a></h2>
+<ul>
+<li>The <strong>JORN DOI</strong> identifies the journal Publication Record.</li>
+<li>A manuscript or preprint identifier identifies the repository-hosted manuscript and its version history.</li>
+<li>Data identifiers identify exact datasets or access records.</li>
+<li>Archived-release identifiers identify preserved software releases.</li>
+<li>Protocol and preregistration identifiers identify their own research objects.</li>
+</ul>
+<p>Crossref- and DataCite-compatible relationships should express connections such as version, supplement, software, data, review, correction, and update. The DOI registration agency and metadata workflow are <strong>[TO BE CONFIRMED BEFORE PUBLICATION]</strong>.</p>
+<h2 id="exact-versions-and-computational-environments">Exact versions and computational environments<a class="headerlink" href="#exact-versions-and-computational-environments" title="Link to this section">&para;</a></h2>
+<p>Acceptance applies to an exact manuscript version. Software should have an archived release separate from the changing development repository. The record should identify source commit, release identifier, dependencies, container or environment specification where available, operating context, and assessment date.</p>
+<p>If authors revise work after acceptance, JORN should publish a correction, update, or superseding record according to the significance of the change. It must not silently move certification to a different object version.</p>
+<h2 id="if-an-external-object-changes-or-disappears">If an external object changes or disappears<a class="headerlink" href="#if-an-external-object-changes-or-disappears" title="Link to this section">&para;</a></h2>
+<p>JORN should monitor critical links, retain deposited metadata and checksums where appropriate, use preservation services, and direct authors toward repositories with durable versioning. If an object becomes unavailable, the Publication Record will state the change, its effect on access or assessment, and whether the certification remains current, corrected, suspended, superseded, or withdrawn.</p>
+<p>JORN remains responsible for its citation, DOI, editorial evidence, status history, and notices even when it does not host the underlying files.</p>
+<h2 id="architecture-diagram">Architecture diagram<a class="headerlink" href="#architecture-diagram" title="Link to this section">&para;</a></h2>
+<p>The intended public diagram has three levels:</p>
+<ol>
+<li><strong>Research repositories:</strong> exact manuscript, data, software release, source, environment, protocol, and preregistration.</li>
+<li><strong>Journal process:</strong> screening, editor, scientific review, optional artifact evaluation, optional computational check, revision, and decision.</li>
+<li><strong>JORN Publication Record:</strong> citation and DOI, connected identifiers, public editorial history, certification profile, badges and limitations, and continuing status.</li>
+</ol>
+<p>Arrows should show version-specific metadata flowing into the journal process and the final record linking back to—not replacing—the repository objects.</p>
+<h2 id="platform-and-preservation-direction">Platform and preservation direction<a class="headerlink" href="#platform-and-preservation-direction" title="Link to this section">&para;</a></h2>
+<p>JORN should evaluate a mature overlay platform before building custom submission software. Relevant benchmarks include Episciences and repository-based review models. Selection must consider privacy, role-based access, public-review support, metadata export, DOI workflows, preservation, accessibility, security, and migration.</p>
+<p>Platform selection, repository eligibility, preservation partners, backup schedule, and closure plan are <strong>[TO BE CONFIRMED BEFORE PILOT LAUNCH]</strong>.</p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -216,15 +240,21 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#an-overlay-journal">An overlay journal</a></li>
+                <li><a href="#how-the-overlay-works">How the overlay works</a></li>
               
-                <li><a href="#a-distributed-architecture">A distributed architecture</a></li>
+                <li><a href="#what-jorn-publishes">What JORN publishes</a></li>
               
-                <li><a href="#two-identifiers-two-purposes">Two identifiers, two purposes</a></li>
+                <li><a href="#the-certificate-supports-the-publication-it-does-not-replace-it">The certificate supports the publication; it does not replace it</a></li>
               
-                <li><a href="#what-jorn-cannot-outsource">What JORN cannot outsource</a></li>
+                <li><a href="#identifiers-have-different-purposes">Identifiers have different purposes</a></li>
               
-                <li><a href="#preservation-and-portability">Preservation and portability</a></li>
+                <li><a href="#exact-versions-and-computational-environments">Exact versions and computational environments</a></li>
+              
+                <li><a href="#if-an-external-object-changes-or-disappears">If an external object changes or disappears</a></li>
+              
+                <li><a href="#architecture-diagram">Architecture diagram</a></li>
+              
+                <li><a href="#platform-and-preservation-direction">Platform and preservation direction</a></li>
               
             </ul>
           </div>
@@ -241,7 +271,7 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Open research, reviewed by an open network.</p>
+          <p>Connected research. Independent review. One accountable record.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
@@ -249,21 +279,25 @@
           <a href="../../publications/">Research</a>
           <a href="../../scope/">Aims &amp; scope</a>
           <a href="../../editorial-process/">Editorial process</a>
-          <a href="../../submit/">Publish with us</a>
+          <a href="../../pilot/">Founding pilot</a>
+          <a href="../../submit/">Propose pilot work</a>
         </div>
         <div>
           <h2>About</h2>
           <a href="./">Publishing model</a>
+          <a href="../../certification/">Certification</a>
+          <a href="../../badges/">Evidence badges</a>
           <a href="../governance/">Governance</a>
           <a href="../policies/">Policies</a>
           <a href="../../network/">The network</a>
         </div>
         <div>
           <h2>Participate</h2>
-          <a href="../../submit/#pilot">Join the pilot</a>
+          <a href="../../pilot/">Founding pilot</a>
           <a href="../../network/#reviewers">Become a reviewer</a>
           <a href="../../support/">Support JORN</a>
-          <a href="https://github.com/openresearchnet">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="../../faq/">Frequently asked questions</a>
+          <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
       <div class="shell footer-bottom">

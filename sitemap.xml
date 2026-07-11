@@ -26,12 +26,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://openresearchnet.org/jorn/badges/</loc>
+         <lastmod>2026-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/certification/</loc>
+         <lastmod>2026-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://openresearchnet.org/jorn/editorial-process/</loc>
          <lastmod>2026-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://openresearchnet.org/jorn/faq/</loc>
+         <lastmod>2026-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://openresearchnet.org/jorn/network/</loc>
+         <lastmod>2026-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/pilot/</loc>
          <lastmod>2026-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
