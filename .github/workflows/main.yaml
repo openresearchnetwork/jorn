@@ -33,9 +33,7 @@ jobs:
         conda-solver: libmamba
 
     - name: Build the book
-      run: |
-        makim pages.build
-        echo "openresearchnet.org" > build/CNAME
+      run: makim pages.build
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
