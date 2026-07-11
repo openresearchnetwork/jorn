@@ -1,42 +1,62 @@
 ---
 title: Governance
-eyebrow: Community accountability
-display_title: Governed as a shared scholarly institution.
-lede: JORN’s credibility will rest on transparent roles, independent editorial decisions, diverse participation, and public accountability.
-description: Explore the proposed community governance and editorial structure for JORN.
+eyebrow: Proposed accountability
+display_title: Define authority before exercising it.
+lede: JORN is being designed as a community-governed journal, but its bodies, appointments, legal duties, decision rights, and public reporting are not yet operational.
+description: Review JORN's proposed governance bodies, authority, appointment principles, editorial independence, and unresolved founding decisions.
 ---
 
-## Proposed governance structure
+<div class="info-banner"><strong>Governance status: proposed.</strong> No body listed below should be treated as appointed or operational until its membership and mandate are published.</div>
 
-<div class="governance-list" markdown>
-<div markdown><span>STRATEGY</span>### Steering Council
-Sets mission and long-term strategy, oversees sustainability and partnerships, appoints senior editors, and approves major policy changes.</div>
-<div markdown><span>EDITORIAL</span>### Editorial Board
-Maintains editorial standards and scope, selects reviewers, makes publication decisions, and develops specialist sections.</div>
-<div markdown><span>COMMUNITY</span>### Community Advisory Group
-Brings perspectives from open science, software and data communities, universities, independent researchers, and early-career scholars.</div>
-<div markdown><span>INTEGRITY</span>### Research Integrity Group
-Advises on misconduct, retractions, expressions of concern, undisclosed conflicts, manipulation, and complex ethical questions.</div>
-<div markdown><span>INFRASTRUCTURE</span>### Technical & Metadata Group
-Oversees the platform, repository connections, DOI deposits, metadata quality, preservation, automation, and accessibility.</div>
-</div>
+## Proposed decision structure
 
-## Founding editorial team
+| Body or role | Purpose and authority | Membership and appointment | Public outputs |
+| --- | --- | --- | --- |
+| Legal publisher **[unresolved]** | Holds legal and publishing responsibility, contracts, domain and DOI authority, privacy accountability, and closure obligations | **[TO BE CONFIRMED BEFORE LAUNCH]** | Publisher identity, legal notices, accountability route |
+| Steering Council **[proposed]** | Mission, long-term strategy, financial oversight, senior appointments, major policy approval, succession | Multiple institutions; transparent nomination and appointment; fixed renewable terms | Minutes, decisions, annual and financial reports, interests |
+| Editor-in-Chief **[proposed]** | Independent authority over editorial standards, appointments, escalated decisions, appeals separation, and board performance | Open criteria and declared interests; appointed for a fixed term | Editorial report, standards, recusal and delegation record |
+| Managing Editor **[proposed]** | Intake, process, reviewer coordination, records, deadlines, author communication, and policy implementation | Skilled paid or appropriately supported role; accountable to defined authority | Workflow statistics and operational report |
+| Editorial Board **[proposed]** | Scope, reviewer selection, manuscript decisions, criteria development, and section expertise | Multiple institutions and relevant computational, methodological, software, and data expertise | Names, affiliations, ORCIDs, terms, interests, decision policy |
+| Research Integrity Group **[proposed]** | Independent advice on misconduct, expressions of concern, retractions, ethics, and complex conflicts | Relevant expertise with strict recusal and confidentiality rules | Procedures and anonymised or public outcomes where appropriate |
+| Community Advisory Group **[proposed]** | Structured advice from researchers, libraries, infrastructure, independent scholars, and affected communities | Transparent selection; advisory rather than manuscript-decision authority | Recommendations and responses from decision-making bodies |
+| Technical and Metadata Group **[proposed]** | Platform, identifiers, repository connections, preservation, accessibility, privacy, security, and portability | Relevant specialists; conflicts with vendors declared | Technical decisions, incident summaries, accessibility and preservation updates |
 
-A credible starting team is expected to include a coordinating editor or editor-in-chief, a managing editor, five to eight editorial board members, specialist section editors, and advisers for research integrity, reproducibility, software, data, and statistics.
+Detailed appointment methods, term lengths, renewal limits, voting rights, removal, resignation, quorum, conflict rules, and record publication are **[TO BE CONFIRMED]**.
 
-Members should represent more than one institution and publish their roles, affiliations, relevant interests, and terms of service.
+## Editorial independence
 
-## Editorial safeguards
+Editorial leaders must control individual manuscript decisions. Open Science Labs, Open Research Network participants, the legal publisher, funders, donors, partners, and infrastructure providers must not direct an acceptance, rejection, reviewer report, or certification outcome.
 
-- Decisions are made by editors with relevant expertise and no disqualifying conflict.
-- Work submitted by an editor or board member receives separate, independent handling.
-- Sponsors and partners cannot influence acceptance, rejection, or review reports.
-- Complaints and appeals follow a documented process.
-- Funding, sponsorship, partnerships, policy changes, and annual reports are public.
-- Governance documents and decision-making procedures remain accessible and versioned.
+Submissions involving an editor, council member, supporter, or close collaborator require independent assignment and documented recusal. Financial or institutional support cannot confer fast-track review or privileged access.
 
-## Formation process
+## Responsibilities that need named owners
 
-The structure shown here is a proposal, not a claim that every body has already been appointed. Founding members will refine mandates, appointment processes, terms, diversity goals, conflict procedures, and routes for community input before the journal begins formal review.
+Before launch, JORN must assign responsibility for policy approval; editor appointments and performance; appeals and complaints; research-integrity investigations; privacy and security incidents; metadata and preservation; accessibility; financial approval and disclosure; annual reporting; succession; and orderly journal closure.
+
+Combining these responsibilities in one informal group would create unresolved conflicts and weak accountability.
+
+## Appeals, complaints, and removal
+
+An appeal should be considered by an editor or panel not responsible for the original decision. Complaints about conduct or process need a confidential route and escalation beyond the person complained about. Governance documents should define investigation authority, evidence handling, recusal, timeframes, outcomes, and protection against retaliation.
+
+Appointments must have published routes for resignation, non-renewal, temporary suspension, and removal for misconduct, unmanaged conflict, sustained non-performance, or loss of community trust—subject to fair process.
+
+## Reporting and consultation
+
+At minimum, an annual public report should cover submissions and decisions, turnaround and workload, reviewer and evaluator participation, appeals and complaints, corrections and retractions, certification changes, funding sources and expenditure categories, conflicts, accessibility, preservation, security incidents where disclosable, and planned policy changes.
+
+Material policy revisions should include a public consultation or a published explanation when consultation is not possible.
+
+## Current unresolved decisions
+
+- Legal publisher and contractual responsibility
+- Ownership of the title, domain, DOI account, and journal assets
+- Editor-in-Chief and Managing Editor appointments
+- Board composition, appointment method, terms, and removal
+- Decision rights and voting rules for every proposed body
+- Appeals, complaints, integrity, and conflict procedures
+- Funding authority, financial reporting, and editorial safeguards
+- Privacy controller, security ownership, preservation, succession, and closure
+
+An editorial-board page should be published only after appointments are verified. It should list names, affiliations, ORCIDs, roles, terms, interests, and declarations rather than placeholder members.
 

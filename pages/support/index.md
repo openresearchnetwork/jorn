@@ -1,46 +1,74 @@
 ---
 title: Support JORN
-eyebrow: Sustainable by design
-display_title: Help keep publishing open to everyone.
-lede: Diamond Open Access removes fees for authors and readers, but responsible publishing still requires people, infrastructure, preservation, and long-term care.
-description: Learn how financial and in-kind support can help establish JORN while protecting editorial independence.
+eyebrow: Sustainable operations
+display_title: Diamond Open Access still requires paid, accountable work.
+lede: Removing charges for authors and readers does not remove the costs of editorial coordination, specialist evaluation, metadata, preservation, accessibility, privacy, and integrity.
+description: Understand JORN's proposed operating needs, support models, funding safeguards, reporting commitments, and preconditions for donations.
 ---
 
-## What support makes possible
+<div class="info-banner"><strong>No donation route is currently open.</strong> JORN must confirm its legal recipient, fiscal process, reporting duties, and safeguards before accepting money or in-kind sponsorship.</div>
 
-JORN is being designed to avoid unnecessary infrastructure while investing in the scholarly work that cannot be automated away.
+## Why Diamond Open Access costs money
+
+JORN is designed to charge neither authors nor readers. That commitment shifts costs toward institutions, libraries, grants, infrastructure programs, and other collective support. It does not make editorial labour or specialist assessment cost-free.
+
+Repository-based publishing can reduce duplication, but JORN remains responsible for formal review, decisions, the journal record, integrity, and continuity.
+
+## Activities requiring sustained capacity
 
 <div class="funding-grid" markdown>
-<div markdown><strong>Editorial coordination</strong><span>01</span><p>Managing submissions, reviewers, decisions, policies, and the public record.</p></div>
-<div markdown><strong>Open infrastructure</strong><span>02</span><p>Platform operation, repository connections, automation, security, and maintenance.</p></div>
-<div markdown><strong>Metadata & preservation</strong><span>03</span><p>Identifiers, structured records, indexing, backups, archives, and continuity planning.</p></div>
-<div markdown><strong>Equity & accessibility</strong><span>04</span><p>Accessible production, inclusive participation, and support for a global community.</p></div>
+<div markdown><strong>Editorial operations</strong><span>01</span><p>Managing-editor time, screening, editor assignment, reviewer coordination, decisions, correspondence, and workflow records.</p></div>
+<div markdown><strong>Specialist evaluation</strong><span>02</span><p>Artifact assessment, computational checking, statistical or methodological advice, and secure handling of restricted objects.</p></div>
+<div markdown><strong>Publication record</strong><span>03</span><p>Metadata, DOI registration, copy preparation, structured relationships, repository monitoring, corrections, and discovery.</p></div>
+<div markdown><strong>Long-term stewardship</strong><span>04</span><p>Preservation, backups, domain continuity, succession, closure planning, accessibility, privacy, security, and platform maintenance.</p></div>
+<div markdown><strong>Integrity & policy</strong><span>05</span><p>Policy development, complaints, appeals, allegations, corrections, retractions, legal advice, and documented governance.</p></div>
+<div markdown><strong>Community coordination</strong><span>06</span><p>Training, role support, consultation, recognition, annual reporting, partnerships, and inclusive participation.</p></div>
 </div>
 
-## Ways to contribute
+Software development should not dominate the funding story. JORN should first evaluate mature overlay infrastructure and invest in the people and safeguards required for credible publishing.
 
-Potential support may include grants, philanthropic funding, institutional and library partnerships, fiscal sponsorship, open-infrastructure programs, community donations, and carefully defined in-kind contributions.
+## Potential support models
 
-The journal will publish funding sources, sponsorship arrangements, annual financial summaries, and conflict-of-interest protections. Support will never buy authorship, favorable review, governance control, or influence over an editorial decision.
+- Multi-year institutional or library commitments
+- Library consortia and collective-action funding
+- Research and open-infrastructure grants
+- Philanthropic support compatible with editorial independence
+- In-kind staff time with explicit scope and valuation
+- Preservation, metadata, accessibility, privacy, or legal expertise
+- Shared infrastructure under portable and transparent terms
+
+No unsupported funding amount is presented here. A cost model should follow the pilot workload study and distinguish fixed journal costs from per-record scientific, artifact, and computational evaluation.
 
 ## Funding safeguards
 
-- Editorial decisions remain institutionally and financially independent.
-- Sponsorship terms and material in-kind support are publicly disclosed.
-- No supporter receives privileged submission or review treatment.
-- Restricted funding is accepted only when compatible with the mission.
-- Financial reporting is understandable and available to the community.
-- Sustainability plans avoid dependence on one funder or platform.
+- Editorial leaders retain independent authority over manuscript decisions.
+- Support cannot purchase acceptance, review priority, authorship, board membership, or favourable certification.
+- Sources, material restrictions, and relevant in-kind contributions are disclosed.
+- Conflicted individuals recuse from related financial and editorial decisions.
+- Restricted funding is accepted only when compatible with journal policies.
+- The journal avoids dependence on a single funder, platform, institution, or volunteer.
+- Commercial influence, advertising, and sponsorship terms require explicit policy approval.
 
-<div class="note-card" markdown>
-### Support route in preparation
+## Public financial reporting
 
-A formal donation and partnership route will be added after the publisher, fiscal responsibilities, and reporting process are confirmed. This protects both contributors and the journal during the founding phase.
-</div>
+JORN should publish annual income by source category, expenditure by activity, material in-kind support, restricted funds, conflicts, reserves, major contracts, and risks to continuity. Reports should explain editorial staffing and evaluator support without exposing confidential personal information.
+
+## Conditions before accepting donations
+
+The following are **[TO BE CONFIRMED BEFORE ANY FUNDS ARE ACCEPTED]**:
+
+1. Legal recipient and authority to receive and use funds
+2. Banking or fiscal-sponsorship arrangement
+3. Budget approval and financial controls
+4. Donor privacy, receipting, refunds, and data retention
+5. Editorial-independence and prohibited-influence rules
+6. Public reporting and restricted-fund obligations
+7. Conflict, sanctions, anti-fraud, and source-review procedures
+8. Closure or transfer arrangements for remaining funds
 
 ## Contribute expertise
 
-Financial support is only one form of participation. JORN also needs editorial, research-integrity, technical, metadata, accessibility, preservation, legal, privacy, and community-building expertise.
+Potential institutional supporters may first help define sustainable staffing, evaluator workload, preservation, metadata, accessibility, privacy, security, research integrity, and policy needs. Participation terms and contact routes remain **[TO BE CONFIRMED]**.
 
-[Explore the network](../network/){ .button .button--ink }
+[Explore participation roles](../network/){ .button .button--ink }
 

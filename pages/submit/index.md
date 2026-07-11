@@ -1,61 +1,98 @@
 ---
-title: Publish with us
-eyebrow: For authors
-display_title: Share your research without surrendering it.
-lede: Deposit your work in trusted open repositories. JORN provides rigorous peer review, transparent certification, and a connected publication record—with no author fee.
-description: Learn how to prepare research for the JORN founding pilot and future submissions.
+title: Propose pilot work
+eyebrow: Expression of interest
+display_title: Propose work for the founding pilot.
+lede: Help JORN assess the feasibility of independent publication and certification for reproducible computational research. This is an expression of interest—not a formal journal submission.
+description: Review eligibility and prepare an expression of interest for the proposed JORN founding pilot.
 ---
 
-<div class="info-banner"><strong>Submissions are not yet formally open.</strong> We are inviting expressions of interest for a small, independently reviewed founding pilot.</div>
+<div class="info-banner"><strong>Formal submissions are not open.</strong> A proposal does not guarantee selection, peer review, acceptance, certification, or publication.</div>
 
-## Is JORN right for your work?
+## Pilot eligibility
 
-The initial collection will prioritize open, reproducible, computational, software, data, methods, replication, and community-led research. Every submission must make its central research objects openly accessible and persistently identifiable.
+The work should fit one of three proposed pilot types:
 
-<div class="requirement-grid" markdown>
-<div markdown><span>01</span>### Public manuscript
-A versioned manuscript in an approved open repository.</div>
-<div markdown><span>02</span>### Connected evidence
-Persistent links to relevant data, software, protocols, and preregistration.</div>
-<div markdown><span>03</span>### Open licensing
-Clear licenses that permit access and appropriate reuse.</div>
-<div markdown><span>04</span>### Complete disclosures
-Authorship, contributions, ethics, funding, and competing interests.</div>
+<div class="card-grid card-grid--three" markdown>
+<div class="plain-card" markdown>
+### Computational research article
+Code, data, environments, and computational workflows are central to the reported findings.</div>
+<div class="plain-card" markdown>
+### Software or computational method
+The work makes a research contribution and includes documentation, tests, an archived release, and an identifiable reuse case.</div>
+<div class="plain-card" markdown>
+### Reproducibility or replication report
+An independent attempt to reproduce computational results or replicate prior findings, including an informative unsuccessful attempt.</div>
 </div>
 
-## Prepare an expression of interest
+General dataset papers, non-computational methods, broad multidisciplinary articles, registered reports, infrastructure reports, and qualitative research are not proposed for the founding pilot.
 
-Founding-pilot proposals should be concise. Please be ready to provide:
+## Minimum repository and version requirements
 
-- A title and structured abstract
-- The manuscript repository and exact version identifier
-- ORCID identifiers and CRediT contributor roles
-- Links to data, software, protocols, and preregistrations
-- Ethics approval or an explanation of why it is not applicable
-- Funding and conflict-of-interest statements
-- A short explanation of the work’s fit with JORN’s founding scope
+Before formal review, authors will need:
 
-<div class="note-card" markdown>
-### Sensitive and medical research
+- a publicly discoverable manuscript with a persistent identifier and explicit version;
+- an archived software release plus a link to the source repository;
+- a documented computational environment, dependencies, and execution instructions;
+- data identifiers and versions, or a documented access category and justification;
+- persistent links for relevant protocols and preregistrations; and
+- licenses or access terms for each object.
 
-Health-related work, human-participant research, and sensitive data require specialist editorial screening. Sensitive data must never be placed in a public issue or an inappropriate repository. Formal guidance will be published before submissions open.
-</div>
+Repositories must expose stable metadata, retain version information, support appropriate access controls, and provide a credible preservation route. Final repository eligibility criteria are **[TO BE CONFIRMED BEFORE PILOT LAUNCH]**.
 
-## What happens after submission?
+## Data access categories
 
-An editor first checks fit, completeness, integrity, repository eligibility, ethics, licensing, and the availability of supporting objects. Research articles will normally receive at least two independent reviews. The handling editor remains responsible for the final decision.
+JORN will not require every dataset to be public. Authors should identify one of the following and explain any restriction:
 
-[Read the editorial process](../editorial-process/){ .button .button--outline }
+- Open access
+- Controlled access
+- Embargoed until a stated date
+- Synthetic or demonstration data supplied
+- Not publicly shareable—justification reviewed
+- Not applicable
 
-## Join the founding pilot {#pilot}
+Restrictions involving privacy, consent, security, Indigenous or community governance, endangered species, confidential interviews, or protected health information require an appropriate, lawful route for editorial assessment. Sensitive material must not be placed in a public issue or unsuitable repository.
 
-We are currently seeking a small and diverse group of potential authors to test the complete workflow. An expression of interest does not guarantee review or acceptance; all pilot submissions will face the same independent standards as later submissions.
+## Declarations to prepare
+
+- Full authorship, affiliations, ORCIDs, and CRediT contributor roles
+- Funding and competing-interest statements
+- Ethics approval, consent, or a reason why these are not applicable
+- Data, software, environment, and material-availability statements
+- Relevant prior publication, preprint, protocol, and preregistration details
+- Use of artificial intelligence where disclosure is required
+- Known limitations and deviations from a preregistered or planned workflow
+
+## What authors should expect
+
+### Scientific peer review
+
+Independent reviewers will assess the research question and contribution, methodological validity, reporting, statistical or computational reasoning, integrity, traceability, and whether claims are supported within the stated limitations.
+
+### Artifact evaluation
+
+Where applicable and resourced, a separate evaluator may inspect specified data, software, documentation, and environments. This is distinct from scientific review and may lead to the optional **Artifacts Evaluated—Functional** badge.
+
+### Computational reproduction check
+
+Where applicable and resourced, an evaluator may execute a specified workflow against stated comparison criteria. This is not promised for every article. It may lead to the optional **Computational Results Reproduced** badge.
+
+## What JORN certification means
+
+After formal acceptance and publication, the universal **JORN Certified Record** seal will confirm that JORN peer-reviewed, accepted, published, and connected the exact versions listed in the Publication Record. It will not guarantee permanent correctness, complete error detection, public access to every object, computational reproduction of every result, or independent replication.
+
+[Read the certification framework](../certification/){ .button .button--outline }
+
+## How pilot selection will work
+
+The proposed intake process, selection authority, number of records, dates, participant support, privacy notice, and contact route are **[TO BE CONFIRMED BEFORE PILOT LAUNCH]**. Selection should consider scope, readiness, diversity of methods and research contexts, and JORN’s ability to appoint qualified, unconflicted editors and evaluators.
+
+A sound proposal may not be selected when appropriate expertise, secure access, or editorial capacity is unavailable. Selection for the pilot is not acceptance; selected work may still be declined before review, revised, rejected, or withdrawn.
 
 <div class="action-panel" markdown>
-### Register your interest
+### Expression-of-interest route in preparation
 
-The public intake form and contact address will be published after the founding editorial team and privacy process are confirmed. In the meantime, follow the Open Research Network’s project channels for launch updates.
+No personal or confidential submission material should be sent until JORN publishes a privacy notice and approved intake route. Follow the founding-pilot page for verified updates.
 
-[Explore ways to participate](../network/){ .button .button--lime }
+[Read about the founding pilot](../pilot/){ .button .button--lime }
 </div>
 

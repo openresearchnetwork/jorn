@@ -1,63 +1,88 @@
 ---
 title: Research
 eyebrow: Publications
-display_title: Connected research, openly certified.
-lede: JORN will publish persistent certification records linking each accepted work to its evidence, software, peer review, and full editorial history.
-description: Explore the publication model and forthcoming pilot collection of the Journal of the Open Research Network.
+display_title: No JORN articles have been published yet.
+lede: After launch, this page will list accepted JORN publications—not repository deposits, pilot expressions of interest, or records awaiting an editorial decision.
+description: Learn what future JORN Publication Records will contain and view a clearly labelled illustrative record.
 ---
 
 <div class="status-callout" markdown>
-<span class="status-callout__label">FOUNDING PHASE</span>
+<span class="status-callout__label">FOUNDING PHASE · EMPTY CATALOGUE</span>
 
-## The pilot collection is in development
+## The journal has not opened submissions
 
-JORN is establishing its editorial board, policies, and technical workflow before opening formal submissions. We will never imply that work has been peer reviewed or certified until the complete process is in place.
+JORN has no accepted or certified publications. The example below demonstrates the intended information structure only. It is not evidence of a functioning journal process.
 
-[Propose work for the pilot](../submit/#pilot){ .button .button--ink }
-[Follow our progress](../network/){ .text-link }
+[Read about the founding pilot](../pilot/){ .button .button--ink }
 </div>
 
-## More than an article page
+## Illustrative Publication Record
 
-A JORN publication will identify exactly what was evaluated, how it changed, and which supporting objects belong to it. Every record is designed for both human readers and machine discovery.
+<div class="info-banner"><strong>Illustrative record—not a published JORN article.</strong> The labels and identifiers below are examples, not real bibliographic metadata or assessment outcomes.</div>
 
 <div class="anatomy-card">
   <div class="anatomy-card__top">
-    <div><span class="content-badge">RESEARCH ARTICLE</span><span class="content-badge content-badge--green">CERTIFIED</span></div>
-    <span>JORN · YEAR · DOI</span>
+    <div><span class="content-badge">COMPUTATIONAL RESEARCH ARTICLE</span><span class="content-badge content-badge--green">JORN CERTIFIED RECORD</span></div>
+    <span>EXAMPLE ONLY · DOI PENDING</span>
   </div>
-  <h3>Article title and complete citation</h3>
-  <p class="anatomy-card__authors">Authors · affiliations · ORCID records · CRediT roles</p>
+  <h3>[Illustrative article title]</h3>
+  <p class="anatomy-card__authors">Example authors · affiliations · ORCIDs · CRediT contributor roles</p>
   <div class="anatomy-grid">
-    <div><strong>Manuscript</strong><span>Reviewed and accepted versions</span></div>
-    <div><strong>Evidence</strong><span>Data, methods, and protocols</span></div>
-    <div><strong>Software</strong><span>Source and archived release</span></div>
-    <div><strong>Review history</strong><span>Reports, responses, and decision</span></div>
-    <div><strong>Integrity record</strong><span>Ethics, funding, and interests</span></div>
-    <div><strong>Living status</strong><span>Corrections and later updates</span></div>
+    <div><strong>Accepted manuscript</strong><span>Repository · identifier · exact version</span></div>
+    <div><strong>Data</strong><span>Identifier · version · access category</span></div>
+    <div><strong>Software</strong><span>Archived release · source · environment</span></div>
+    <div><strong>Review history</strong><span>Reports · responses · editorial decision</span></div>
+    <div><strong>Declarations</strong><span>Ethics · funding · competing interests</span></div>
+    <div><strong>Current status</strong><span>Current · criteria version · history</span></div>
   </div>
 </div>
 
-## Planned publication types
+### Bibliographic record
 
-<div class="card-grid card-grid--three" markdown>
-<div class="plain-card" markdown>
-### Research articles
-Original research with openly available evidence and a clearly traceable research workflow.
-</div>
-<div class="plain-card" markdown>
-### Software & data papers
-Scholarly contributions centered on reusable research software, datasets, and infrastructure.
-</div>
-<div class="plain-card" markdown>
-### Reproducibility reports
-Replications, registered reports, negative results, and rigorous evaluations of prior findings.
-</div>
-</div>
+The live record will show the full title and abstract; authors, affiliations, ORCIDs, and contributor roles; article type; JORN citation and DOI; acceptance and publication dates; license; and the current journal status.
 
-## Continuous publication
+### Connected research objects
 
-Accepted work will be published as soon as its record is complete, then grouped into annual volumes. A journal DOI will identify the certified publication while repository identifiers continue to identify the underlying preprint, data, and software.
+Each object will have an explicit purpose and version: accepted manuscript identifier, data identifiers and access terms, archived software release and source repository, computational environment, and relevant protocol or preregistration. The JORN DOI identifies the journal Publication Record; repository identifiers continue to identify the underlying objects.
 
-This separation keeps the history of the research visible and prevents a preprint from being confused with a journal-certified version.
+### Review and decision history
+
+The record will identify the handling editor, review reports, author responses, revision chronology, editorial decision, decision date, applicable criteria version, and any restricted disclosure. Reviewer identities will be public only by consent.
+
+## Example certification profile
+
+| Dimension | Illustrative status |
+| --- | --- |
+| Journal status | Accepted and published |
+| Manuscript | Exact accepted version identified |
+| Connected record | Verified |
+| Data | Controlled access—justification reviewed |
+| Software | Available; not independently assessed |
+| Computational results | Not independently assessed |
+| Peer-review record | Public |
+| Reviewer identities | Confidential |
+| Certificate status | Current |
+
+In this example, the publication receives the universal JORN Certified Record seal but no optional evidence badge. That does not lower its journal status. It states clearly which additional assessments were not performed.
+
+## Certification evidence and limitations
+
+Every certification or badge claim will identify the exact object and version assessed, assessment date, evaluator role, criteria version, report, environment, successful and differing outcomes, exclusions, and current status.
+
+Certification will not guarantee permanent correctness, complete error detection, public access to every object, reproduction of every result, or independent replication. Those limits will appear near the certification profile rather than in hidden terms.
+
+## Founding publication types
+
+Only three article types are proposed for the pilot:
+
+1. Reproducible computational research articles
+2. Research software and computational methods papers
+3. Reproducibility and replication reports
+
+## Publication schedule
+
+Continuous publication grouped into annual volumes remains the intended model, but the final schedule, DOI route, volume convention, and launch date are **[TO BE CONFIRMED BEFORE PUBLICATION]**. No article will appear here until formal acceptance and completion of its Publication Record.
+
+[Understand JORN certification](../certification/){ .button .button--outline }
+[Review the evidence badges](../badges/){ .button .button--outline }
 

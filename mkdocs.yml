@@ -1,5 +1,5 @@
 site_name: Journal of the Open Research Network
-site_description: A community-governed, Diamond Open Access overlay journal for connected and reproducible research.
+site_description: A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.
 site_author: Open Science Labs
 site_url: https://openresearchnet.org/jorn/
 
@@ -16,10 +16,14 @@ theme:
 nav:
   - Home: index.md
   - Research: publications/index.md
-  - Publish with us:
-      - Overview: submit/index.md
+  - Publish:
+      - Founding pilot: pilot/index.md
+      - Propose pilot work: submit/index.md
       - Aims & scope: scope/index.md
       - Editorial process: editorial-process/index.md
+  - Certification:
+      - JORN certification: certification/index.md
+      - Evidence badges: badges/index.md
   - About:
       - About JORN: about/index.md
       - Publishing model: about/model/index.md
@@ -27,6 +31,7 @@ nav:
       - Policies: about/policies/index.md
   - Network: network/index.md
   - Support: support/index.md
+  - FAQ: faq/index.md
 
 markdown_extensions:
   - attr_list
@@ -56,6 +61,6 @@ extra:
   journal_short_name: JORN
   support_organization: Open Science Labs
   social:
-    github: https://github.com/openresearchnet
+    github: https://github.com/openresearchnetwork/jorn
 
 copyright: Copyright &copy; 2026 Open Science Labs. Content available under open licenses unless otherwise noted.
