@@ -1,6 +1,6 @@
 # JORN website
 
-The public website for the **Journal of the Open Research Network (JORN)**, a proposed community-governed, Diamond Open Access overlay journal supported by Open Science Labs.
+The public website for the **Journal of the Open Research Network (JORN)**, a proposed Diamond Open Access overlay journal for connected and certified open research records, supported during its founding phase by Open Science Labs.
 
 ## Local development
 

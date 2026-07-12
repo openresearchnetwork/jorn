@@ -1,5 +1,5 @@
 site_name: Journal of the Open Research Network
-site_description: A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.
+site_description: A proposed Diamond Open Access overlay journal for connected and certified open research records.
 site_author: Open Science Labs
 site_url: https://openresearchnet.org/jorn/
 
@@ -15,23 +15,46 @@ theme:
 
 nav:
   - Home: index.md
-  - Research: publications/index.md
+  - Research:
+      - Published records: publications/index.md
+      - Illustrative record: publications/illustrative-record/index.md
+      - Search and browse: research/index.md
+  - Prepare:
+      - Implementation Guide: guide/index.md
+      - Readiness Check: readiness/index.md
+      - Implementation levels: implementation-levels/index.md
+      - Services and tools: services/index.md
+      - Data and responsible access: data/index.md
+      - Synthetic data: synthetic-data/index.md
+      - Software and code: software/index.md
+      - Figures and media: figures/index.md
   - Publish:
       - Founding pilot: pilot/index.md
       - Propose pilot work: submit/index.md
       - Aims & scope: scope/index.md
+      - Author guidance: author-guidance/index.md
       - Editorial process: editorial-process/index.md
-  - Certification:
+      - AI-assisted triage: ai-triage/index.md
+  - Review & certification:
+      - Scientific review: scientific-review/index.md
+      - Review communities: review-communities/index.md
+      - Reviewer network: reviewers/index.md
+      - Open-science review: open-science-review/index.md
+      - Artifact assessment: artifact-assessment/index.md
       - JORN certification: certification/index.md
       - Evidence badges: badges/index.md
+      - External assessments: external-assessments/index.md
+  - Community:
+      - Participate: network/index.md
+      - Relationship register: community/relationships/index.md
   - About:
       - About JORN: about/index.md
       - Publishing model: about/model/index.md
+      - Open Research Record: open-research-record/index.md
       - Governance: about/governance/index.md
       - Policies: about/policies/index.md
-  - Network: network/index.md
-  - Support: support/index.md
-  - FAQ: faq/index.md
+      - Sustainability: support/index.md
+      - FAQ: faq/index.md
 
 markdown_extensions:
   - attr_list

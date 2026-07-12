@@ -72,3 +72,7 @@ Potential institutional supporters may first help define sustainable staffing, e
 
 [Explore participation roles](../network/){ .button .button--ink }
 
+
+## Expanded cost model for the pilot
+
+The workload study must separately cost maintenance of the public Guide and service directory; AI infrastructure, security and performance evaluation; scientific editor time; internal reviewer recruitment and possible honoraria; open-science evaluation; codechecking and computational reproduction; synthetic-data and secure real-data expertise; record metadata and production; preservation; accessibility; and policy, privacy and integrity work. These costs must not be hidden behind assumptions of unlimited volunteer labour.

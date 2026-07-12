@@ -1,64 +1,61 @@
 ---
 title: Editorial process
 eyebrow: Proposed workflow
-display_title: From repository deposit to a formal journal decision.
-lede: JORN will connect repository-hosted research objects to independent scientific review, optional technical assessment, an unconflicted editorial decision, and continuing stewardship.
-description: Follow JORN's proposed editorial stages, decision taxonomy, open-review model, safeguards, appeals, and post-publication process.
+display_title: From preparation to a maintained Open Research Record.
+lede: Readiness screening, scientific review, open-science review and technical assessment remain distinct. An unconflicted JORN editor makes the final publication decision.
+description: JORN's proposed 21-stage editorial workflow, AI safeguards, review routing, decisions, revisions, publication and stewardship.
 ---
 
-<div class="info-banner"><strong>Workflow under development.</strong> The process below is proposed. Detailed service levels, forms, criteria, roles, and policies must be approved before formal submissions open.</div>
+<div class="info-banner"><strong>Workflow under development.</strong> Formal submissions are not open. Roles, service levels, forms, systems, criteria and policies require approval before operation.</div>
 
-## Editorial stages
+## The 21 stages
 
 <div class="process-list">
-  <article><span>01</span><div><h3>Repository deposit</h3><p>Authors deposit the manuscript and supporting objects in eligible repositories with persistent identifiers, explicit versions, licenses or access terms, and sufficient metadata.</p></div></article>
-  <article><span>02</span><div><h3>Submission or pilot proposal</h3><p>Authors identify the article type, exact objects, contributor roles, funding, interests, ethics, access conditions, and known limitations. During the founding phase this is only an expression of interest.</p></div></article>
-  <article><span>03</span><div><h3>Technical and ethical screening</h3><p>Journal staff check scope, completeness, repository eligibility, versioning, ethics, data restrictions, conflicts, integrity signals, and whether responsible review is feasible.</p></div></article>
-  <article><span>04</span><div><h3>Editor assignment</h3><p>An unconflicted editor with suitable subject and methodological expertise takes responsibility for reviewer selection, process quality, and the final recommendation or decision.</p></div></article>
-  <article><span>05</span><div><h3>Scientific peer review</h3><p>Independent reviewers assess the contribution, methodological validity, reporting, analysis, integrity, traceability, and whether conclusions are supported within stated limitations.</p></div></article>
-  <article><span>06</span><div><h3>Artifact evaluation where applicable</h3><p>A qualified evaluator may assess specified data, software, documentation, and environments for a bounded purpose. This is separate from scientific review and is not required for every article.</p></div></article>
-  <article><span>07</span><div><h3>Computational check where applicable</h3><p>A qualified evaluator may execute a specified workflow and compare identified outputs against stated criteria or tolerance. This is not an independent replication of the study.</p></div></article>
-  <article><span>08</span><div><h3>Revision and version update</h3><p>Authors respond to reports and deposit a new repository version. The record preserves which version was reviewed, what changed, and which version is proposed for acceptance.</p></div></article>
-  <article><span>09</span><div><h3>Editorial decision</h3><p>The unconflicted editor evaluates the manuscript, reviews, responses, technical evidence, ethics, and limitations, then records a formal decision. A badge outcome does not substitute for this judgment.</p></div></article>
-  <article><span>10</span><div><h3>Publication and certification</h3><p>After acceptance, JORN publishes the citable Publication Record, assigns or registers its DOI, identifies the exact accepted objects, publishes the review history, and applies the universal Certified Record seal.</p></div></article>
-  <article><span>11</span><div><h3>Continuing stewardship</h3><p>JORN maintains metadata, corrections, appeals, complaints, certification changes, expressions of concern, retractions, and links to superseding versions.</p></div></article>
+<article><span>01</span><div><h3>Use the Implementation Guide</h3><p>Authors assess applicable research objects, practices and evidence.</p></div></article>
+<article><span>02</span><div><h3>Complete readiness self-assessment</h3><p>Gaps, restrictions, external assessments and human-verification needs are recorded without a score.</p></div></article>
+<article><span>03</span><div><h3>Deposit and version objects</h3><p>The manuscript, data, software, workflows and other applicable materials receive exact versions, identifiers and access terms.</p></div></article>
+<article><span>04</span><div><h3>Receive proposal or submission</h3><p>During the founding phase, JORN receives only pilot expressions of interest—not formal journal submissions.</p></div></article>
+<article><span>05</span><div><h3>Run deterministic technical checks</h3><p>Approved tools resolve identifiers, validate files and links, detect metadata or licence fields, and compare checksums where appropriate.</p></div></article>
+<article><span>06</span><div><h3>Conduct AI-assisted triage</h3><p>If approved and consented, an AI system analyses authorised materials for readiness and routing—not acceptance.</p></div></article>
+<article><span>07</span><div><h3>Editor confirms triage</h3><p>A human confirms, changes or escalates every pilot result and records disagreement.</p></div></article>
+<article><span>08</span><div><h3>Screen scope, ethics and completeness</h3><p>An editor determines whether responsible evaluation is possible and requests remediation where appropriate.</p></div></article>
+<article><span>09</span><div><h3>Select scientific-review route</h3><p>The editor assesses external, coordinated or JORN internal review against the required expertise profile.</p></div></article>
+<article><span>10</span><div><h3>Use an external community where suitable</h3><p>Qualified, version-specific external review may reduce duplication under published recognition criteria.</p></div></article>
+<article><span>11</span><div><h3>Recruit JORN reviewers where needed</h3><p>When no suitable community is available, JORN appoints qualified scientific reviewers directly.</p></div></article>
+<article><span>12</span><div><h3>Fill expertise gaps</h3><p>Supplementary reviewers address gaps in external review, methods, statistics, governance or domain coverage.</p></div></article>
+<article><span>13</span><div><h3>Review open-science implementation</h3><p>Qualified reviewers verify documentation, identifiers, access, licences, versions, provenance and connections.</p></div></article>
+<article><span>14</span><div><h3>Assess artifacts where applicable</h3><p>Evaluators inspect function, usability, workflows, synthetic data, secure verification or reproduction for bounded claims.</p></div></article>
+<article><span>15</span><div><h3>Authors revise exact versions</h3><p>Responses and new repository versions preserve what changed and why.</p></div></article>
+<article><span>16</span><div><h3>Evaluate revisions</h3><p>Reviewers or editors check responses and changed objects within their expertise and declared scope.</p></div></article>
+<article><span>17</span><div><h3>JORN editor decides</h3><p>An unconflicted editor integrates all evidence and formally accepts or rejects the exact package. AI and badges do not decide.</p></div></article>
+<article><span>18</span><div><h3>Produce the Open Research Record</h3><p>JORN prepares the citation, DOI metadata, object relationships, reports, decisions, statements and status.</p></div></article>
+<article><span>19</span><div><h3>Approve certification and badges</h3><p>Human approvers verify each level and bounded claim against exact evidence and criteria.</p></div></article>
+<article><span>20</span><div><h3>Publish and preserve</h3><p>Accessible HTML, PDF, citation exports and structured metadata are released under the JORN title.</p></div></article>
+<article><span>21</span><div><h3>Maintain stewardship</h3><p>JORN manages corrections, updates, expressions of concern, withdrawal, retraction, links and certification status.</p></div></article>
 </div>
 
-## Distinct forms of assessment
+## Screening outcomes are not decisions
 
-**Scientific review** asks whether the methods, analysis, reporting, contribution, and claims support publication. **Artifact evaluation** asks a bounded question about specified research objects. **Computational checking** asks whether specified outputs can be obtained in a stated environment and tolerance. Different people may perform these roles because the required expertise and conflicts differ.
-
-An article may be accepted without either optional badge. Conversely, functioning software or reproduced outputs do not by themselves make a manuscript publishable.
+“Ready for human review,” “author action required,” and “human editorial triage required” are routing outcomes. During the pilot, AI cannot autonomously reject work. Authors may correct factual errors and request human reconsideration.
 
 ## Decision taxonomy
 
-| Decision | Meaning |
-| --- | --- |
-| Decline before review | The work is outside scope, incomplete, not reviewable, or cannot be handled responsibly with available expertise |
-| Major revision | Substantial changes or new evaluation are required before a decision |
-| Minor revision | Limited, specified changes are required |
-| Accept | The exact identified version is accepted for JORN publication |
-| Reject | The work does not meet the journal’s publication criteria after evaluation |
-| Withdraw | The authors or journal end the process under the withdrawal policy |
-| Pause | Review stops while an ethics, integrity, access, or legal question is resolved |
+| Decision | Accountable actor | Meaning |
+| --- | --- | --- |
+| Decline before review | JORN editor | Outside scope or not responsibly reviewable after human screening |
+| Major or minor revision | JORN editor | Specified changes are required |
+| Accept | JORN editor | Exact identified version accepted for JORN publication |
+| Reject | JORN editor | Publication criteria not met after accountable evaluation |
+| Withdraw | Author or journal under policy | Process ended with reason and record handling defined |
+| Pause | JORN editor | Ethics, integrity, access, expertise or legal question must be resolved |
 
-## Open peer review
+## Public review record
 
-The proposed default is to publish peer-review reports, author responses, and editorial decisions after acceptance. Reviewers may sign by consent; reviewer identities may remain confidential. Confidential review or restricted disclosure will be permitted where openness creates a credible risk. Authors and reviewers must know the terms before participating.
+The proposed default after acceptance is public commissioned reports, author responses and editorial decisions. Reviewers sign only by consent. External reports show their source and recognised scope. Public comments remain labelled as community feedback. Rejected or withdrawn work requires separate consent and policy.
 
-Reports for rejected or withdrawn work will not be made public without an approved policy and participant consent. Final rules are **[TO BE CONFIRMED BEFORE PILOT LAUNCH]**.
+## Appeals and integrity
 
-## Conflicts and editorial independence
+Appeals must go to an unconflicted editor or panel not responsible for the original decision. Complaints and integrity concerns require confidential intake, recusal, appropriate expertise, evidence handling and protection against retaliation. Routes and service targets are **[TO BE CONFIRMED BEFORE PILOT OPERATION]**.
 
-Reviewer and editor conflicts will be documented. An editor must not decide a submission where they have a disqualifying relationship or interest. Submissions from editorial or governance members require independent handling. Open Science Labs, Open Research Network participants, funders, partners, and infrastructure providers receive no authority over individual decisions.
-
-## Appeals, complaints, and integrity concerns
-
-Authors should be able to appeal a decision on procedural or substantive grounds through a route separate from the original handling editor. Anyone should be able to raise a complaint about conduct or process. Integrity allegations require confidential triage, protection against retaliation, appropriate expertise, documented outcomes, and recusal rules.
-
-Contacts, response targets, responsible roles, and escalation routes are **[TO BE CONFIRMED BEFORE PILOT LAUNCH]**.
-
-## After publication
-
-Repository-hosted objects may change, move, or become unavailable. JORN will preserve the accepted identifiers and its editorial evidence, update metadata, and state whether the publication remains current, corrected, superseded, suspended, withdrawn, or retracted. Material changes require a visible journal notice rather than silently replacing the historical record.
-
+[Compare the review routes](../scientific-review/){ .button .button--ink }
+[Read the Open Research Record specification](../open-research-record/){ .button .button--outline }

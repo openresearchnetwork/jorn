@@ -1,12 +1,16 @@
 ---
 title: About JORN
 eyebrow: Journal identity
-display_title: A journal for research that lives across repositories.
-lede: JORN is a proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.
-description: Learn what makes JORN a journal, what its Publication Record adds, what certification covers, and which founding decisions remain open.
+display_title: Prepare, review, publish, connect, and certify open research.
+lede: JORN is a proposed Diamond Open Access overlay journal for connected and certified open research records.
+description: Learn what makes JORN a journal, what its Open Research Record adds, what certification covers, and which founding decisions remain open.
 ---
 
 <div class="info-banner"><strong>Current status:</strong> JORN is in a founding and feasibility phase. It is not accepting formal submissions and has not published or certified any research.</div>
+
+## JORN in one sentence
+
+JORN helps researchers prepare, assess, review, publish, connect, and certify complete open research records.
 
 ## The problem JORN addresses
 
@@ -27,13 +31,13 @@ Technical checks or a certification seal alone do not constitute journal publica
 
 ## What makes the record distinctive
 
-After acceptance, JORN will publish a permanent **JORN Publication Record** containing the citation and DOI, abstract, exact accepted manuscript, data and software versions, computational environment, declarations, peer-review reports, author responses, editorial decision, certification profile, optional badge evidence, limitations, and current status.
+After acceptance, JORN will publish a permanent **JORN Open Research Record** containing the citation and DOI, abstract, exact accepted manuscript, data and software versions, computational environment, declarations, peer-review reports, author responses, editorial decision, certification profile, optional badge evidence, limitations, and current status.
 
 The JORN DOI will identify this journal record. Repository identifiers will continue to identify their underlying research objects. Structured metadata will connect them.
 
 ## What JORN certifies
 
-The universal **JORN Certified Record** seal will state that JORN peer-reviewed, accepted, published, and connected the exact versions identified in the Publication Record. It applies only to the assessment scope described there.
+The universal **JORN Certified Open Research Record** seal will state that JORN peer-reviewed, accepted, published, and connected the exact versions identified in the Open Research Record. It applies only to the assessment scope described there.
 
 Certification does not guarantee permanent correctness, complete error detection, open access to all data, computational reproduction of every result, independent replication, or immunity from future software and platform changes.
 
@@ -60,3 +64,16 @@ The title, legal publisher, platform, DOI and preservation arrangements, editori
 [Explore the publishing model](model/){ .button .button--ink }
 [Read the founding pilot plan](../pilot/){ .button .button--outline }
 
+
+## Six connected functions
+
+1. The public **Open Science Implementation Guide** helps anyone assess and improve a research package.
+2. A **Readiness Check** and approved, human-supervised AI triage may identify missing evidence before review.
+3. **Scientific review** uses qualified external disciplinary communities where suitable and JORN-appointed reviewers where none is available.
+4. **Open-science and artifact assessment** evaluates exact data, software, workflows, identifiers, access and reproducibility claims.
+5. **Evidence-based certification** publishes a dimensional profile, verified claims, exceptions, badges and limitations.
+6. The **JORN Open Research Record** connects the accepted package, reviews and decision under one maintained JORN DOI.
+
+## What JORN does not replace
+
+JORN does not seek to replace repositories, preprint servers, disciplinary peer-review communities, software-review organisations, data archives, protocol platforms, reproducibility services or research infrastructures. It defines interoperable outcomes, routes and coordinates review, recognises qualifying evidence, fills gaps, makes the final journal decision and maintains the authoritative record.

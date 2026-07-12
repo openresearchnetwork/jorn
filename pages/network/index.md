@@ -57,3 +57,9 @@ The role application, privacy notice, selection process, expected workload, paym
 
 [Read the founding pilot plan](../pilot/){ .button .button--ink }
 
+
+## Review and infrastructure ecosystem
+
+The proposed network includes external field-review communities; handling editors; JORN-commissioned scientific reviewers; open-science reviewers; artifact evaluators and codecheckers; synthetic-data, privacy and clinical specialists; repositories and libraries; software-review organisations; and metadata, accessibility and preservation experts. Roles remain distinct, appointed authority is explicit, and participation does not imply partnership.
+
+Suggested communities and services will be evaluated under published criteria. Until a relationship appears in the public register, it is only a recommendation or candidate for investigation.

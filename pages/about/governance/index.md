@@ -60,3 +60,30 @@ Material policy revisions should include a public consultation or a published ex
 
 An editorial-board page should be published only after appointments are verified. It should list names, affiliations, ORCIDs, roles, terms, interests, and declarations rather than placeholder members.
 
+
+## Decisions requiring explicit governance
+
+Named, unconflicted authorities must approve AI systems and model changes; monitor triage performance and incidents; decide triage appeals; recognise or withdraw external-review evidence; appoint internal reviewers; include or remove directory services; approve partnerships and data flows; approve, correct or withdraw badges; version criteria; and defend editorial independence. No AI provider, recommended service, review community, funder or partner may control individual publication decisions.
+
+## Founding verification register
+
+| Item | Current public status |
+| --- | --- |
+| Legal publisher | **[TO BE CONFIRMED BEFORE LAUNCH]** |
+| ISSN | **[TO BE CONFIRMED BEFORE PUBLICATION]** |
+| DOI registration arrangement | **[TO BE CONFIRMED BEFORE PUBLICATION]** |
+| Submission and publication platform | **[TO BE CONFIRMED BEFORE PILOT]** |
+| Preservation and closure route | **[TO BE CONFIRMED BEFORE PUBLICATION]** |
+| AI provider, model and system owner | **[TO BE CONFIRMED BEFORE ANY AI TRIAGE]** |
+| AI security review and evaluation results | **[TO BE CONFIRMED BEFORE ANY AI TRIAGE]** |
+| Privacy controller and processors | **[TO BE CONFIRMED BEFORE PERSONAL-DATA COLLECTION]** |
+| Reviewer-management system | **[TO BE CONFIRMED BEFORE REVIEW]** |
+| External review communities | None confirmed |
+| Recognised assessment providers | None confirmed |
+| Editorial appointments | **[TO BE CONFIRMED BEFORE REVIEW]** |
+| Secure-data capability | None confirmed |
+| Funding and operating runway | **[TO BE CONFIRMED BEFORE PILOT]** |
+| Reviewer compensation | **[TO BE CONFIRMED BEFORE RECRUITMENT]** |
+| Formal partnerships | None confirmed |
+
+Each change requires evidence, an accountable decision owner, date and public update. Silence or an example elsewhere on the site does not change this register.

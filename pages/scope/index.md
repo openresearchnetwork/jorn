@@ -59,3 +59,7 @@ The pilot should decline work that falls outside the three article types; lacks 
 
 JORN is not a repository, preprint server, badge vendor, software-testing service, or venue for technical certification without formal journal review and an editorial decision.
 
+
+## Long-term mission and controlled expansion
+
+JORN’s long-term mission is to support connected and certified open research records across disciplines. Expansion beyond the founding computational scope requires demonstrated editorial expertise, discipline-specific implementation guidance, appropriate review communities or internal reviewers, ethics and governance capacity, sustainable funding, and approved policies. Long-term ambition must not be presented as a current service.

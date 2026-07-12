@@ -3,7 +3,7 @@ title: Research
 eyebrow: Publications
 display_title: No JORN articles have been published yet.
 lede: After launch, this page will list accepted JORN publications—not repository deposits, pilot expressions of interest, or records awaiting an editorial decision.
-description: Learn what future JORN Publication Records will contain and view a clearly labelled illustrative record.
+description: Learn what future JORN Open Research Records will contain and view a clearly labelled illustrative record.
 ---
 
 <div class="status-callout" markdown>
@@ -13,12 +13,13 @@ description: Learn what future JORN Publication Records will contain and view a 
 
 JORN has no accepted or certified publications. The example below demonstrates the intended information structure only. It is not evidence of a functioning journal process.
 
-[Read about the founding pilot](../pilot/){ .button .button--ink }
+[Open the complete fictional medical-AI record](illustrative-record/){ .button .button--ink }
+[Read about the founding pilot](../pilot/){ .button .button--outline }
 </div>
 
-## Illustrative Publication Record
+## Illustrative Open Research Record
 
-<div class="info-banner"><strong>Illustrative record—not a published JORN article.</strong> The labels and identifiers below are examples, not real bibliographic metadata or assessment outcomes.</div>
+<div class="info-banner"><strong>Illustrative example—not a real JORN publication</strong> The labels and identifiers below are examples, not real bibliographic metadata or assessment outcomes.</div>
 
 <div class="anatomy-card">
   <div class="anatomy-card__top">
@@ -43,7 +44,7 @@ The live record will show the full title and abstract; authors, affiliations, OR
 
 ### Connected research objects
 
-Each object will have an explicit purpose and version: accepted manuscript identifier, data identifiers and access terms, archived software release and source repository, computational environment, and relevant protocol or preregistration. The JORN DOI identifies the journal Publication Record; repository identifiers continue to identify the underlying objects.
+Each object will have an explicit purpose and version: accepted manuscript identifier, data identifiers and access terms, archived software release and source repository, computational environment, and relevant protocol or preregistration. The JORN DOI identifies the journal Open Research Record; repository identifiers continue to identify the underlying objects.
 
 ### Review and decision history
 
@@ -63,7 +64,7 @@ The record will identify the handling editor, review reports, author responses, 
 | Reviewer identities | Confidential |
 | Certificate status | Current |
 
-In this example, the publication receives the universal JORN Certified Record seal but no optional evidence badge. That does not lower its journal status. It states clearly which additional assessments were not performed.
+In this example, the publication receives the universal JORN Certified Open Research Record seal but no optional evidence badge. That does not lower its journal status. It states clearly which additional assessments were not performed.
 
 ## Certification evidence and limitations
 
@@ -81,7 +82,7 @@ Only three article types are proposed for the pilot:
 
 ## Publication schedule
 
-Continuous publication grouped into annual volumes remains the intended model, but the final schedule, DOI route, volume convention, and launch date are **[TO BE CONFIRMED BEFORE PUBLICATION]**. No article will appear here until formal acceptance and completion of its Publication Record.
+Continuous publication grouped into annual volumes remains the intended model, but the final schedule, DOI route, volume convention, and launch date are **[TO BE CONFIRMED BEFORE PUBLICATION]**. No article will appear here until formal acceptance and completion of its Open Research Record.
 
 [Understand JORN certification](../certification/){ .button .button--outline }
 [Review the evidence badges](../badges/){ .button .button--outline }

@@ -1,140 +1,54 @@
 ---
 title: Journal of the Open Research Network
 template: home.html
-description: JORN is a proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.
+description: JORN is a proposed Diamond Open Access overlay journal for connected and certified open research records.
 body_class: home-page
 ---
 
 <section class="hero">
-  <div class="hero__mesh" aria-hidden="true">
-    <svg viewBox="0 0 760 620" role="presentation">
-      <g class="mesh-lines"><path d="M82 114 235 72l131 92 157-70 116 126-65 161-151 90-165-35-122-116z"/><path d="m235 72 23 364M82 114l284 50 57 307M136 320l230-156 208 217M523 94 423 471M258 436l316-55M366 164l273 56"/></g>
-      <g class="mesh-nodes"><circle cx="82" cy="114" r="7"/><circle cx="235" cy="72" r="10"/><circle cx="366" cy="164" r="7"/><circle cx="523" cy="94" r="8"/><circle cx="639" cy="220" r="10"/><circle cx="574" cy="381" r="7"/><circle cx="423" cy="471" r="10"/><circle cx="258" cy="436" r="7"/><circle cx="136" cy="320" r="10"/></g>
-    </svg>
-  </div>
+  <div class="hero__mesh" aria-hidden="true"><svg viewBox="0 0 760 620" role="presentation"><g class="mesh-lines"><path d="M82 114 235 72l131 92 157-70 116 126-65 161-151 90-165-35-122-116z"/><path d="m235 72 23 364M82 114l284 50 57 307M136 320l230-156 208 217M523 94 423 471M258 436l316-55M366 164l273 56"/></g><g class="mesh-nodes"><circle cx="82" cy="114" r="7"/><circle cx="235" cy="72" r="10"/><circle cx="366" cy="164" r="7"/><circle cx="523" cy="94" r="8"/><circle cx="639" cy="220" r="10"/><circle cx="574" cy="381" r="7"/><circle cx="423" cy="471" r="10"/><circle cx="258" cy="436" r="7"/><circle cx="136" cy="320" r="10"/></g></svg></div>
   <div class="shell hero__inner">
     <div class="hero__copy">
       <div class="status-pill"><span></span> Founding and feasibility phase · No formal submissions</div>
-      <p class="eyebrow eyebrow--light">A Diamond Open Access overlay journal for certified research records</p>
-      <h1>Research is connected.<br><em>Publication should be too.</em></h1>
-      <p class="hero__lede">JORN is a proposed journal for reproducible computational research. It will peer-review, accept, and publish connected records that identify the exact manuscript, data, software, methods, and editorial evidence assessed.</p>
-      <div class="hero__actions">
-        <a class="button button--lime" href="submit/">Propose work for the founding pilot <span aria-hidden="true">→</span></a>
-        <a class="text-link text-link--light" href="about/model/">Explore the publishing model <span aria-hidden="true">↗</span></a>
-      </div>
+      <p class="eyebrow eyebrow--light">A Diamond Open Access overlay journal for connected and certified open research records</p>
+      <h1>Prepare open research.<br><em>Connect the evidence.</em></h1>
+      <p class="hero__lede">Enter accountable human review. Publish one citable record. JORN is being designed to help researchers prepare, assess, review, publish, connect, and certify complete open research records.</p>
+      <div class="hero__actions"><a class="button button--lime" href="guide/">Test the Open Science Guide <span aria-hidden="true">→</span></a><a class="text-link text-link--light" href="pilot/">Explore the founding pilot <span aria-hidden="true">↗</span></a></div>
     </div>
-    <aside class="record-card" aria-label="Illustrative JORN publication record">
-      <div class="record-card__header"><span>ILLUSTRATIVE RECORD—NOT A PUBLISHED JORN ARTICLE</span><span class="record-card__id">EXAMPLE ONLY</span></div>
-      <div class="record-card__body">
-        <div class="record-card__status"><i></i> EXAMPLE · JORN CERTIFIED RECORD</div>
-        <p class="record-card__label">COMPUTATIONAL RESEARCH ARTICLE</p>
-        <h2>A citable journal record for the exact research assessed</h2>
-        <p class="record-card__authors">Authors · affiliations · ORCID · CRediT</p>
-        <div class="record-objects">
-          <span><i class="object-icon">M</i> Accepted manuscript <b>EXACT VERSION</b></span>
-          <span><i class="object-icon">D</i> Data and access <b>IDENTIFIED</b></span>
-          <span><i class="object-icon">C</i> Software and environment <b>ARCHIVED</b></span>
-          <span><i class="object-icon">R</i> Reviews and decision <b>RECORDED</b></span>
-        </div>
-      </div>
-      <div class="record-card__footer"><span>Illustrative only</span><span>No JORN DOI issued</span></div>
+    <aside class="record-card" aria-label="Illustrative JORN Open Research Record">
+      <div class="record-card__header"><span>ILLUSTRATIVE EXAMPLE—NOT A REAL JORN PUBLICATION</span><span class="record-card__id">NO DOI</span></div>
+      <div class="record-card__body"><div class="record-card__status"><i></i> EXAMPLE · NOT CERTIFIED</div><p class="record-card__label">OPEN RESEARCH RECORD</p><h2>Exact research objects, reviews, evidence, and limitations</h2><p class="record-card__authors">Authors · ORCIDs · affiliations · CRediT</p><div class="record-objects"><span><i class="object-icon">M</i> Manuscript <b>VERSIONED</b></span><span><i class="object-icon">D</i> Data and access <b>DOCUMENTED</b></span><span><i class="object-icon">C</i> Software and workflow <b>CONNECTED</b></span><span><i class="object-icon">R</i> Reviews and decision <b>RECORDED</b></span></div></div>
+      <div class="record-card__footer"><span>Illustrative only</span><span>Not reviewed or published</span></div>
     </aside>
   </div>
-  <div class="shell hero__facts" aria-label="Journal status and principles">
-    <div><strong>Journal</strong><span>Formal review and decisions</span></div>
-    <div><strong>3</strong><span>Pilot article types</span></div>
-    <div><strong>0</strong><span>JORN articles published</span></div>
-    <div><strong>No fees</strong><span>Planned for authors or readers</span></div>
-  </div>
+  <div class="shell hero__facts" aria-label="Journal status and principles"><div><strong>Guide</strong><span>Public and submission-independent</span></div><div><strong>3 routes</strong><span>External, coordinated, internal</span></div><div><strong>0</strong><span>JORN records published</span></div><div><strong>No fees</strong><span>Planned for authors or readers</span></div></div>
 </section>
 
-<section class="announcement">
-  <div class="shell announcement__inner">
-    <span class="announcement__tag">CURRENT STATUS</span>
-    <p><strong>JORN is being designed, not yet operated.</strong> The legal publisher, editorial appointments, platform, policies, pilot dates, and DOI route remain to be confirmed.</p>
-    <a href="pilot/">Pilot status <span aria-hidden="true">→</span></a>
-  </div>
-</section>
+<section class="announcement"><div class="shell announcement__inner"><span class="announcement__tag">CURRENT STATUS</span><p><strong>JORN is being designed, not yet operated.</strong> The legal publisher, editors, platform, DOI route, AI system, partnerships, policies and pilot dates remain unconfirmed.</p><a href="about/policies/">Status register <span aria-hidden="true">→</span></a></div></section>
 
 <section class="section intro-section">
-  <div class="shell section-heading section-heading--split">
-    <div><p class="eyebrow">Why JORN is a journal</p><h2>Formal editorial judgment—not a badge attached to a repository deposit.</h2></div>
-    <div><p>JORN will receive eligible submissions, appoint qualified editors, coordinate independent peer review, assess revisions, make an acceptance or rejection decision, and publish accepted work under the JORN title. It will then maintain corrections, appeals, retractions, metadata, and continuing status.</p><a class="text-link" href="about/">About JORN <span aria-hidden="true">→</span></a></div>
-  </div>
+  <div class="shell section-heading section-heading--split"><div><p class="eyebrow">Six connected functions</p><h2>From practical preparation to an accountable publication.</h2></div><div><p>The guide can be used by anyone. Readiness and AI-assisted triage may identify gaps. Qualified people conduct scientific, open-science and technical review. A JORN editor—not AI—makes the final decision.</p><a class="text-link" href="editorial-process/">See the complete workflow <span aria-hidden="true">→</span></a></div></div>
   <div class="shell feature-grid">
-    <article class="feature-card feature-card--accent"><span class="feature-card__number">01</span><svg class="feature-card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M11 25.5 20 34l17-20"/><circle cx="24" cy="24" r="20"/></svg><h3>Independent journal review</h3><p>Scientific peers assess methods, analysis, reporting, integrity, traceability, contribution, and limitations. An unconflicted editor makes the formal decision.</p></article>
-    <article class="feature-card"><span class="feature-card__number">02</span><svg class="feature-card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M14 10h20v28H14zM19 17h10M19 23h10M19 29h6"/><path d="M10 14H7v28h20v-4"/></svg><h3>Permanent Publication Record</h3><p>The citable JORN article page identifies exact versions, links research objects, publishes editorial evidence, and states current status.</p></article>
-    <article class="feature-card"><span class="feature-card__number">03</span><svg class="feature-card__icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="13" cy="24" r="6"/><circle cx="35" cy="13" r="6"/><circle cx="35" cy="35" r="6"/><path d="m18.5 21.5 11-5.5M18.5 26.5l11 5.5"/></svg><h3>Bounded certification</h3><p>The universal seal confirms a formal process for the listed versions and assessment scope. It is not a guarantee of permanent correctness.</p></article>
+    <article class="feature-card feature-card--accent"><span class="feature-card__number">01</span><h3>Prepare</h3><p>Use the public Implementation Guide and vendor-neutral service criteria to connect people, plans, manuscripts, data, software, workflows and evidence.</p></article>
+    <article class="feature-card"><span class="feature-card__number">02</span><h3>Assess readiness</h3><p>Record complete, missing, restricted and externally assessed dimensions. An approved AI system may assist, but does not certify or peer-review.</p></article>
+    <article class="feature-card"><span class="feature-card__number">03</span><h3>Route scientific review</h3><p>Use a qualified external field community when available; otherwise, JORN recruits reviewers against a documented expertise profile.</p></article>
+    <article class="feature-card"><span class="feature-card__number">04</span><h3>Assess implementation</h3><p>Separate open-science, artifact, software, synthetic-data and reproducibility questions so each bounded claim has suitable expertise.</p></article>
+    <article class="feature-card"><span class="feature-card__number">05</span><h3>Certify evidence</h3><p>Publish a dimensional implementation profile, verified claims, badges, exceptions, exact evidence and limitations—never a quality score.</p></article>
+    <article class="feature-card feature-card--accent"><span class="feature-card__number">06</span><h3>Publish the record</h3><p>After acceptance, create the permanent JORN page and DOI connecting the exact objects, reviews, decisions, certification and status history.</p></article>
   </div>
 </section>
 
-<section class="section record-section">
-  <div class="shell record-section__grid">
-    <div class="record-map" aria-label="Research objects connected through a JORN publication record">
-      <div class="record-map__orbit orbit--one"></div><div class="record-map__orbit orbit--two"></div>
-      <div class="record-map__center"><span>JORN</span><small>publication<br>record</small></div>
-      <div class="record-map__node node--manuscript"><i>M</i><span>Manuscript</span><small>Exact accepted version</small></div>
-      <div class="record-map__node node--data"><i>D</i><span>Data</span><small>Version + access category</small></div>
-      <div class="record-map__node node--code"><i>C</i><span>Software</span><small>Archive + environment</small></div>
-      <div class="record-map__node node--review"><i>R</i><span>Review</span><small>Reports + decision</small></div>
-      <div class="record-map__node node--identity"><i>O</i><span>Contributors</span><small>ORCID + CRediT</small></div>
-    </div>
-    <div class="record-section__copy">
-      <p class="eyebrow">The primary publication</p>
-      <h2>One accountable record for the work JORN accepted.</h2>
-      <p>The manuscript, data, software, protocols, and environments may stay in appropriate repositories. JORN publishes the authoritative journal page, editorial history, certification evidence, limitations, status, metadata, and citation.</p>
-      <ul class="check-list">
-        <li>JORN DOI for the journal Publication Record</li>
-        <li>Repository identifiers for underlying research objects</li>
-        <li>Exact versions and structured metadata relationships</li>
-        <li>Visible corrections, supersession, withdrawal, or retraction</li>
-      </ul>
-      <a class="button button--outline" href="publications/">See an illustrative record <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</section>
+<section class="section record-section"><div class="shell record-section__grid">
+  <div class="record-map" aria-label="Research objects connected through a JORN Open Research Record"><div class="record-map__orbit orbit--one"></div><div class="record-map__orbit orbit--two"></div><div class="record-map__center"><span>JORN</span><small>open research<br>record</small></div><div class="record-map__node node--manuscript"><i>M</i><span>Manuscript</span><small>Exact accepted version</small></div><div class="record-map__node node--data"><i>D</i><span>Data</span><small>Access + governance</small></div><div class="record-map__node node--code"><i>C</i><span>Software</span><small>Release + environment</small></div><div class="record-map__node node--review"><i>R</i><span>Reviews</span><small>Reports + decision</small></div><div class="record-map__node node--identity"><i>O</i><span>Contributors</span><small>ORCID + CRediT</small></div></div>
+  <div class="record-section__copy"><p class="eyebrow">The central publication object</p><h2>One authoritative record for distributed research.</h2><p>Repositories and specialist services preserve and assess appropriate objects. JORN coordinates the editorial process, decides whether to publish, and maintains the citable record connecting the evidence.</p><ul class="check-list"><li>JORN DOI for the Open Research Record</li><li>Underlying objects retain their own identifiers</li><li>Accessible HTML, PDF and structured exports</li><li>Visible corrections, restrictions and status history</li></ul><a class="button button--outline" href="open-research-record/">Explore the record specification <span aria-hidden="true">→</span></a></div>
+</div></section>
 
-<section class="section workflow-section">
-  <div class="shell section-heading section-heading--split">
-    <div><p class="eyebrow">How publication will work</p><h2>Deposit. Review. Decide. Publish.</h2></div>
-    <div><p>Repository deposit starts the process; it does not equal publication. Optional artifact and computational assessments may add evidence, but only formal editorial acceptance leads to a JORN Publication Record.</p><a class="text-link" href="editorial-process/">Full proposed process <span aria-hidden="true">→</span></a></div>
-  </div>
-  <div class="shell workflow">
-    <article><span>1</span><h3>Deposit & connect</h3><p>Identify the exact manuscript, data, software, environment, protocols, declarations, and access terms.</p></article>
-    <article><span>2</span><h3>Review & assess</h3><p>Scientific peers review the work. Separate artifact or computational evaluation occurs only where applicable.</p></article>
-    <article><span>3</span><h3>Revise & decide</h3><p>Authors update repository versions and respond. An unconflicted editor accepts, rejects, or requests revision.</p></article>
-    <article><span>4</span><h3>Publish & steward</h3><p>JORN publishes its citable record, certification profile, evidence, limits, metadata, and continuing status.</p></article>
-  </div>
-</section>
+<section class="section workflow-section"><div class="shell section-heading section-heading--split"><div><p class="eyebrow">Accountable review routing</p><h2>AI checks readiness. People review and decide.</h2></div><div><p>AI-assisted screening may organise evidence and flag gaps. An editor confirms triage, selects an external or internal scientific-review route, fills expertise gaps and remains accountable for acceptance or rejection.</p><a class="text-link" href="ai-triage/">Read the AI safeguards <span aria-hidden="true">→</span></a></div></div><div class="shell workflow"><article><span>1</span><h3>Prepare</h3><p>Assess gaps, deposit exact objects, document restrictions and connect identifiers.</p></article><article><span>2</span><h3>Screen</h3><p>Deterministic checks and approved AI assistance produce a human-confirmed readiness report.</p></article><article><span>3</span><h3>Review</h3><p>Field, open-science and technical experts assess distinct questions and revisions.</p></article><article><span>4</span><h3>Decide & publish</h3><p>A JORN editor decides; accepted work receives one citable, maintained record.</p></article></div></section>
 
-<section class="section scope-section">
-  <div class="shell"><div class="scope-panel">
-    <div class="scope-panel__intro"><p class="eyebrow eyebrow--light">Narrow founding scope</p><h2>Reproducible computational research.</h2><p>The pilot is intentionally limited. Broader dataset, methods, infrastructure, registered-report, multidisciplinary, community, and qualitative categories are possible future scope—not current commitments.</p><a class="button button--light" href="scope/">Read the complete scope <span aria-hidden="true">→</span></a></div>
-    <div class="scope-tags" aria-label="Founding pilot publication types"><span>Computational research articles</span><span>Research software & computational methods</span><span>Reproducibility & replication reports</span></div>
-  </div></div>
-</section>
+<section class="section scope-section"><div class="shell"><div class="scope-panel"><div class="scope-panel__intro"><p class="eyebrow eyebrow--light">Founding pilot</p><h2>Start narrow. Evaluate honestly.</h2><p>The long-term mission is connected open research across fields. The proposed pilot remains limited to computational research, software or methods, and reproduction or replication reports that JORN can review responsibly.</p><a class="button button--light" href="pilot/">Read the pilot plan <span aria-hidden="true">→</span></a></div><div class="scope-tags"><span>Guide usability</span><span>AI false positives and negatives</span><span>Reviewer routing</span><span>Synthetic-data handling</span><span>Record production</span><span>Operating costs</span></div></div></div></section>
 
-<section class="section principles-section">
-  <div class="shell section-heading section-heading--center"><p class="eyebrow">Certification and evidence</p><h2>A clear profile instead of a misleading score.</h2></div>
-  <div class="shell principle-grid">
-    <article><strong>Universal</strong><h3>JORN Certified Record</h3><p>Confirms review, acceptance, publication, and connection of the exact identified versions.</p></article>
-    <article><strong>Optional badge</strong><h3>Artifacts Evaluated—Functional</h3><p>Reports that specified artifacts were documented, accessible to the evaluator, and functional for the assessed purpose.</p></article>
-    <article><strong>Optional badge</strong><h3>Computational Results Reproduced</h3><p>Reports that specified primary outputs were obtained within stated comparison criteria or tolerance.</p></article>
-    <article><strong>No ranking</strong><h3>No aggregate score</h3><p>Validity, ethics, access, documentation, function, and reproduction remain separate, visible dimensions.</p></article>
-  </div>
-</section>
+<section class="section principles-section"><div class="shell section-heading section-heading--center"><p class="eyebrow">Bounded evidence</p><h2>Profiles and verified claims—not a misleading score.</h2></div><div class="shell principle-grid"><article><strong>Dimension</strong><h3>Implementation levels</h3><p>Describe documentation, responsible accessibility and independent verification for each applicable element.</p></article><article><strong>Journal status</strong><h3>Certified Open Research Record</h3><p>Confirms review, acceptance, publication and connection of exact objects and evidence.</p></article><article><strong>Optional</strong><h3>Evidence badges</h3><p>State only the functional, reproduced or recognised assessment actually performed.</p></article><article><strong>Never</strong><h3>No quality ranking</h3><p>Openness is not correctness, importance, novelty, impact, safety or ethical adequacy.</p></article></div></section>
 
-<section class="section launch-section">
-  <div class="shell launch-grid">
-    <div><p class="eyebrow">Founding phase</p><h2>Help test whether the model can work responsibly.</h2></div>
-    <div class="launch-options">
-      <a href="submit/"><span class="launch-options__icon">A</span><span><strong>Potential authors</strong><small>Propose eligible work for pilot consideration</small></span><b>→</b></a>
-      <a href="network/#reviewers"><span class="launch-options__icon">R</span><span><strong>Reviewers & evaluators</strong><small>Explore distinct scientific and technical roles</small></span><b>→</b></a>
-      <a href="support/"><span class="launch-options__icon">I</span><span><strong>Institutions & libraries</strong><small>Understand the operating capacity Diamond OA requires</small></span><b>→</b></a>
-    </div>
-  </div>
-</section>
+<section class="section launch-section"><div class="shell launch-grid"><div><p class="eyebrow">Participate</p><h2>Help evaluate the framework before launch.</h2></div><div class="launch-options"><a href="guide/"><span class="launch-options__icon">G</span><span><strong>Researchers and stewards</strong><small>Test the Open Science Implementation Guide</small></span><b>→</b></a><a href="reviewers/"><span class="launch-options__icon">R</span><span><strong>Reviewers and evaluators</strong><small>Register interest in the reviewer network</small></span><b>→</b></a><a href="review-communities/"><span class="launch-options__icon">C</span><span><strong>Review communities</strong><small>Suggest a qualified disciplinary route</small></span><b>→</b></a><a href="submit/"><span class="launch-options__icon">P</span><span><strong>Potential pilot authors</strong><small>Propose work—this is not a formal submission</small></span><b>→</b></a></div></div></section>
 
-<section class="closing-cta">
-  <div class="shell closing-cta__inner"><div><p class="eyebrow eyebrow--light">Connected research. Independent review.</p><h2>One citable and accountable journal record.</h2></div><a class="button button--lime" href="certification/">Understand certification <span aria-hidden="true">→</span></a></div>
-</section>
+<section class="closing-cta"><div class="shell closing-cta__inner"><div><p class="eyebrow eyebrow--light">Prepare. Connect. Review.</p><h2>Publish one citable open research record.</h2></div><a class="button button--lime" href="guide/">Start with the Guide <span aria-hidden="true">→</span></a></div></section>

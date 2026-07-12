@@ -57,3 +57,9 @@ Results should be reported publicly, including workload, costs, completion and w
 
 A pilot does not commit JORN to launch. The responsible governance body should review the evidence and decide whether to proceed, revise the model, run another limited test, or stop. Formal submissions should open only when editorial capacity and required safeguards are operational.
 
+
+## Expanded evaluation programme
+
+The founding pilot should also measure Guide usability; readiness-check usefulness; AI false positives, false negatives and unsupported flags; human overrides and author corrections; external-community routing and recognition; JORN reviewer recruitment; synthetic and controlled-data handling; service-directory usefulness; dimensional-profile consistency; and production of accessible, machine-readable Open Research Records.
+
+A staged implementation should separate **publish now** (clearly labelled guide and framework), **pilot preparation** (governance, policies, systems, people and measures), **pilot operation** (limited consented cases and public aggregate evaluation), **public launch** (only after safeguards and capacity are verified), and **later expansion** (new disciplines, badges or integrations supported by evidence).

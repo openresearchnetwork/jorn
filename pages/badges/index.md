@@ -1,60 +1,36 @@
 ---
 title: Evidence badges
-eyebrow: Optional assessments
-display_title: Specific claims, supported by specific evidence.
-lede: Pilot badges will report additional artifact or computational assessments. They are optional, independent of one another, and never combined into an overall score.
-description: Read the proposed definitions, evidence requirements, limitations, and status rules for JORN pilot badges.
+eyebrow: Review and certification
+display_title: Specific claims, supported by exact evidence.
+lede: A small set of independent badges may report bounded artifact, reproduction and external-review findings. They never replace scientific review, acceptance, or the dimensional profile.
+description: Proposed JORN evidence badges, evidence fields, limitations, correction and withdrawal.
 ---
 
-<div class="info-banner"><strong>Proposed pilot criteria.</strong> No JORN badges have yet been issued. Criteria versions, evaluator guidance, and correction procedures must be approved before the pilot begins.</div>
+<div class="info-banner"><strong>Status: proposed pilot definitions.</strong> No JORN badge has been issued. Criteria, evaluators and approval authority are **[TO BE CONFIRMED]**.</div>
 
-## Two independent pilot badges
+## Artifacts Evaluated—Functional
 
-<div class="card-grid card-grid--two" markdown>
-<div class="plain-card" markdown>
-### Artifacts Evaluated—Functional
+An independent evaluator confirmed that the specified artifacts were sufficiently documented, available to the evaluator, and functional for the declared purpose. The report names versions, environment, procedures, outcomes, differences and exclusions. It does not establish scientific validity or general reusability.
 
-An independent evaluator confirmed that the specified research artifacts were sufficiently documented, accessible to the evaluator, and functional for the assessed purpose.
+## Computational Results Reproduced
 
-The report identifies the objects, versions, environment, tests performed, successful functions, differences, and unassessed areas.
-</div>
-<div class="plain-card" markdown>
-### Computational Results Reproduced
+An independent evaluator executed the specified workflow and obtained the identified outputs within stated comparison criteria or tolerance. The claim is limited to those outputs, objects and environment. It is not independent replication.
 
-An independent evaluator executed the specified workflow and obtained the identified primary outputs within the stated comparison criteria or tolerance.
+## External Software Review Recognised
 
-The report identifies the workflow, environment, outputs, tolerance, deviations, and any results outside the assessment scope.
-</div>
-</div>
+The identified software version underwent a qualifying external review whose scope, process and evidence JORN evaluated and recognised. It does not imply a partnership, validate the paper, or extend to later software versions.
 
-These badges answer different questions. Functional artifacts do not by themselves show that reported results were reproduced. Reproduced outputs do not by themselves establish that artifacts are reusable for every purpose. A publication may receive either badge, both, or neither and still be accepted following scientific peer review.
+## Possible future claims
 
-## Minimum evidence
+Only after pilot evidence and policy approval, JORN may consider **Artifacts Evaluated—Reusable**, **Preregistration Assessed**, **Synthetic Data Utility Assessed**, **Synthetic Data Privacy Assessed**, **Secure Real-Data Verification**, **Independent Replication**, or **Independent Clinical Validation**. These claims are distinct and must never be presented as equivalent.
 
-For either badge, the publication record must state the claim, assessed object and version, evaluator role, date, criteria version, evidence report, environment where relevant, successes, differences, exclusions, and current badge status.
+## Required badge record
 
-An evaluation may use open, controlled-access, embargoed, synthetic, or appropriately protected materials. The profile must describe the access category without disclosing confidential content.
+Every badge names exact object, version, assessor, conflicts, date, criteria version, evidence, checks, successful outcomes, differences, exclusions, limitations and current status. Readers can open the underlying report. A self-assessment or AI output cannot generate an official badge.
 
-## Partial and unsuccessful outcomes
+## Partial, unsuccessful and changed outcomes
 
-An evaluator should report informative differences rather than force a pass/fail narrative. “Computational Results Reproduced” applies only when the identified primary outputs meet the stated comparison criteria. If only some outputs meet them, the record may say **partially reproduced** in its profile, but it will not display the badge.
+Reports should disclose informative partial or unsuccessful checks even when no badge is awarded. Material object, criteria or evidence changes trigger reassessment. JORN may correct, suspend, supersede or withdraw a badge while preserving its history.
 
-An artifact evaluation that reveals remediable problems may return to the authors during revision. The final report must document the version ultimately assessed. Lack of a badge is not a ranking of the article.
-
-## Why JORN will not calculate a score
-
-JORN will not use stars, grades, medals, percentages, publication levels, aggregate openness scores, or a single number for trustworthiness. Scientific validity, ethics, access, documentation, software function, and computational reproduction are distinct dimensions. Combining them would conceal important differences and create false comparability across research contexts.
-
-## Examples
-
-| Accepted publication | Certification profile | Optional badges |
-| --- | --- | --- |
-| Workflow and primary outputs independently executed within stated tolerance | Certified Record; software evaluated; results reproduced | Both pilot badges |
-| Scientifically reviewed article with traceable code, but no independent execution within the review scope | Certified Record; software available; results not independently assessed | Neither badge |
-| Analysis using controlled-access health data, with evaluator access under approved conditions | Certified Record; data controlled access; access justification reviewed | Either badge only if its separate criteria are met |
-
-## Possible future badges
-
-**Not available during the pilot:** Artifacts Evaluated—Reusable, Preregistration Assessed, and Independent Replication. Any later badge would require evidence of need, public criteria, governance approval, evaluator capacity, and a sustainable correction process.
-
-[Understand universal JORN certification](../certification/){ .button .button--ink }
+[Read artifact assessment](../artifact-assessment/){ .button .button--ink }
+[Understand certification](../certification/){ .button .button--outline }

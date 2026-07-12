@@ -2,7 +2,7 @@
 title: Publishing model
 eyebrow: Overlay architecture
 display_title: Repositories hold the objects. JORN publishes the journal record.
-lede: The proposed model separates repository preservation from editorial responsibility while connecting exact versions through a permanent, citable JORN Publication Record.
+lede: The proposed model separates repository preservation from editorial responsibility while connecting exact versions through a permanent, citable JORN Open Research Record.
 description: Understand JORN's proposed overlay architecture, DOI model, versioning, metadata, preservation, and certification boundary.
 ---
 
@@ -14,23 +14,23 @@ Authors place manuscripts and supporting objects in repositories appropriate to 
 | --- | --- | --- |
 | External repositories | Manuscript files, data, software releases, protocols, preregistrations, and version history | Object access and preservation under repository terms |
 | JORN editorial process | Screening, editor assignment, scientific review, optional artifact or computational assessment, revision, and decision | Fair process, conflicts, integrity, appeals, and decision quality |
-| JORN Publication Record | Citation, DOI, abstract, accepted versions, connections, reports, decision, certification profile, and current status | Metadata, evidence, corrections, retractions, and continuity |
+| JORN Open Research Record | Citation, DOI, abstract, accepted versions, connections, reports, decision, certification profile, and current status | Metadata, evidence, corrections, retractions, and continuity |
 
 ## What JORN publishes
 
-The primary publication is the **JORN Publication Record**. It identifies the exact accepted manuscript and every supporting object within the review scope; states which objects were unavailable, restricted, or not applicable; presents the editorial history; and records the scope and limits of certification.
+The primary publication is the **JORN Open Research Record**. It identifies the exact accepted manuscript and every supporting object within the review scope; states which objects were unavailable, restricted, or not applicable; presents the editorial history; and records the scope and limits of certification.
 
 The manuscript may remain in its repository rather than being silently copied into an independent, unversioned journal file. JORN must nevertheless retain enough metadata and editorial evidence to preserve the meaning of its decision.
 
 ## The certificate supports the publication; it does not replace it
 
-The **JORN Certified Record** seal is a status attached after JORN has reviewed, accepted, and published the work. It links back to the Publication Record. A technical certificate, successful software run, or badge without a formal editorial decision is not a JORN publication.
+The **JORN Certified Open Research Record** seal is a status attached after JORN has reviewed, accepted, and published the work. It links back to the Open Research Record. A technical certificate, successful software run, or badge without a formal editorial decision is not a JORN publication.
 
 Optional badges document specific additional assessments and do not create levels of publication quality.
 
 ## Identifiers have different purposes
 
-- The **JORN DOI** identifies the journal Publication Record.
+- The **JORN DOI** identifies the journal Open Research Record.
 - A manuscript or preprint identifier identifies the repository-hosted manuscript and its version history.
 - Data identifiers identify exact datasets or access records.
 - Archived-release identifiers identify preserved software releases.
@@ -46,7 +46,7 @@ If authors revise work after acceptance, JORN should publish a correction, updat
 
 ## If an external object changes or disappears
 
-JORN should monitor critical links, retain deposited metadata and checksums where appropriate, use preservation services, and direct authors toward repositories with durable versioning. If an object becomes unavailable, the Publication Record will state the change, its effect on access or assessment, and whether the certification remains current, corrected, suspended, superseded, or withdrawn.
+JORN should monitor critical links, retain deposited metadata and checksums where appropriate, use preservation services, and direct authors toward repositories with durable versioning. If an object becomes unavailable, the Open Research Record will state the change, its effect on access or assessment, and whether the certification remains current, corrected, suspended, superseded, or withdrawn.
 
 JORN remains responsible for its citation, DOI, editorial evidence, status history, and notices even when it does not host the underlying files.
 
@@ -56,7 +56,7 @@ The intended public diagram has three levels:
 
 1. **Research repositories:** exact manuscript, data, software release, source, environment, protocol, and preregistration.
 2. **Journal process:** screening, editor, scientific review, optional artifact evaluation, optional computational check, revision, and decision.
-3. **JORN Publication Record:** citation and DOI, connected identifiers, public editorial history, certification profile, badges and limitations, and continuing status.
+3. **JORN Open Research Record:** citation and DOI, connected identifiers, public editorial history, certification profile, badges and limitations, and continuing status.
 
 Arrows should show version-specific metadata flowing into the journal process and the final record linking back to—not replacing—the repository objects.
 
@@ -66,3 +66,11 @@ JORN should evaluate a mature overlay platform before building custom submission
 
 Platform selection, repository eligibility, preservation partners, backup schedule, and closure plan are **[TO BE CONFIRMED BEFORE PILOT LAUNCH]**.
 
+
+## JORN as an orchestration layer
+
+JORN is designed to connect repositories, open-science services, approved AI-assisted screening, disciplinary review communities, directly appointed JORN reviewers, technical assessors and the final citable Open Research Record. It does not take over their specialist preservation or evaluation functions.
+
+> JORN prescribes outcomes and evidence, not vendors.
+
+The journal coordinates the process, assesses whether external evidence is sufficient, fills gaps, makes the publication decision and maintains the authoritative record. Recommendations do not imply partnership; recognised assessments and integrations require documented decisions in the relationship register.

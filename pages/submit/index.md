@@ -78,7 +78,7 @@ Where applicable and resourced, an evaluator may execute a specified workflow ag
 
 ## What JORN certification means
 
-After formal acceptance and publication, the universal **JORN Certified Record** seal will confirm that JORN peer-reviewed, accepted, published, and connected the exact versions listed in the Publication Record. It will not guarantee permanent correctness, complete error detection, public access to every object, computational reproduction of every result, or independent replication.
+After formal acceptance and publication, the universal **JORN Certified Open Research Record** seal will confirm that JORN peer-reviewed, accepted, published, and connected the exact versions listed in the Open Research Record. It will not guarantee permanent correctness, complete error detection, public access to every object, computational reproduction of every result, or independent replication.
 
 [Read the certification framework](../certification/){ .button .button--outline }
 
@@ -96,3 +96,20 @@ No personal or confidential submission material should be sent until JORN publis
 [Read about the founding pilot](../pilot/){ .button .button--lime }
 </div>
 
+
+## Founding-pilot proposal package
+
+In addition to the repository and declaration information above, a future pilot proposal should include:
+
+- the exported readiness profile and criteria version;
+- identifiers and exact versions for every applicable research object;
+- a plan and responsible owner for each missing item;
+- suggested external field-review communities and the reason each may fit;
+- existing external scientific or technical reviews, with transfer permission and exact scope;
+- the disciplinary, methodological, statistical, governance and technical expertise needed;
+- data restrictions, lawful access route and secure-verification needs;
+- synthetic-data purpose, generation, utility and disclosure-risk documentation;
+- software-review or artifact-assessment evidence; and
+- separate informed consent or opt-out terms for any approved AI-assisted triage.
+
+Passing a readiness check or AI screen does not guarantee pilot selection, external review recognition, journal acceptance, certification or a badge.

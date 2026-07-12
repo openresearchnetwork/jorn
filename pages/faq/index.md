@@ -1,56 +1,90 @@
 ---
 title: Frequently asked questions
-eyebrow: JORN explained
-display_title: Questions about publication, certification, and the founding phase.
-lede: Direct answers about what JORN is being designed to do, what it will assess, and which decisions remain unresolved.
-description: Frequently asked questions about JORN's overlay-journal model, certification, peer review, data access, governance, and pilot status.
+eyebrow: About
+display_title: Direct answers about preparation, AI, review, and certification.
+lede: JORN is in a founding and feasibility phase. Proposed functions remain clearly separated from operational services and verified relationships.
+description: Questions about JORN's guide, AI triage, review routes, data, certification, publication and founding status.
 ---
+
+## Can I use the Guide without submitting?
+
+Yes. The draft JORN Open Science Implementation Guide is intended for researchers, groups, reviewers, librarians, stewards, institutions, students and independent researchers. Use does not imply endorsement, review, certification or acceptance.
+
+## Are implementation levels quality scores?
+
+No. Levels describe documentation, responsible accessibility and independent verification for each applicable dimension. They do not score correctness, novelty, importance, ethics, safety, prestige or impact. JORN will not issue an aggregate openness or trust score.
+
+## Does AI decide whether my paper is accepted?
+
+No. AI may assist with preliminary completeness and routing checks. An unconflicted JORN editor makes every formal accept or reject decision.
+
+## What does passing AI triage mean?
+
+Only that the authorised package appears ready for responsible human evaluation under the applicable screening criteria. It does not mean the work is correct, ethical, certified, publishable or likely to be accepted.
+
+## Can AI reject my work?
+
+Not autonomously during the pilot. “Author action required” is a remediation outcome. A human editor confirms triage and any editorial decline.
+
+## Can I request human screening?
+
+The proposed policy provides factual correction and human reconsideration. The operator, time target and appeal route are **[TO BE CONFIRMED BEFORE OPERATION]**.
+
+## What information is supplied to AI?
+
+Normally only public preprints, public artifacts and authorised metadata under a disclosed process. Every report should identify the exact inputs.
+
+## Will confidential data be uploaded to AI systems?
+
+Not to consumer or unapproved systems. Unpublished manuscripts, confidential reviews, reviewer identities, correspondence, controlled patient data, personal data, ethics files, security-sensitive code and proprietary material require an approved secure environment or must remain outside AI processing.
+
+## Does JORN use external review communities?
+
+That is the proposed preferred route when an appropriate, qualified community is available. No relationship is currently confirmed.
+
+## What happens when no community covers my field?
+
+A JORN handling editor defines the expertise profile and directly recruits qualified reviewers. Supplementary reviewers fill gaps in an external review when necessary.
+
+## Who chooses JORN reviewers?
+
+An unconflicted JORN editor. AI may suggest expertise or communities but cannot appoint reviewers.
+
+## Who makes the final decision?
+
+An accountable, unconflicted JORN editor after considering the manuscript, reviews, revisions, ethics, implementation evidence and technical reports.
+
+## Does external review guarantee JORN acceptance?
+
+No. JORN may recognise all, part or none of an external review and may request supplementary review. JORN retains the publication decision.
+
+## Can public comments count as peer review?
+
+They may inform the process but are not automatically formal peer review. Commissioned JORN review and recognised external review require qualified appointment, defined criteria, conflicts and a version-specific report.
+
+## Can restricted or synthetic data be certified?
+
+Potentially. Restrictions can be responsible when justified, documented and reviewable. Synthetic data require purpose-specific utility and disclosure-risk evidence. A synthetic workflow run is not the same as checking results against restricted real data.
+
+## Is synthetic data anonymous?
+
+Not automatically. The record must describe the disclosure-risk assessment, threat model, method, results and limits rather than infer anonymity from the word “synthetic.”
 
 ## Is JORN a journal or a certification service?
 
-JORN is being designed as a journal. It will conduct editorial assessment and peer review, request and assess revisions, make formal decisions, publish accepted work under the JORN title, register metadata, and maintain the scholarly record. Certification describes the status and evidence attached to a JORN publication; it does not replace publication.
+A proposed scholarly overlay journal. It will conduct or recognise qualified review, oversee revision, make formal decisions, publish accepted work under the JORN title and maintain the record. Certification describes evidence attached to an accepted publication.
 
-## Where will the manuscript be hosted?
+## What should readers cite?
 
-The accepted manuscript and other research objects may remain in eligible external repositories. The JORN Publication Record will identify the exact versions that were reviewed and accepted.
+Cite the JORN Open Research Record for the accepted journal publication. Cite underlying data, software, protocols or other objects directly when using them. The JORN DOI and object identifiers serve different purposes.
 
-## What receives the JORN DOI?
+## Is JORN accepting submissions or publishing articles?
 
-The JORN DOI will identify the permanent journal Publication Record. Repository DOIs and identifiers will continue to identify the underlying manuscript, data, software release, protocol, or other object. Structured metadata will connect identifiers according to their different purposes. The DOI registration route is **[TO BE CONFIRMED BEFORE PUBLICATION]**.
-
-## Does certification mean the paper is correct?
-
-No. The seal confirms that a formal journal process occurred and makes the assessed versions, evidence, scope, and limitations traceable. It does not guarantee permanent correctness or that reviewers found every possible error.
-
-## Does every article need open data?
-
-No. JORN will require a documented and reviewable access statement. Controlled access, embargoes, synthetic data, or non-sharing may be responsible when privacy, consent, security, community governance, protected health information, or other legitimate constraints apply.
-
-## Does every article receive a reproducibility badge?
-
-No. Every accepted publication is intended to receive the universal JORN Certified Record seal. The two pilot evidence badges are optional and independent. A publication may receive either, both, or neither.
-
-## Why does JORN not use a numerical score?
-
-Validity, ethics, access, documentation, artifact function, and computational reproduction are different dimensions. A single score would hide those differences and imply comparisons that the evidence cannot support.
-
-## Can reviewers remain anonymous?
-
-Yes. The proposed default is to publish reports, author responses, and decisions after acceptance. Reviewers may sign by consent, but identities may remain confidential. Restricted disclosure is also possible when openness creates a credible risk.
-
-## Can research using restricted data be published?
-
-Potentially. Authors must explain the restriction and provide an appropriate route for editorial assessment. Eligibility will depend on whether JORN has the expertise, policy, security, and lawful access needed for responsible review.
-
-## Is JORN accepting submissions?
-
-No. JORN is in a founding and feasibility phase. Potential authors may propose work for a future pilot, but an expression of interest is not a formal submission.
+No. JORN has no accepted or certified publications and is not accepting formal submissions. Researchers may propose work for a future founding pilot, which does not guarantee review or publication.
 
 ## Who legally publishes JORN?
 
-The legal publishing entity is **[TO BE CONFIRMED BEFORE LAUNCH]**. Open Science Labs supports development; it should not be described as the legal publisher until that responsibility is formally confirmed.
+**[TO BE CONFIRMED BEFORE LAUNCH]**. The legal publisher, ISSN, DOI registration, preservation, privacy controller, platform, editorial appointments and partnerships remain unconfirmed.
 
-## How will JORN remain independent from supporters?
-
-Editorial leaders must have independent authority over decisions. Open Research Network participants, Open Science Labs, funders, partners, and infrastructure providers will receive no editorial privilege. Appointment, conflict, funding, appeals, and reporting safeguards must be approved before launch.
-
+[Start with the Guide](../guide/){ .button .button--ink }
+[Review the founding status](../pilot/){ .button .button--outline }

@@ -1,94 +1,59 @@
 ---
 title: JORN certification
-eyebrow: Publication and evidence
-display_title: What JORN certification means—and what it does not.
-lede: Certification records a formal journal process and identifies the exact manuscript, research objects, evidence, and assessment scope associated with an accepted JORN publication.
-description: Understand the proposed JORN Certified Record seal, certification profile, evidence requirements, limitations, and status changes.
+eyebrow: Review and certification
+display_title: Evidence-based certification with visible limits.
+lede: Certification applies only after scientific review, formal editorial acceptance and publication. It identifies the exact objects, criteria, evidence, verified claims, exceptions and limitations.
+description: Proposed JORN Certified Open Research Record, implementation levels, verification states, evidence requirements, badges and limitations.
 ---
 
-<div class="info-banner"><strong>Founding-phase framework.</strong> These definitions are proposed for the pilot and will become operational only after the criteria, governance, and editorial policies are approved.</div>
+<div class="info-banner"><strong>Status: draft founding framework.</strong> JORN has not certified or published any research. Criteria, approvers, DOI route and withdrawal policy remain unconfirmed.</div>
 
-## Publication comes first
+## Three distinct concepts
 
-JORN is being designed as an overlay journal, not a standalone certification service. It will receive eligible submissions, appoint editors, coordinate independent peer review, evaluate revisions, make an acceptance or rejection decision, and publish accepted work under the JORN title.
+- **JORN Open Research Record:** permanent journal publication produced after formal editorial acceptance.
+- **JORN Certified Open Research Record:** status showing that JORN reviewed, accepted, published and connected the exact objects and evidence described in the record.
+- **Underlying research objects:** repository- or platform-held manuscript, data, software, models, figures, workflows, protocols, registrations and reviews.
 
-Three terms have distinct meanings:
+A technical check, readiness report, AI screen, external review, badge or certificate alone is not journal publication.
 
-<div class="responsibility-grid" markdown>
-<div markdown>### JORN Publication Record
-The permanent, citable journal article page produced after formal acceptance. It contains the citation, DOI, abstract, connected objects, reviews, decision, certification evidence, limitations, and current status.</div>
-<div markdown>### JORN Certified Record
-The universal status and seal showing that JORN reviewed, accepted, published, and connected the exact versions identified in the publication record.</div>
-<div markdown>### Underlying research objects
-The manuscript, data, software, protocols, preregistrations, environments, and other materials held in appropriate external repositories.</div>
-<div markdown>### Optional evidence badges
-Separate statements about an artifact or computational assessment. A publication may receive either pilot badge, both badges, or neither.</div>
-</div>
+## Proposed certification statement
 
-## Universal seal
+> This research was peer-reviewed, accepted, and published by JORN. The certification profile records how the exact manuscript, research objects, reviews, and evidence identified in this Open Research Record satisfied the applicable JORN criteria.
 
-Every accepted JORN publication is intended to receive one universal seal:
+The statement always links to the permanent record and its current status.
 
-<blockquote class="statement-quote">
-<p>JORN Certified Record</p>
-<cite>This work was peer-reviewed, accepted, and published by JORN. Certification applies to the exact manuscript and research-object versions identified in the publication record and to the assessment scope described there.</cite>
-</blockquote>
+## Implementation levels and verification states
 
-The seal will always link to the permanent JORN Publication Record. A seal displayed elsewhere is meaningful only through that link.
+Each applicable dimension receives Level 0 **Not documented**, Level 1 **Transparent**, Level 2 **Accessible, citable, and responsibly managed**, or Level 3 **Independently verified**. The evidence state—self-assessed, evidence supplied, AI-assisted screening, or JORN verified—must appear separately. Only JORN verified evidence may support official certification.
 
-## Certification profile
+Controlled access can satisfy Level 2 when the restriction, metadata, governance and responsible verification route meet the criteria. No level is a quality, impact or prestige score.
 
-Each publication record will present a structured profile rather than a score. The profile makes assessed, unavailable, restricted, and inapplicable dimensions visible without treating them as interchangeable.
+| Dimension | Level | Verification state | Exact evidence | Differences and limits |
+| --- | --- | --- | --- | --- |
+| Manuscript | 0–3 | One of four states | Identifier and version | Unavailable or excluded elements |
+| Data and synthetic data | 0–3 | One of four states | Access, governance, provenance and version | Public and controlled evidence distinguished |
+| Software and environment | 0–3 | One of four states | Release, source, tests and environment | Scope of function or review |
+| Review | 0–3 | JORN verified for publication | Reports, responses and decision | Route, expertise and disclosure limits |
 
-| Dimension | Permitted status examples |
-| --- | --- |
-| Journal status | Accepted and published |
-| Manuscript | Exact accepted version identified |
-| Connected record | Verified |
-| Data | Open access; controlled access; embargoed; not publicly shareable—justification reviewed; not applicable |
-| Software | Available; evaluated as functional; not applicable; not independently assessed |
-| Computational results | Reproduced; partially reproduced; not independently assessed |
-| Preregistration | Assessed; available; not applicable; not independently assessed |
-| Peer-review record | Public; restricted disclosure |
-| Reviewer identities | Public by consent; confidential |
-| Certification status | Current; corrected; superseded; suspended; withdrawn; retracted |
+If an overall implementation designation is displayed, it is the minimum across applicable mandatory dimensions.
 
-Responsible restrictions involving privacy, consent, security, Indigenous or community governance, endangered species, confidential interviews, or protected health information will not be treated as a lower score. Authors must document the restriction, and an appropriate reviewer or editor must be able to evaluate the justification and access route.
+> This designation describes implementation of the JORN Open Science Framework. It is not a measure of scientific quality, importance, correctness, novelty, or impact.
 
-## Evidence attached to every claim
+## Every verified claim records
 
-Every certification or badge statement must identify:
+Exact object and version; assessor; date; criteria version; evidence; checks; successful outcomes; differences; exclusions; limitations; and current status. AI may organise evidence but cannot issue a certificate or badge.
 
-- the exact object and version assessed;
-- the assessment date and reviewing role;
-- the criteria version and supporting report;
-- the computational environment where relevant;
-- what succeeded and what differed;
-- what was not assessed; and
-- the current status of the claim.
+## Bounded evidence badges
 
-JORN will prefer bounded language such as: “The identified primary computational results were independently reproduced using the listed versions and environment.” It will not extend that finding into an unqualified claim about the reproducibility of the entire study.
+Pilot badges, if approved, are independent findings: **Artifacts Evaluated—Functional**, **Computational Results Reproduced**, and **External Software Review Recognised**. A record may have any combination or none. Badges do not create tiers of journal publication.
 
-## What certification does not mean
+## What certification does not establish
 
-The JORN Certified Record seal does **not** guarantee that every conclusion is permanently correct, every possible error was found, all data are public, every result was computationally reproduced, the study was independently replicated, or future technical changes cannot affect execution.
+Certification does not guarantee permanent correctness, complete error detection, public access to every object, ethical or regulatory approval, safety, computational reproduction beyond named outputs, independent replication, future technical execution, novelty, importance or impact.
 
-Peer review and certification provide a traceable scholarly assessment. They do not prove absolute truth.
+## Status and correction
 
-## Correction, suspension, and withdrawal
+Certification and badges may be current, corrected, superseded, suspended, withdrawn or associated with a retracted publication. JORN preserves the original history and publishes reasons to the greatest ethical and lawful extent.
 
-The publication record remains under journal stewardship. If evidence, metadata, repository objects, or integrity concerns change, JORN may correct the profile, supersede a record, suspend a certification claim during investigation, withdraw a seal, or retract the publication. The original history and reasons for the change should remain visible wherever legal and ethical constraints allow.
-
-### Status language
-
-| Status | Meaning |
-| --- | --- |
-| Current | The published record and certification remain in force without a later status notice |
-| Corrected | A published notice changes part of the record while the publication remains in force |
-| Superseded | A later identified record or version replaces this one for current use; the history remains available |
-| Suspended | A certification or badge claim is temporarily not in force while a defined concern is assessed |
-| Withdrawn | The certification or badge has been removed under the applicable policy; reasons remain recorded |
-| Retracted | The journal publication is marked as unreliable or otherwise unsuitable to remain part of the current literature under the retraction policy |
-
-[Read about optional evidence badges](../badges/){ .button .button--ink }
-[Explore the editorial process](../editorial-process/){ .button .button--outline }
+[Review implementation levels](../implementation-levels/){ .button .button--ink }
+[Read evidence badges](../badges/){ .button .button--outline }

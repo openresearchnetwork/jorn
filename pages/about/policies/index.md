@@ -56,7 +56,7 @@ JORN will not equate public data with responsible data. A justified controlled-a
 
 ### Certification and scoring
 
-Certification will be bounded to exact versions and the assessment described. JORN will not publish an aggregate score, trust percentage, grade, star rating, or publication level. Optional evidence badges remain separate from the universal Certified Record seal.
+Certification will be bounded to exact versions and the assessment described. JORN will not publish an aggregate score, trust percentage, grade, star rating, or publication level. Optional evidence badges remain separate from the universal Certified Open Research Record seal.
 
 ## Accessibility {#accessibility}
 
@@ -64,5 +64,24 @@ JORN intends to use WCAG 2.2 AA as a design and testing target. It should not cl
 
 ## Before any policy becomes operational
 
-The legal publisher, responsible governance body, editor authority, privacy contact, complaint route, and public version repository must be confirmed. Approved policies should remain accessible after revision so readers can determine which version governed a particular Publication Record.
+The legal publisher, responsible governance body, editor authority, privacy contact, complaint route, and public version repository must be confirmed. Approved policies should remain accessible after revision so readers can determine which version governed a particular Open Research Record.
 
+
+## Expanded policy set required for the pilot
+
+The register must include separate, versioned policies for AI-assisted triage, AI confidentiality, AI disclosure and human reconsideration; external scientific review; internal reviewer recruitment; review-platform use; implementation levels; synthetic data; research software; service recommendations; external-assessment recognition; certification and badge approval or withdrawal; Open Research Record metadata and machine-readable exports; and appeals, complaints, corrections, expressions of concern and retractions.
+
+## Ethical and editorial design audit
+
+Before any policy becomes operational, the approving body must confirm that JORN:
+
+- does not equate AI triage with peer review or let AI make publication, certification, appointment, correction or retraction decisions;
+- does not allow autonomous AI rejection during the pilot and provides factual correction and human reconsideration;
+- excludes prestige, predicted impact and protected characteristics from screening;
+- protects confidential, personal and restricted information and discloses approved AI inputs and retention;
+- uses qualified external communities where appropriate and recruits JORN reviewers where none is suitable;
+- keeps the final decision with an unconflicted JORN editor and distinguishes public comments from commissioned review;
+- does not equate openness with validity, restriction with poor practice, or synthetic data with anonymity;
+- uses dimensional levels rather than rankings and permits equivalent services that meet published outcomes;
+- distinguishes recommendations, recognised providers, integrations and formal partners; and
+- limits every certificate and badge to the exact version, evidence, criteria, assessor, date and stated limitations.
