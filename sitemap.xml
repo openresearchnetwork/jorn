@@ -2,77 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://openresearchnet.org/jorn/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/about/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/about/governance/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/about/model/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/about/policies/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/ai-triage/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/artifact-assessment/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/author-guidance/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/badges/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/certification/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/community/relationships/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/data/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/editorial-process/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/external-assessments/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/faq/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/figures/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/guide/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/implementation-levels/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/network/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/open-research-record/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/open-science-review/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/pilot/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/publications/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/publications/illustrative-record/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/readiness/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/research/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/review-communities/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/reviewers/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/scientific-review/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/scope/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/services/</loc>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/software/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/submit/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openresearchnet.org/jorn/support/</loc>
-         <lastmod>2026-07-11</lastmod>
+         <lastmod>2026-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openresearchnet.org/jorn/synthetic-data/</loc>
+         <lastmod>2026-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

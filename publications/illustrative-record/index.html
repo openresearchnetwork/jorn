@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#082f35">
+    <meta name="description" content="A fully fictional example of a JORN Open Research Record for a medical-AI study.">
+    <meta name="author" content="Open Science Labs">
+    <link rel="canonical" href="https://openresearchnet.org/jorn/publications/illustrative-record/">
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+    <title>Illustrative Open Research Record · Journal of the Open Research Network</title>
+    
+      <link rel="stylesheet" href="../../assets/styles.css">
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Periodical",
+        "name": "Journal of the Open Research Network",
+        "alternateName": "JORN",
+        "url": "https://openresearchnet.org/jorn/",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
+        "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
+        "isAccessibleForFree": true
+      }
+    </script>
+  </head>
+  <body class="">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="notice-bar">
+      <div class="shell notice-bar__inner">
+        <span><strong>Founding phase</strong> · Formal submissions are not yet open</span>
+        <span class="notice-bar__support">Designed as a <strong>Diamond Open Access</strong> journal</span>
+      </div>
+    </div>
+
+    <header class="site-header" data-header>
+      <div class="shell header-main">
+        <a class="brand" href="../.." aria-label="JORN home">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/>
+          </svg>
+          <span class="brand__text">
+            <strong>JORN</strong>
+            <span>Journal of the<br>Open Research Network</span>
+          </span>
+        </a>
+
+        <div class="header-actions">
+          <button class="icon-button search-trigger" type="button" data-search-open aria-label="Search the journal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+            <span>Search</span>
+          </button>
+          <a class="button button--small button--ink header-submit" href="../../submit/">Propose pilot work</a>
+          <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-navigation">
+            <span class="sr-only">Toggle navigation</span><i></i><i></i><i></i>
+          </button>
+        </div>
+      </div>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+        <div class="shell site-nav__inner">
+          <ul>
+            
+              <li class=" ">
+                
+                  <a href="../..">Home</a>
+                
+              </li>
+            
+              <li class="is-active has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../">Published records</a></li>
+                    
+                      <li class="is-active"><a href="./">Illustrative record</a></li>
+                    
+                      <li class=""><a href="../../research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="../../readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="../../implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="../../services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="../../data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="../../synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="../../software/">Software and code</a></li>
+                    
+                      <li class=""><a href="../../figures/">Figures and media</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Publish
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../pilot/">Founding pilot</a></li>
+                    
+                      <li class=""><a href="../../submit/">Propose pilot work</a></li>
+                    
+                      <li class=""><a href="../../scope/">Aims & scope</a></li>
+                    
+                      <li class=""><a href="../../author-guidance/">Author guidance</a></li>
+                    
+                      <li class=""><a href="../../editorial-process/">Editorial process</a></li>
+                    
+                      <li class=""><a href="../../ai-triage/">AI-assisted triage</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Review & certification
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="../../review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="../../reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="../../open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="../../artifact-assessment/">Artifact assessment</a></li>
+                    
+                      <li class=""><a href="../../certification/">JORN certification</a></li>
+                    
+                      <li class=""><a href="../../badges/">Evidence badges</a></li>
+                    
+                      <li class=""><a href="../../external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../network/">Participate</a></li>
+                    
+                      <li class=""><a href="../../community/relationships/">Relationship register</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    About
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../../about/">About JORN</a></li>
+                    
+                      <li class=""><a href="../../about/model/">Publishing model</a></li>
+                    
+                      <li class=""><a href="../../open-research-record/">Open Research Record</a></li>
+                    
+                      <li class=""><a href="../../about/governance/">Governance</a></li>
+                    
+                      <li class=""><a href="../../about/policies/">Policies</a></li>
+                    
+                      <li class=""><a href="../../support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="../../faq/">FAQ</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      
+      <div class="page-masthead">
+        <div class="shell shell--text">
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="../..">Home</a><span aria-hidden="true">/</span><span>Illustrative Open Research Record</span>
+          </nav>
+          <p class="eyebrow">Research</p>
+          <h1>A fictional medical-AI Open Research Record.</h1>
+          <p class="page-lede">This worked example shows how JORN could connect controlled patient data, synthetic companion data, open software, external review and bounded verification claims.</p>
+        </div>
+      </div>
+      <div class="shell page-layout">
+        <article class="prose">
+          <div class="info-banner"><strong>Illustrative example—not a real JORN publication.</strong> Every person, institution, identifier, DOI, community, assessment, date, result and quotation on this page is fictional. Nothing below records an actual review, partnership, clinical result, certification or publication.</div>
+
+<h2 id="bibliographic-information-fictional">Bibliographic information — fictional<a class="headerlink" href="#bibliographic-information-fictional" title="Link to this section">&para;</a></h2>
+<p><strong>Title:</strong> <em>External evaluation of a fictional retinal triage model using controlled clinical images and an open synthetic companion dataset</em> <strong>[FICTIONAL]</strong><br />
+<strong>Authors:</strong> A. Example, B. Example, C. Example <strong>[FICTIONAL PEOPLE]</strong><br />
+<strong>Affiliation:</strong> Example Institute for Responsible Imaging <strong>[FICTIONAL INSTITUTION]</strong><br />
+<strong>ORCIDs / ROR:</strong> <code>0000-0000-0000-0000</code> / <code>https://ror.org/000000000</code> <strong>[FICTIONAL PLACEHOLDERS—DO NOT RESOLVE OR CITE]</strong><br />
+<strong>Article type:</strong> Computational research article <strong>[FICTIONAL]</strong><br />
+<strong>JORN DOI:</strong> <code>10.0000/jorn.example.0001</code> <strong>[FICTIONAL, NON-RESOLVING DOI]</strong><br />
+<strong>Accepted / published:</strong> 15 May / 1 June 2028 <strong>[FICTIONAL DATES]</strong><br />
+<strong>Licence:</strong> CC BY 4.0 for this illustrative record; underlying terms shown below <strong>[FICTIONAL RECORD TERMS]</strong><br />
+<strong>Status:</strong> Illustrative only—never submitted, reviewed, accepted, published or certified</p>
+<h2 id="scholarly-abstract-fictional">Scholarly abstract — fictional<a class="headerlink" href="#scholarly-abstract-fictional" title="Link to this section">&para;</a></h2>
+<p>This fictional study describes a model intended to prioritise retinal images for specialist review. The fictional authors report an evaluation against controlled patient images held in a fictional secure environment. They publish fictional open-source software and an openly licensed synthetic companion dataset for demonstrating the workflow. The example is designed only to show JORN’s record structure; it makes no real scientific or clinical claim.</p>
+<h2 id="plain-language-summary-fictional">Plain-language summary — fictional<a class="headerlink" href="#plain-language-summary-fictional" title="Link to this section">&para;</a></h2>
+<p>A fictional research team tested fictional software on fictional protected clinical images. Readers could use a made-up synthetic dataset to see how the workflow is structured, but that dataset would not reproduce the clinical evaluation. A fictional authorised evaluator separately checked selected results inside a fictional secure environment.</p>
+<h2 id="editorial-summary-fictional">Editorial summary — fictional<a class="headerlink" href="#editorial-summary-fictional" title="Link to this section">&para;</a></h2>
+<p><strong>Review route:</strong> coordinated external-community route involving the Fictional Clinical Imaging Review Collective <strong>[FICTIONAL COMMUNITY; NOT A JORN PARTNER]</strong>. The fictional community coordinated a clinician and statistical reviewer; a fictional JORN handling editor appointed a privacy reviewer and artifact evaluator. The fictional decision cited clear versioning and bounded secure verification while noting limited demographic and external-site evidence. <strong>All strengths, limitations and outcomes in this section are invented.</strong></p>
+<h2 id="ai-assisted-triage-statement-fictional">AI-assisted triage statement — fictional<a class="headerlink" href="#ai-assisted-triage-statement-fictional" title="Link to this section">&para;</a></h2>
+<p>Fictional JORN Triage System 0.4 analysed only the fictional public preprint, metadata, synthetic dataset and public software on 2 February 2028 against fictional criteria 0.3. It did not receive patient data or confidential reviews. It identified a missing software licence and unclear subgroup documentation; the fictional authors corrected both. A fictional editor confirmed “ready for human review.” AI suggested expertise but neither selected reviewers nor made the publication decision. <strong>No such system or screening occurred.</strong></p>
+<h2 id="open-science-implementation-profile-fictional">Open Science Implementation Profile — fictional<a class="headerlink" href="#open-science-implementation-profile-fictional" title="Link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Level</th>
+<th>Verification state</th>
+<th>Fictional evidence and limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manuscript</td>
+<td>3</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Exact fictional preprint v3; no real deposit</td>
+</tr>
+<tr>
+<td>Authors and roles</td>
+<td>2</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Placeholder identifiers and fictional CRediT statement</td>
+</tr>
+<tr>
+<td>Controlled real data</td>
+<td>2</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Fictional metadata and governance; not public</td>
+</tr>
+<tr>
+<td>Synthetic companion data</td>
+<td>3</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Fictional DOI and disclosure-risk report; clinical fidelity not claimed</td>
+</tr>
+<tr>
+<td>Software and environment</td>
+<td>3</td>
+<td>Recognised external evidence <strong>[FICTIONAL]</strong></td>
+<td>Fictional archived release and fictional review</td>
+</tr>
+<tr>
+<td>Figures and source data</td>
+<td>2</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Fictional versioned source package; patient images controlled</td>
+</tr>
+<tr>
+<td>Scientific peer review</td>
+<td>3</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Fictional commissioned reports and responses</td>
+</tr>
+<tr>
+<td>Reproduction</td>
+<td>3</td>
+<td>JORN verified <strong>[FICTIONAL]</strong></td>
+<td>Selected fictional outputs reproduced; not replication</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>This designation describes implementation of the JORN Open Science Framework. It is not a measure of scientific quality, importance, correctness, novelty, or impact.</p>
+</blockquote>
+<h2 id="connected-research-objects-all-fictional">Connected research objects — all fictional<a class="headerlink" href="#connected-research-objects-all-fictional" title="Link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Identifier and version</th>
+<th>Host / access</th>
+<th>Relationship and assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preprint</td>
+<td><code>10.0000/preprint.example.v3</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Repository; open</td>
+<td>Exact accepted manuscript <strong>[FICTIONAL]</strong></td>
+</tr>
+<tr>
+<td>Controlled patient-image dataset</td>
+<td><code>10.0000/data.controlled.v2</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Secure Archive; approved access only</td>
+<td>Source of reported clinical evaluation; fictional secure verification</td>
+</tr>
+<tr>
+<td>Synthetic companion dataset</td>
+<td><code>10.0000/data.synthetic.v1</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Repository; CC BY 4.0</td>
+<td>Demonstrates schema and workflow only</td>
+</tr>
+<tr>
+<td>Software release</td>
+<td><code>10.0000/software.example.v1</code> and <code>swh:0:cnt:0000</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Archive; OSI-style fictional licence</td>
+<td>Used by workflow; fictional external software review</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td><code>10.0000/environment.example.v1</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Archive; open</td>
+<td>Defines dependencies for reproduction</td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td><code>10.0000/protocol.example.v2</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Protocol Service</td>
+<td>Evaluation plan; one fictional documented deviation</td>
+</tr>
+<tr>
+<td>Figure package</td>
+<td><code>10.0000/figures.example.v1</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Repository; mixed controlled/open</td>
+<td>Source tables open; patient images controlled</td>
+</tr>
+<tr>
+<td>Peer reviews</td>
+<td><code>10.0000/reviews.example.v1</code> <strong>[FICTIONAL]</strong></td>
+<td>Fictional Review Platform</td>
+<td>Two reports, response and decision; all invented</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-and-synthetic-data-statement-fictional">Data and synthetic-data statement — fictional<a class="headerlink" href="#data-and-synthetic-data-statement-fictional" title="Link to this section">&para;</a></h2>
+<p>The fictional patient data remain controlled because the fictional consent and governance terms do not permit public release. A public fictional metadata record describes the cohort, variables and access process. The synthetic companion dataset was generated with fictional tool SynthExample 1.2 and supports input validation and workflow demonstration. A fictional disclosure-risk assessment tested membership and attribute-inference scenarios. It did not establish anonymity, clinical fidelity, or result reproduction.</p>
+<blockquote>
+<p>The synthetic dataset underwent the disclosure-risk assessment described in this record. <strong>[FICTIONAL CLAIM]</strong></p>
+</blockquote>
+<h2 id="software-and-external-assessment-fictional">Software and external assessment — fictional<a class="headerlink" href="#software-and-external-assessment-fictional" title="Link to this section">&para;</a></h2>
+<p>The fictional development repository links to archived release 1.0, environment 1.0, tests, documentation and CITATION.cff. Fictional Software Review Collective assessed release 1.0 under fictional criteria 2.1. JORN fictionally recognised only documentation, testing and maintainability findings—not scientific validity or clinical safety. <strong>The organisation, review and recognition do not exist.</strong></p>
+<h2 id="scientific-review-record-fictional">Scientific review record — fictional<a class="headerlink" href="#scientific-review-record-fictional" title="Link to this section">&para;</a></h2>
+<ul>
+<li>Fictional clinician report: scope, intended use, clinical interpretation and limitations</li>
+<li>Fictional statistical-methods report: design, discrimination and calibration analyses</li>
+<li>Fictional privacy report: governance, access and disclosure-risk claims</li>
+<li>Fictional author response and versions v1–v3</li>
+<li>Fictional handling editor decision dated 15 May 2028</li>
+</ul>
+<p>Public comments were not treated as commissioned review. Reviewer identities remained fictional and confidential. No real review was performed.</p>
+<h2 id="artifact-and-secure-verification-fictional">Artifact and secure verification — fictional<a class="headerlink" href="#artifact-and-secure-verification-fictional" title="Link to this section">&para;</a></h2>
+<p>A fictional evaluator ran release 1.0 using environment 1.0 and the synthetic companion data. A separately authorised fictional evaluator ran specified evaluation scripts inside the fictional secure archive against controlled dataset v2. Checksums and aggregate comparison outputs were exported under fictional governance approval. The reported primary aggregate metrics matched the fictional manuscript within a predeclared fictional tolerance. No patient records left the environment.</p>
+<h2 id="certification-and-badges-fictional">Certification and badges — fictional<a class="headerlink" href="#certification-and-badges-fictional" title="Link to this section">&para;</a></h2>
+<p><strong>JORN Certified Open Research Record — FICTIONAL.</strong> This example pretends that JORN peer-reviewed, accepted, published and connected the exact fictional versions above. JORN has issued no such certification.</p>
+<ul>
+<li><strong>Artifacts Evaluated—Functional — FICTIONAL:</strong> specified software and documentation functioned for the declared test workflow.</li>
+<li><strong>Computational Results Reproduced — FICTIONAL:</strong> specified aggregate outputs were obtained within fictional tolerances.</li>
+<li><strong>External Software Review Recognised — FICTIONAL:</strong> the scope of a fictional software review was recognised.</li>
+<li><strong>Secure Real-Data Verification — FUTURE, FICTIONAL CLAIM:</strong> specified scripts and aggregate results were checked inside a fictional secure environment.</li>
+</ul>
+<h2 id="what-fictional-jorn-verified">What fictional JORN verified<a class="headerlink" href="#what-fictional-jorn-verified" title="Link to this section">&para;</a></h2>
+<p>In this scenario only: exact versions and relationships; presence and documented access route for controlled data; synthetic workflow function; bounded aggregate secure comparison; qualifying external software-review scope; review and revision history.</p>
+<h2 id="what-was-not-assessed-fictional-limitations">What was not assessed — fictional limitations<a class="headerlink" href="#what-was-not-assessed-fictional-limitations" title="Link to this section">&para;</a></h2>
+<p>No independent replication, prospective clinical evaluation, deployment safety assessment, regulatory approval, generalisation beyond the fictional sites, complete source-data release, guarantee of privacy, or guarantee of correctness. Rare-condition and minoritised-subgroup evidence remained limited. The synthetic data did not reproduce clinical findings.</p>
+<h2 id="ethics-privacy-and-governance-fictional">Ethics, privacy and governance — fictional<a class="headerlink" href="#ethics-privacy-and-governance-fictional" title="Link to this section">&para;</a></h2>
+<p>Fictional Ethics Committee approval <code>EX-000</code> and fictional controlled-access agreement <code>CA-000</code> are placeholders. JORN never received patient-level data. All governance bodies, approvals and procedures described here are invented and must not be relied upon.</p>
+<h2 id="corrections-and-status-history">Corrections and status history<a class="headerlink" href="#corrections-and-status-history" title="Link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Fictional date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 June 2028</td>
+<td>Illustrative fictional record shown as “current”</td>
+</tr>
+<tr>
+<td>12 June 2028</td>
+<td>Fictional metadata correction; no scientific result changed</td>
+</tr>
+</tbody>
+</table>
+<p>This actual webpage remains <strong>illustrative only</strong>, regardless of entries in the fictional table.</p>
+<h2 id="how-to-cite">How to cite<a class="headerlink" href="#how-to-cite" title="Link to this section">&para;</a></h2>
+<p><strong>Do not cite this as research or a JORN publication.</strong> If discussing the website design, cite it as: “JORN, <em>Illustrative Open Research Record</em>, website example, accessed [date], explicitly fictional and not a publication.” The fictional DOI, BibTeX, RIS, CSL JSON and EndNote XML are intentionally unavailable.</p>
+<p><a class="button button--ink" href="../../open-research-record/">Understand the record specification</a>
+<a class="button button--outline" href="../">Browse published records</a></p>
+        </article>
+        
+        <aside class="page-aside" aria-label="On this page">
+          <div class="toc-card">
+            <p>On this page</p>
+            <ul>
+              
+                <li><a href="#bibliographic-information-fictional">Bibliographic information — fictional</a></li>
+              
+                <li><a href="#scholarly-abstract-fictional">Scholarly abstract — fictional</a></li>
+              
+                <li><a href="#plain-language-summary-fictional">Plain-language summary — fictional</a></li>
+              
+                <li><a href="#editorial-summary-fictional">Editorial summary — fictional</a></li>
+              
+                <li><a href="#ai-assisted-triage-statement-fictional">AI-assisted triage statement — fictional</a></li>
+              
+                <li><a href="#open-science-implementation-profile-fictional">Open Science Implementation Profile — fictional</a></li>
+              
+                <li><a href="#connected-research-objects-all-fictional">Connected research objects — all fictional</a></li>
+              
+                <li><a href="#data-and-synthetic-data-statement-fictional">Data and synthetic-data statement — fictional</a></li>
+              
+                <li><a href="#software-and-external-assessment-fictional">Software and external assessment — fictional</a></li>
+              
+                <li><a href="#scientific-review-record-fictional">Scientific review record — fictional</a></li>
+              
+                <li><a href="#artifact-and-secure-verification-fictional">Artifact and secure verification — fictional</a></li>
+              
+                <li><a href="#certification-and-badges-fictional">Certification and badges — fictional</a></li>
+              
+                <li><a href="#what-fictional-jorn-verified">What fictional JORN verified</a></li>
+              
+                <li><a href="#what-was-not-assessed-fictional-limitations">What was not assessed — fictional limitations</a></li>
+              
+                <li><a href="#ethics-privacy-and-governance-fictional">Ethics, privacy and governance — fictional</a></li>
+              
+                <li><a href="#corrections-and-status-history">Corrections and status history</a></li>
+              
+                <li><a href="#how-to-cite">How to cite</a></li>
+              
+            </ul>
+          </div>
+        </aside>
+        
+      </div>
+      
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="../..">
+            <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
+            <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
+          </a>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
+          <span class="footer-badge">Diamond Open Access</span>
+        </div>
+        <div>
+          <h2>Journal</h2>
+          <a href="../../guide/">Implementation Guide</a>
+          <a href="../../readiness/">Readiness Check</a>
+          <a href="../">Published records</a>
+          <a href="../../scope/">Aims &amp; scope</a>
+          <a href="../../editorial-process/">Editorial process</a>
+          <a href="../../pilot/">Founding pilot</a>
+          <a href="../../submit/">Propose pilot work</a>
+        </div>
+        <div>
+          <h2>About</h2>
+          <a href="../../open-research-record/">Open Research Record</a>
+          <a href="../../scientific-review/">Scientific review</a>
+          <a href="../../certification/">Certification</a>
+          <a href="../../badges/">Evidence badges</a>
+          <a href="../../about/governance/">Governance</a>
+          <a href="../../about/policies/">Policies</a>
+          <a href="../../network/">The network</a>
+        </div>
+        <div>
+          <h2>Participate</h2>
+          <a href="../../pilot/">Founding pilot</a>
+          <a href="../../reviewers/">Join the reviewer network</a>
+          <a href="../../services/">Suggest a service</a>
+          <a href="../../support/">Support JORN</a>
+          <a href="../../faq/">Frequently asked questions</a>
+          <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>Copyright &copy; 2026 Open Science Labs. Content available under open licenses unless otherwise noted.</p>
+        <p>Built openly with MkDocs · <a href="../../about/policies/#accessibility">Accessibility</a></p>
+      </div>
+    </footer>
+
+    <div class="search-modal" data-search-modal hidden>
+      <button class="search-backdrop" type="button" data-search-close aria-label="Close search"></button>
+      <section class="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
+        <div class="search-panel__top">
+          <div>
+            <span class="eyebrow">Journal search</span>
+            <h2 id="search-title">Search JORN</h2>
+          </div>
+          <button class="search-close" type="button" data-search-close aria-label="Close search">×</button>
+        </div>
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <input type="search" placeholder="Search research, policies, and guidance…" autocomplete="off" data-search-input>
+          <kbd>esc</kbd>
+        </label>
+        <div class="search-status" data-search-status>Start typing to search the journal.</div>
+        <div class="search-results" data-search-results data-search-index="../../search/search_index.json"></div>
+      </section>
+    </div>
+
+    
+      <script src="../../assets/site.js" defer></script>
+    
+      
+    
+  </body>
+</html>

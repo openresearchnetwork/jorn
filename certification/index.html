@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Understand the proposed JORN Certified Record seal, certification profile, evidence requirements, limitations, and status changes.">
+    <meta name="description" content="Proposed JORN Certified Open Research Record, implementation levels, verification states, evidence requirements, badges and limitations.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/certification/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -22,7 +22,7 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
         "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
@@ -74,9 +74,49 @@
                 
               </li>
             
-              <li class=" ">
+              <li class=" has-children">
                 
-                  <a href="../publications/">Research</a>
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../publications/">Published records</a></li>
+                    
+                      <li class=""><a href="../publications/illustrative-record/">Illustrative record</a></li>
+                    
+                      <li class=""><a href="../research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="../readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="../implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="../services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="../data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="../synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="../software/">Software and code</a></li>
+                    
+                      <li class=""><a href="../figures/">Figures and media</a></li>
+                    
+                  </ul>
                 
               </li>
             
@@ -94,7 +134,11 @@
                     
                       <li class=""><a href="../scope/">Aims & scope</a></li>
                     
+                      <li class=""><a href="../author-guidance/">Author guidance</a></li>
+                    
                       <li class=""><a href="../editorial-process/">Editorial process</a></li>
+                    
+                      <li class=""><a href="../ai-triage/">AI-assisted triage</a></li>
                     
                   </ul>
                 
@@ -103,14 +147,42 @@
               <li class="is-active has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Certification
+                    Review & certification
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
+                      <li class=""><a href="../scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="../review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="../reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="../open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="../artifact-assessment/">Artifact assessment</a></li>
+                    
                       <li class="is-active"><a href="./">JORN certification</a></li>
                     
                       <li class=""><a href="../badges/">Evidence badges</a></li>
+                    
+                      <li class=""><a href="../external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../network/">Participate</a></li>
+                    
+                      <li class=""><a href="../community/relationships/">Relationship register</a></li>
                     
                   </ul>
                 
@@ -128,29 +200,17 @@
                     
                       <li class=""><a href="../about/model/">Publishing model</a></li>
                     
+                      <li class=""><a href="../open-research-record/">Open Research Record</a></li>
+                    
                       <li class=""><a href="../about/governance/">Governance</a></li>
                     
                       <li class=""><a href="../about/policies/">Policies</a></li>
                     
+                      <li class=""><a href="../support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="../faq/">FAQ</a></li>
+                    
                   </ul>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../network/">Network</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../support/">Support</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../faq/">FAQ</a>
                 
               </li>
             
@@ -166,151 +226,85 @@
           <nav class="breadcrumbs" aria-label="Breadcrumb">
             <a href="..">Home</a><span aria-hidden="true">/</span><span>JORN certification</span>
           </nav>
-          <p class="eyebrow">Publication and evidence</p>
-          <h1>What JORN certification means—and what it does not.</h1>
-          <p class="page-lede">Certification records a formal journal process and identifies the exact manuscript, research objects, evidence, and assessment scope associated with an accepted JORN publication.</p>
+          <p class="eyebrow">Review and certification</p>
+          <h1>Evidence-based certification with visible limits.</h1>
+          <p class="page-lede">Certification applies only after scientific review, formal editorial acceptance and publication. It identifies the exact objects, criteria, evidence, verified claims, exceptions and limitations.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <div class="info-banner"><strong>Founding-phase framework.</strong> These definitions are proposed for the pilot and will become operational only after the criteria, governance, and editorial policies are approved.</div>
+          <div class="info-banner"><strong>Status: draft founding framework.</strong> JORN has not certified or published any research. Criteria, approvers, DOI route and withdrawal policy remain unconfirmed.</div>
 
-<h2 id="publication-comes-first">Publication comes first<a class="headerlink" href="#publication-comes-first" title="Link to this section">&para;</a></h2>
-<p>JORN is being designed as an overlay journal, not a standalone certification service. It will receive eligible submissions, appoint editors, coordinate independent peer review, evaluate revisions, make an acceptance or rejection decision, and publish accepted work under the JORN title.</p>
-<p>Three terms have distinct meanings:</p>
-<div class="responsibility-grid">
-<div>
-<h3 id="jorn-publication-record">JORN Publication Record<a class="headerlink" href="#jorn-publication-record" title="Link to this section">&para;</a></h3>
-<p>The permanent, citable journal article page produced after formal acceptance. It contains the citation, DOI, abstract, connected objects, reviews, decision, certification evidence, limitations, and current status.</p>
-</div>
-<div>
-<h3 id="jorn-certified-record">JORN Certified Record<a class="headerlink" href="#jorn-certified-record" title="Link to this section">&para;</a></h3>
-<p>The universal status and seal showing that JORN reviewed, accepted, published, and connected the exact versions identified in the publication record.</p>
-</div>
-<div>
-<h3 id="underlying-research-objects">Underlying research objects<a class="headerlink" href="#underlying-research-objects" title="Link to this section">&para;</a></h3>
-<p>The manuscript, data, software, protocols, preregistrations, environments, and other materials held in appropriate external repositories.</p>
-</div>
-<div>
-<h3 id="optional-evidence-badges">Optional evidence badges<a class="headerlink" href="#optional-evidence-badges" title="Link to this section">&para;</a></h3>
-<p>Separate statements about an artifact or computational assessment. A publication may receive either pilot badge, both badges, or neither.</p>
-</div>
-</div>
-<h2 id="universal-seal">Universal seal<a class="headerlink" href="#universal-seal" title="Link to this section">&para;</a></h2>
-<p>Every accepted JORN publication is intended to receive one universal seal:</p>
-<blockquote class="statement-quote">
-<p>JORN Certified Record</p>
-<cite>This work was peer-reviewed, accepted, and published by JORN. Certification applies to the exact manuscript and research-object versions identified in the publication record and to the assessment scope described there.</cite>
+<h2 id="three-distinct-concepts">Three distinct concepts<a class="headerlink" href="#three-distinct-concepts" title="Link to this section">&para;</a></h2>
+<ul>
+<li><strong>JORN Open Research Record:</strong> permanent journal publication produced after formal editorial acceptance.</li>
+<li><strong>JORN Certified Open Research Record:</strong> status showing that JORN reviewed, accepted, published and connected the exact objects and evidence described in the record.</li>
+<li><strong>Underlying research objects:</strong> repository- or platform-held manuscript, data, software, models, figures, workflows, protocols, registrations and reviews.</li>
+</ul>
+<p>A technical check, readiness report, AI screen, external review, badge or certificate alone is not journal publication.</p>
+<h2 id="proposed-certification-statement">Proposed certification statement<a class="headerlink" href="#proposed-certification-statement" title="Link to this section">&para;</a></h2>
+<blockquote>
+<p>This research was peer-reviewed, accepted, and published by JORN. The certification profile records how the exact manuscript, research objects, reviews, and evidence identified in this Open Research Record satisfied the applicable JORN criteria.</p>
 </blockquote>
-
-<p>The seal will always link to the permanent JORN Publication Record. A seal displayed elsewhere is meaningful only through that link.</p>
-<h2 id="certification-profile">Certification profile<a class="headerlink" href="#certification-profile" title="Link to this section">&para;</a></h2>
-<p>Each publication record will present a structured profile rather than a score. The profile makes assessed, unavailable, restricted, and inapplicable dimensions visible without treating them as interchangeable.</p>
+<p>The statement always links to the permanent record and its current status.</p>
+<h2 id="implementation-levels-and-verification-states">Implementation levels and verification states<a class="headerlink" href="#implementation-levels-and-verification-states" title="Link to this section">&para;</a></h2>
+<p>Each applicable dimension receives Level 0 <strong>Not documented</strong>, Level 1 <strong>Transparent</strong>, Level 2 <strong>Accessible, citable, and responsibly managed</strong>, or Level 3 <strong>Independently verified</strong>. The evidence state—self-assessed, evidence supplied, AI-assisted screening, or JORN verified—must appear separately. Only JORN verified evidence may support official certification.</p>
+<p>Controlled access can satisfy Level 2 when the restriction, metadata, governance and responsible verification route meet the criteria. No level is a quality, impact or prestige score.</p>
 <table>
 <thead>
 <tr>
 <th>Dimension</th>
-<th>Permitted status examples</th>
+<th>Level</th>
+<th>Verification state</th>
+<th>Exact evidence</th>
+<th>Differences and limits</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Journal status</td>
-<td>Accepted and published</td>
-</tr>
 <tr>
 <td>Manuscript</td>
-<td>Exact accepted version identified</td>
+<td>0–3</td>
+<td>One of four states</td>
+<td>Identifier and version</td>
+<td>Unavailable or excluded elements</td>
 </tr>
 <tr>
-<td>Connected record</td>
-<td>Verified</td>
+<td>Data and synthetic data</td>
+<td>0–3</td>
+<td>One of four states</td>
+<td>Access, governance, provenance and version</td>
+<td>Public and controlled evidence distinguished</td>
 </tr>
 <tr>
-<td>Data</td>
-<td>Open access; controlled access; embargoed; not publicly shareable—justification reviewed; not applicable</td>
+<td>Software and environment</td>
+<td>0–3</td>
+<td>One of four states</td>
+<td>Release, source, tests and environment</td>
+<td>Scope of function or review</td>
 </tr>
 <tr>
-<td>Software</td>
-<td>Available; evaluated as functional; not applicable; not independently assessed</td>
-</tr>
-<tr>
-<td>Computational results</td>
-<td>Reproduced; partially reproduced; not independently assessed</td>
-</tr>
-<tr>
-<td>Preregistration</td>
-<td>Assessed; available; not applicable; not independently assessed</td>
-</tr>
-<tr>
-<td>Peer-review record</td>
-<td>Public; restricted disclosure</td>
-</tr>
-<tr>
-<td>Reviewer identities</td>
-<td>Public by consent; confidential</td>
-</tr>
-<tr>
-<td>Certification status</td>
-<td>Current; corrected; superseded; suspended; withdrawn; retracted</td>
+<td>Review</td>
+<td>0–3</td>
+<td>JORN verified for publication</td>
+<td>Reports, responses and decision</td>
+<td>Route, expertise and disclosure limits</td>
 </tr>
 </tbody>
 </table>
-<p>Responsible restrictions involving privacy, consent, security, Indigenous or community governance, endangered species, confidential interviews, or protected health information will not be treated as a lower score. Authors must document the restriction, and an appropriate reviewer or editor must be able to evaluate the justification and access route.</p>
-<h2 id="evidence-attached-to-every-claim">Evidence attached to every claim<a class="headerlink" href="#evidence-attached-to-every-claim" title="Link to this section">&para;</a></h2>
-<p>Every certification or badge statement must identify:</p>
-<ul>
-<li>the exact object and version assessed;</li>
-<li>the assessment date and reviewing role;</li>
-<li>the criteria version and supporting report;</li>
-<li>the computational environment where relevant;</li>
-<li>what succeeded and what differed;</li>
-<li>what was not assessed; and</li>
-<li>the current status of the claim.</li>
-</ul>
-<p>JORN will prefer bounded language such as: “The identified primary computational results were independently reproduced using the listed versions and environment.” It will not extend that finding into an unqualified claim about the reproducibility of the entire study.</p>
-<h2 id="what-certification-does-not-mean">What certification does not mean<a class="headerlink" href="#what-certification-does-not-mean" title="Link to this section">&para;</a></h2>
-<p>The JORN Certified Record seal does <strong>not</strong> guarantee that every conclusion is permanently correct, every possible error was found, all data are public, every result was computationally reproduced, the study was independently replicated, or future technical changes cannot affect execution.</p>
-<p>Peer review and certification provide a traceable scholarly assessment. They do not prove absolute truth.</p>
-<h2 id="correction-suspension-and-withdrawal">Correction, suspension, and withdrawal<a class="headerlink" href="#correction-suspension-and-withdrawal" title="Link to this section">&para;</a></h2>
-<p>The publication record remains under journal stewardship. If evidence, metadata, repository objects, or integrity concerns change, JORN may correct the profile, supersede a record, suspend a certification claim during investigation, withdraw a seal, or retract the publication. The original history and reasons for the change should remain visible wherever legal and ethical constraints allow.</p>
-<h3 id="status-language">Status language<a class="headerlink" href="#status-language" title="Link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Current</td>
-<td>The published record and certification remain in force without a later status notice</td>
-</tr>
-<tr>
-<td>Corrected</td>
-<td>A published notice changes part of the record while the publication remains in force</td>
-</tr>
-<tr>
-<td>Superseded</td>
-<td>A later identified record or version replaces this one for current use; the history remains available</td>
-</tr>
-<tr>
-<td>Suspended</td>
-<td>A certification or badge claim is temporarily not in force while a defined concern is assessed</td>
-</tr>
-<tr>
-<td>Withdrawn</td>
-<td>The certification or badge has been removed under the applicable policy; reasons remain recorded</td>
-</tr>
-<tr>
-<td>Retracted</td>
-<td>The journal publication is marked as unreliable or otherwise unsuitable to remain part of the current literature under the retraction policy</td>
-</tr>
-</tbody>
-</table>
-<p><a class="button button--ink" href="../badges/">Read about optional evidence badges</a>
-<a class="button button--outline" href="../editorial-process/">Explore the editorial process</a></p>
+<p>If an overall implementation designation is displayed, it is the minimum across applicable mandatory dimensions.</p>
+<blockquote>
+<p>This designation describes implementation of the JORN Open Science Framework. It is not a measure of scientific quality, importance, correctness, novelty, or impact.</p>
+</blockquote>
+<h2 id="every-verified-claim-records">Every verified claim records<a class="headerlink" href="#every-verified-claim-records" title="Link to this section">&para;</a></h2>
+<p>Exact object and version; assessor; date; criteria version; evidence; checks; successful outcomes; differences; exclusions; limitations; and current status. AI may organise evidence but cannot issue a certificate or badge.</p>
+<h2 id="bounded-evidence-badges">Bounded evidence badges<a class="headerlink" href="#bounded-evidence-badges" title="Link to this section">&para;</a></h2>
+<p>Pilot badges, if approved, are independent findings: <strong>Artifacts Evaluated—Functional</strong>, <strong>Computational Results Reproduced</strong>, and <strong>External Software Review Recognised</strong>. A record may have any combination or none. Badges do not create tiers of journal publication.</p>
+<h2 id="what-certification-does-not-establish">What certification does not establish<a class="headerlink" href="#what-certification-does-not-establish" title="Link to this section">&para;</a></h2>
+<p>Certification does not guarantee permanent correctness, complete error detection, public access to every object, ethical or regulatory approval, safety, computational reproduction beyond named outputs, independent replication, future technical execution, novelty, importance or impact.</p>
+<h2 id="status-and-correction">Status and correction<a class="headerlink" href="#status-and-correction" title="Link to this section">&para;</a></h2>
+<p>Certification and badges may be current, corrected, superseded, suspended, withdrawn or associated with a retracted publication. JORN preserves the original history and publishes reasons to the greatest ethical and lawful extent.</p>
+<p><a class="button button--ink" href="../implementation-levels/">Review implementation levels</a>
+<a class="button button--outline" href="../badges/">Read evidence badges</a></p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -318,17 +312,19 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#publication-comes-first">Publication comes first</a></li>
+                <li><a href="#three-distinct-concepts">Three distinct concepts</a></li>
               
-                <li><a href="#universal-seal">Universal seal</a></li>
+                <li><a href="#proposed-certification-statement">Proposed certification statement</a></li>
               
-                <li><a href="#certification-profile">Certification profile</a></li>
+                <li><a href="#implementation-levels-and-verification-states">Implementation levels and verification states</a></li>
               
-                <li><a href="#evidence-attached-to-every-claim">Evidence attached to every claim</a></li>
+                <li><a href="#every-verified-claim-records">Every verified claim records</a></li>
               
-                <li><a href="#what-certification-does-not-mean">What certification does not mean</a></li>
+                <li><a href="#bounded-evidence-badges">Bounded evidence badges</a></li>
               
-                <li><a href="#correction-suspension-and-withdrawal">Correction, suspension, and withdrawal</a></li>
+                <li><a href="#what-certification-does-not-establish">What certification does not establish</a></li>
+              
+                <li><a href="#status-and-correction">Status and correction</a></li>
               
             </ul>
           </div>
@@ -345,12 +341,14 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Connected research. Independent review. One accountable record.</p>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="../publications/">Research</a>
+          <a href="../guide/">Implementation Guide</a>
+          <a href="../readiness/">Readiness Check</a>
+          <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
           <a href="../editorial-process/">Editorial process</a>
           <a href="../pilot/">Founding pilot</a>
@@ -358,7 +356,8 @@
         </div>
         <div>
           <h2>About</h2>
-          <a href="../about/model/">Publishing model</a>
+          <a href="../open-research-record/">Open Research Record</a>
+          <a href="../scientific-review/">Scientific review</a>
           <a href="./">Certification</a>
           <a href="../badges/">Evidence badges</a>
           <a href="../about/governance/">Governance</a>
@@ -368,7 +367,8 @@
         <div>
           <h2>Participate</h2>
           <a href="../pilot/">Founding pilot</a>
-          <a href="../network/#reviewers">Become a reviewer</a>
+          <a href="../reviewers/">Join the reviewer network</a>
+          <a href="../services/">Suggest a service</a>
           <a href="../support/">Support JORN</a>
           <a href="../faq/">Frequently asked questions</a>
           <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>

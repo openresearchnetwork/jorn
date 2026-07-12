@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Explore proposed roles for authors, reviewers, evaluators, editors, advisers, libraries, institutions, and infrastructure projects in JORN.">
+    <meta name="description" content="Use the JORN Open Science Implementation Guide to assess and improve connected, citable, documented, accessible, and reusable research.">
     <meta name="author" content="Open Science Labs">
-    <link rel="canonical" href="https://openresearchnet.org/jorn/network/">
+    <link rel="canonical" href="https://openresearchnet.org/jorn/guide/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-    <title>The network · Journal of the Open Research Network</title>
+    <title>Open Science Implementation Guide · Journal of the Open Research Network</title>
     
       <link rel="stylesheet" href="../assets/styles.css">
     
@@ -92,7 +92,7 @@
                 
               </li>
             
-              <li class=" has-children">
+              <li class="is-active has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
                     Prepare
@@ -100,7 +100,7 @@
                   </button>
                   <ul class="nav-dropdown">
                     
-                      <li class=""><a href="../guide/">Implementation Guide</a></li>
+                      <li class="is-active"><a href="./">Implementation Guide</a></li>
                     
                       <li class=""><a href="../readiness/">Readiness Check</a></li>
                     
@@ -172,7 +172,7 @@
                 
               </li>
             
-              <li class="is-active has-children">
+              <li class=" has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
                     Community
@@ -180,7 +180,7 @@
                   </button>
                   <ul class="nav-dropdown">
                     
-                      <li class="is-active"><a href="./">Participate</a></li>
+                      <li class=""><a href="../network/">Participate</a></li>
                     
                       <li class=""><a href="../community/relationships/">Relationship register</a></li>
                     
@@ -224,55 +224,106 @@
       <div class="page-masthead">
         <div class="shell shell--text">
           <nav class="breadcrumbs" aria-label="Breadcrumb">
-            <a href="..">Home</a><span aria-hidden="true">/</span><span>The network</span>
+            <a href="..">Home</a><span aria-hidden="true">/</span><span>Open Science Implementation Guide</span>
           </nav>
-          <p class="eyebrow">Participation routes</p>
-          <h1>Build the expertise a responsible journal requires.</h1>
-          <p class="page-lede">JORN’s network is being formed. Participation can inform or support the journal, but it does not automatically confer editorial authority.</p>
+          <p class="eyebrow">Prepare</p>
+          <h1>Assess, improve, and connect your research.</h1>
+          <p class="page-lede">The JORN Open Science Implementation Guide is a public, vendor-neutral resource for planning research, finding missing elements, and documenting evidence.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <div class="info-banner"><strong>Network status: forming.</strong> Roles, selection, workload, recognition, payment, conflicts, and contact routes remain to be confirmed. No organisation is a formal partner unless JORN publishes that relationship.</div>
+          <div class="info-banner"><strong>Status: draft guide for public testing.</strong> Using this guide does not imply JORN endorsement, peer review, certification, scientific validity, journal acceptance, or compliance with every legal or ethical obligation.</div>
 
-<h2 id="institutional-roles">Institutional roles<a class="headerlink" href="#institutional-roles" title="Link to this section">&para;</a></h2>
+<h2 id="who-the-guide-is-for">Who the guide is for<a class="headerlink" href="#who-the-guide-is-for" title="Link to this section">&para;</a></h2>
+<p>Researchers may use the guide while planning a project or preparing a paper. It is also designed for research groups, peer reviewers, librarians, research-software engineers, data stewards, funders, institutions, students, and independent researchers. Use does not require an intention to publish with JORN.</p>
+<h2 id="seven-questions-to-answer">Seven questions to answer<a class="headerlink" href="#seven-questions-to-answer" title="Link to this section">&para;</a></h2>
+<ol>
+<li>How open and connected is the research now?</li>
+<li>What is missing or insufficiently documented?</li>
+<li>Why does each element matter?</li>
+<li>What practical action would improve it?</li>
+<li>Which standards, repositories, services, or communities could help?</li>
+<li>What evidence would JORN require for verification?</li>
+<li>Which claims require human, disciplinary, ethical, privacy, or technical review?</li>
+</ol>
+<h2 id="work-through-the-dimensions">Work through the dimensions<a class="headerlink" href="#work-through-the-dimensions" title="Link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Check</th>
+<th>Evidence to retain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>People and organisations</td>
+<td>Authors, ORCIDs, affiliations, ROR identifiers, CRediT roles, contacts</td>
+<td>Identifier records and contribution statement</td>
+</tr>
+<tr>
+<td>Research plan</td>
+<td>Protocol, preregistration, governance, deviations, ethics and consent</td>
+<td>Persistent records, approvals, amendments and explanations</td>
+</tr>
+<tr>
+<td>Manuscript</td>
+<td>Discoverable deposit, exact version, licence, methods and declarations</td>
+<td>Identifier, version, licence and checksum where appropriate</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>Access category, identifier, version, documentation, licence or terms, provenance</td>
+<td>Repository record, data-management and access documentation</td>
+</tr>
+<tr>
+<td>Software and models</td>
+<td>Source, archived release, identifier, licence, tests, dependencies and citation</td>
+<td>Release DOI or SWHID, commit, environment and test evidence</td>
+</tr>
+<tr>
+<td>Workflows and environments</td>
+<td>Executable steps, notebooks, containers, dependency locks and expected outputs</td>
+<td>Versioned workflow and execution instructions</td>
+</tr>
+<tr>
+<td>Figures and media</td>
+<td>Source data, generation process, captions, attribution, alt text and provenance</td>
+<td>Versioned source-material package and relationships</td>
+</tr>
+<tr>
+<td>Review and evaluation</td>
+<td>Scientific review, open-science review and artifact checks kept distinct</td>
+<td>Reports, exact assessed versions, criteria and responses</td>
+</tr>
+<tr>
+<td>Stewardship</td>
+<td>Preservation, maintenance, corrections, access changes and status history</td>
+<td>Preservation route, owner and update plan</td>
+</tr>
+</tbody>
+</table>
+<p>The complete dimensional set also covers synthetic or simulated data, models, materials, licences, persistent identifiers, citation, accessibility, community or Indigenous governance, reproduction, replication, and maintenance.</p>
+<h2 id="for-each-dimension">For each dimension<a class="headerlink" href="#for-each-dimension" title="Link to this section">&para;</a></h2>
+<p>Record its applicability, current <a href="../implementation-levels/">implementation level</a>, readiness state, evidence, gaps, next action, responsible person, dependencies, restrictions, and review needs. Do not calculate a numerical openness score.</p>
+<h3 id="assessment-states">Assessment states<a class="headerlink" href="#assessment-states" title="Link to this section">&para;</a></h3>
 <ul>
-<li><strong>Open Research Network</strong> is the broader collaboration and community initiative.</li>
-<li><strong>JORN</strong> is the proposed journal and formal scholarly-publication program.</li>
-<li><strong>Open Science Labs</strong> supports development of the initiative.</li>
-<li><strong>Editorial leadership</strong> must hold independent authority over journal decisions.</li>
-<li><strong>Funders, partners, and infrastructure providers</strong> may support operations but receive no editorial privilege.</li>
+<li><strong>Self-assessed:</strong> completed by an author or group without independent verification.</li>
+<li><strong>Evidence supplied:</strong> links and documentation have been supplied, but JORN has not verified them.</li>
+<li><strong>AI-assisted screening:</strong> an approved system generated a preliminary report on a public or securely authorised package. This is neither certification nor peer review.</li>
+<li><strong>JORN verified:</strong> a qualified JORN editor, reviewer, evaluator, or recognised external assessor examined the evidence under a published criteria version.</li>
 </ul>
-<p>The legal publisher is <strong>[TO BE CONFIRMED BEFORE LAUNCH]</strong>.</p>
-<h2 id="ways-to-participate">Ways to participate<a class="headerlink" href="#ways-to-participate" title="Link to this section">&para;</a></h2>
-<div class="participation-grid">
-  <article><span>01</span><h3>Potential pilot authors</h3><p>Propose eligible computational work and help test whether the author process is clear and proportionate.</p><a href="../submit/">Pilot eligibility →</a></article>
-  <article id="reviewers"><span>02</span><h3>Scientific reviewers</h3><p>Evaluate contribution, methods, analysis, reporting, integrity, traceability, and limitations.</p><a href="../editorial-process/">Review process →</a></article>
-  <article><span>03</span><h3>Artifact evaluators</h3><p>Assess specified software, data, documentation, and environments against bounded functional criteria.</p><a href="../badges/">Badge definitions →</a></article>
-  <article><span>04</span><h3>Computational codecheckers</h3><p>Execute specified workflows and compare identified outputs against transparent criteria or tolerance.</p><a href="../badges/">Assessment evidence →</a></article>
-  <article><span>05</span><h3>Editors</h3><p>Take responsibility for fair process, reviewer selection, conflicts, revisions, and formal decisions.</p><a href="../about/governance/">Proposed authority →</a></article>
-  <article><span>06</span><h3>Integrity advisers</h3><p>Help design and operate ethical review, allegations, expressions of concern, corrections, and retractions.</p><a href="../about/policies/">Policy register →</a></article>
-  <article><span>07</span><h3>Metadata & preservation specialists</h3><p>Develop identifier relationships, exports, repository monitoring, archiving, succession, and closure plans.</p><a href="../about/model/">Overlay architecture →</a></article>
-  <article><span>08</span><h3>Accessibility & privacy advisers</h3><p>Review inclusive interfaces, alternative formats, data protection, secure access, retention, and incident response.</p><a href="../about/policies/#accessibility">Accessibility direction →</a></article>
-  <article id="partners"><span>09</span><h3>Institutions & libraries</h3><p>Explore durable staff, financial, governance, preservation, and consortium support without editorial privilege.</p><a href="../support/">Operating needs →</a></article>
-  <article><span>10</span><h3>Infrastructure projects</h3><p>Advise on open interfaces, repository notifications, metadata, platform integration, portability, and preservation.</p><a href="../about/model/">Technical model →</a></article>
+<p>Only <strong>JORN verified</strong> evidence may support official JORN certification.</p>
+<h2 id="improve-responsibly">Improve responsibly<a class="headerlink" href="#improve-responsibly" title="Link to this section">&para;</a></h2>
+<p>Open does not mean public at any cost. Research data should be as open as ethically, legally, and methodologically possible, and as restricted as necessary. Controlled access can meet the framework when the restriction, public metadata, governance, and responsible verification route are adequate.</p>
+<p>JORN prescribes outcomes and evidence, not vendors. The <a href="../services/">Services and Tools Guide</a> lists selection criteria and examples; equivalent services are acceptable when they meet the same requirements.</p>
+<div class="action-panel">
+<h3 id="test-the-draft-guide">Test the draft guide<a class="headerlink" href="#test-the-draft-guide" title="Link to this section">&para;</a></h3>
+<p>Start with the readiness states, record your evidence, and note where the guidance is unclear. A public feedback route is <strong>[TO BE CONFIRMED BEFORE PUBLICATION]</strong>.</p>
+<p><a class="button button--lime" href="../readiness/">Use the Readiness Check</a>
+<a class="button button--ghost" href="../implementation-levels/">Review implementation levels</a></p>
 </div>
-
-<h2 id="selection-and-conflicts">Selection and conflicts<a class="headerlink" href="#selection-and-conflicts" title="Link to this section">&para;</a></h2>
-<p>Editorial and assessment roles should be filled according to documented expertise, independence, conduct expectations, availability, and conflicts. Community membership, financial support, or institutional status must not guarantee appointment.</p>
-<p>For each assignment, JORN should consider recent collaboration, supervisory relationships, institutional dependence, financial interests, competition, advocacy roles, and other circumstances that could affect—or reasonably appear to affect—judgment.</p>
-<h2 id="workload-recognition-and-payment">Workload, recognition, and payment<a class="headerlink" href="#workload-recognition-and-payment" title="Link to this section">&para;</a></h2>
-<p>Before recruitment, each role should have a realistic task description, estimated time, training and support, confidentiality terms, recognition route, and a clear statement of whether work is voluntary, paid, or institutionally supported.</p>
-<p>JORN should not build its sustainability model around unlimited unpaid labour. Managing-editor work, intensive artifact and computational evaluation, integrity cases, accessibility, privacy, metadata, and coordination require funded capacity.</p>
-<h2 id="standards-and-initiatives-used-as-benchmarks">Standards and initiatives used as benchmarks<a class="headerlink" href="#standards-and-initiatives-used-as-benchmarks" title="Link to this section">&para;</a></h2>
-<p>JORN can learn from Episciences; Peer Community In and Peer Community Journal; ACM Artifact Review and Badging; CODECHECK; Center for Open Science badges and TOP Guidelines; COPE; DOAJ; DataCite; Crossref; COAR Notify; ORCID; CRediT; and Software Heritage.</p>
-<p>These are reference points, <strong>not claimed partners</strong>. Any future partnership will be named only after agreement and disclosure of its purpose and safeguards.</p>
-<h2 id="participation-route">Participation route<a class="headerlink" href="#participation-route" title="Link to this section">&para;</a></h2>
-<p>The role application, privacy notice, selection process, expected workload, payment policy, training, conduct rules, and contact address are <strong>[TO BE CONFIRMED BEFORE RECRUITMENT]</strong>. Until then, do not send confidential manuscripts, personal records, or sensitive declarations.</p>
-<p><a class="button button--ink" href="../pilot/">Read the founding pilot plan</a></p>
-<h2 id="review-and-infrastructure-ecosystem">Review and infrastructure ecosystem<a class="headerlink" href="#review-and-infrastructure-ecosystem" title="Link to this section">&para;</a></h2>
-<p>The proposed network includes external field-review communities; handling editors; JORN-commissioned scientific reviewers; open-science reviewers; artifact evaluators and codecheckers; synthetic-data, privacy and clinical specialists; repositories and libraries; software-review organisations; and metadata, accessibility and preservation experts. Roles remain distinct, appointed authority is explicit, and participation does not imply partnership.</p>
-<p>Suggested communities and services will be evaluated under published criteria. Until a relationship appears in the public register, it is only a recommendation or candidate for investigation.</p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -280,19 +331,15 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#institutional-roles">Institutional roles</a></li>
+                <li><a href="#who-the-guide-is-for">Who the guide is for</a></li>
               
-                <li><a href="#ways-to-participate">Ways to participate</a></li>
+                <li><a href="#seven-questions-to-answer">Seven questions to answer</a></li>
               
-                <li><a href="#selection-and-conflicts">Selection and conflicts</a></li>
+                <li><a href="#work-through-the-dimensions">Work through the dimensions</a></li>
               
-                <li><a href="#workload-recognition-and-payment">Workload, recognition, and payment</a></li>
+                <li><a href="#for-each-dimension">For each dimension</a></li>
               
-                <li><a href="#standards-and-initiatives-used-as-benchmarks">Standards and initiatives used as benchmarks</a></li>
-              
-                <li><a href="#participation-route">Participation route</a></li>
-              
-                <li><a href="#review-and-infrastructure-ecosystem">Review and infrastructure ecosystem</a></li>
+                <li><a href="#improve-responsibly">Improve responsibly</a></li>
               
             </ul>
           </div>
@@ -314,7 +361,7 @@
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="../guide/">Implementation Guide</a>
+          <a href="./">Implementation Guide</a>
           <a href="../readiness/">Readiness Check</a>
           <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
@@ -330,7 +377,7 @@
           <a href="../badges/">Evidence badges</a>
           <a href="../about/governance/">Governance</a>
           <a href="../about/policies/">Policies</a>
-          <a href="./">The network</a>
+          <a href="../network/">The network</a>
         </div>
         <div>
           <h2>Participate</h2>

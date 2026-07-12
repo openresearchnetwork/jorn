@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Read the proposed definitions, evidence requirements, limitations, and status rules for JORN pilot badges.">
+    <meta name="description" content="Proposed JORN evidence badges, evidence fields, limitations, correction and withdrawal.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/badges/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -22,7 +22,7 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
         "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
@@ -74,9 +74,49 @@
                 
               </li>
             
-              <li class=" ">
+              <li class=" has-children">
                 
-                  <a href="../publications/">Research</a>
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../publications/">Published records</a></li>
+                    
+                      <li class=""><a href="../publications/illustrative-record/">Illustrative record</a></li>
+                    
+                      <li class=""><a href="../research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="../readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="../implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="../services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="../data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="../synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="../software/">Software and code</a></li>
+                    
+                      <li class=""><a href="../figures/">Figures and media</a></li>
+                    
+                  </ul>
                 
               </li>
             
@@ -94,7 +134,11 @@
                     
                       <li class=""><a href="../scope/">Aims & scope</a></li>
                     
+                      <li class=""><a href="../author-guidance/">Author guidance</a></li>
+                    
                       <li class=""><a href="../editorial-process/">Editorial process</a></li>
+                    
+                      <li class=""><a href="../ai-triage/">AI-assisted triage</a></li>
                     
                   </ul>
                 
@@ -103,14 +147,42 @@
               <li class="is-active has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Certification
+                    Review & certification
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
+                      <li class=""><a href="../scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="../review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="../reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="../open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="../artifact-assessment/">Artifact assessment</a></li>
+                    
                       <li class=""><a href="../certification/">JORN certification</a></li>
                     
                       <li class="is-active"><a href="./">Evidence badges</a></li>
+                    
+                      <li class=""><a href="../external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../network/">Participate</a></li>
+                    
+                      <li class=""><a href="../community/relationships/">Relationship register</a></li>
                     
                   </ul>
                 
@@ -128,29 +200,17 @@
                     
                       <li class=""><a href="../about/model/">Publishing model</a></li>
                     
+                      <li class=""><a href="../open-research-record/">Open Research Record</a></li>
+                    
                       <li class=""><a href="../about/governance/">Governance</a></li>
                     
                       <li class=""><a href="../about/policies/">Policies</a></li>
                     
+                      <li class=""><a href="../support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="../faq/">FAQ</a></li>
+                    
                   </ul>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../network/">Network</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../support/">Support</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../faq/">FAQ</a>
                 
               </li>
             
@@ -166,67 +226,29 @@
           <nav class="breadcrumbs" aria-label="Breadcrumb">
             <a href="..">Home</a><span aria-hidden="true">/</span><span>Evidence badges</span>
           </nav>
-          <p class="eyebrow">Optional assessments</p>
-          <h1>Specific claims, supported by specific evidence.</h1>
-          <p class="page-lede">Pilot badges will report additional artifact or computational assessments. They are optional, independent of one another, and never combined into an overall score.</p>
+          <p class="eyebrow">Review and certification</p>
+          <h1>Specific claims, supported by exact evidence.</h1>
+          <p class="page-lede">A small set of independent badges may report bounded artifact, reproduction and external-review findings. They never replace scientific review, acceptance, or the dimensional profile.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <div class="info-banner"><strong>Proposed pilot criteria.</strong> No JORN badges have yet been issued. Criteria versions, evaluator guidance, and correction procedures must be approved before the pilot begins.</div>
+          <div class="info-banner"><strong>Status: proposed pilot definitions.</strong> No JORN badge has been issued. Criteria, evaluators and approval authority are **[TO BE CONFIRMED]**.</div>
 
-<h2 id="two-independent-pilot-badges">Two independent pilot badges<a class="headerlink" href="#two-independent-pilot-badges" title="Link to this section">&para;</a></h2>
-<div class="card-grid card-grid--two">
-<div class="plain-card">
-<h3 id="artifacts-evaluatedfunctional">Artifacts Evaluated—Functional<a class="headerlink" href="#artifacts-evaluatedfunctional" title="Link to this section">&para;</a></h3>
-<p>An independent evaluator confirmed that the specified research artifacts were sufficiently documented, accessible to the evaluator, and functional for the assessed purpose.</p>
-<p>The report identifies the objects, versions, environment, tests performed, successful functions, differences, and unassessed areas.</p>
-</div>
-<div class="plain-card">
-<h3 id="computational-results-reproduced">Computational Results Reproduced<a class="headerlink" href="#computational-results-reproduced" title="Link to this section">&para;</a></h3>
-<p>An independent evaluator executed the specified workflow and obtained the identified primary outputs within the stated comparison criteria or tolerance.</p>
-<p>The report identifies the workflow, environment, outputs, tolerance, deviations, and any results outside the assessment scope.</p>
-</div>
-</div>
-<p>These badges answer different questions. Functional artifacts do not by themselves show that reported results were reproduced. Reproduced outputs do not by themselves establish that artifacts are reusable for every purpose. A publication may receive either badge, both, or neither and still be accepted following scientific peer review.</p>
-<h2 id="minimum-evidence">Minimum evidence<a class="headerlink" href="#minimum-evidence" title="Link to this section">&para;</a></h2>
-<p>For either badge, the publication record must state the claim, assessed object and version, evaluator role, date, criteria version, evidence report, environment where relevant, successes, differences, exclusions, and current badge status.</p>
-<p>An evaluation may use open, controlled-access, embargoed, synthetic, or appropriately protected materials. The profile must describe the access category without disclosing confidential content.</p>
-<h2 id="partial-and-unsuccessful-outcomes">Partial and unsuccessful outcomes<a class="headerlink" href="#partial-and-unsuccessful-outcomes" title="Link to this section">&para;</a></h2>
-<p>An evaluator should report informative differences rather than force a pass/fail narrative. “Computational Results Reproduced” applies only when the identified primary outputs meet the stated comparison criteria. If only some outputs meet them, the record may say <strong>partially reproduced</strong> in its profile, but it will not display the badge.</p>
-<p>An artifact evaluation that reveals remediable problems may return to the authors during revision. The final report must document the version ultimately assessed. Lack of a badge is not a ranking of the article.</p>
-<h2 id="why-jorn-will-not-calculate-a-score">Why JORN will not calculate a score<a class="headerlink" href="#why-jorn-will-not-calculate-a-score" title="Link to this section">&para;</a></h2>
-<p>JORN will not use stars, grades, medals, percentages, publication levels, aggregate openness scores, or a single number for trustworthiness. Scientific validity, ethics, access, documentation, software function, and computational reproduction are distinct dimensions. Combining them would conceal important differences and create false comparability across research contexts.</p>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Accepted publication</th>
-<th>Certification profile</th>
-<th>Optional badges</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Workflow and primary outputs independently executed within stated tolerance</td>
-<td>Certified Record; software evaluated; results reproduced</td>
-<td>Both pilot badges</td>
-</tr>
-<tr>
-<td>Scientifically reviewed article with traceable code, but no independent execution within the review scope</td>
-<td>Certified Record; software available; results not independently assessed</td>
-<td>Neither badge</td>
-</tr>
-<tr>
-<td>Analysis using controlled-access health data, with evaluator access under approved conditions</td>
-<td>Certified Record; data controlled access; access justification reviewed</td>
-<td>Either badge only if its separate criteria are met</td>
-</tr>
-</tbody>
-</table>
-<h2 id="possible-future-badges">Possible future badges<a class="headerlink" href="#possible-future-badges" title="Link to this section">&para;</a></h2>
-<p><strong>Not available during the pilot:</strong> Artifacts Evaluated—Reusable, Preregistration Assessed, and Independent Replication. Any later badge would require evidence of need, public criteria, governance approval, evaluator capacity, and a sustainable correction process.</p>
-<p><a class="button button--ink" href="../certification/">Understand universal JORN certification</a></p>
+<h2 id="artifacts-evaluatedfunctional">Artifacts Evaluated—Functional<a class="headerlink" href="#artifacts-evaluatedfunctional" title="Link to this section">&para;</a></h2>
+<p>An independent evaluator confirmed that the specified artifacts were sufficiently documented, available to the evaluator, and functional for the declared purpose. The report names versions, environment, procedures, outcomes, differences and exclusions. It does not establish scientific validity or general reusability.</p>
+<h2 id="computational-results-reproduced">Computational Results Reproduced<a class="headerlink" href="#computational-results-reproduced" title="Link to this section">&para;</a></h2>
+<p>An independent evaluator executed the specified workflow and obtained the identified outputs within stated comparison criteria or tolerance. The claim is limited to those outputs, objects and environment. It is not independent replication.</p>
+<h2 id="external-software-review-recognised">External Software Review Recognised<a class="headerlink" href="#external-software-review-recognised" title="Link to this section">&para;</a></h2>
+<p>The identified software version underwent a qualifying external review whose scope, process and evidence JORN evaluated and recognised. It does not imply a partnership, validate the paper, or extend to later software versions.</p>
+<h2 id="possible-future-claims">Possible future claims<a class="headerlink" href="#possible-future-claims" title="Link to this section">&para;</a></h2>
+<p>Only after pilot evidence and policy approval, JORN may consider <strong>Artifacts Evaluated—Reusable</strong>, <strong>Preregistration Assessed</strong>, <strong>Synthetic Data Utility Assessed</strong>, <strong>Synthetic Data Privacy Assessed</strong>, <strong>Secure Real-Data Verification</strong>, <strong>Independent Replication</strong>, or <strong>Independent Clinical Validation</strong>. These claims are distinct and must never be presented as equivalent.</p>
+<h2 id="required-badge-record">Required badge record<a class="headerlink" href="#required-badge-record" title="Link to this section">&para;</a></h2>
+<p>Every badge names exact object, version, assessor, conflicts, date, criteria version, evidence, checks, successful outcomes, differences, exclusions, limitations and current status. Readers can open the underlying report. A self-assessment or AI output cannot generate an official badge.</p>
+<h2 id="partial-unsuccessful-and-changed-outcomes">Partial, unsuccessful and changed outcomes<a class="headerlink" href="#partial-unsuccessful-and-changed-outcomes" title="Link to this section">&para;</a></h2>
+<p>Reports should disclose informative partial or unsuccessful checks even when no badge is awarded. Material object, criteria or evidence changes trigger reassessment. JORN may correct, suspend, supersede or withdraw a badge while preserving its history.</p>
+<p><a class="button button--ink" href="../artifact-assessment/">Read artifact assessment</a>
+<a class="button button--outline" href="../certification/">Understand certification</a></p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -234,17 +256,17 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#two-independent-pilot-badges">Two independent pilot badges</a></li>
+                <li><a href="#artifacts-evaluatedfunctional">Artifacts Evaluated—Functional</a></li>
               
-                <li><a href="#minimum-evidence">Minimum evidence</a></li>
+                <li><a href="#computational-results-reproduced">Computational Results Reproduced</a></li>
               
-                <li><a href="#partial-and-unsuccessful-outcomes">Partial and unsuccessful outcomes</a></li>
+                <li><a href="#external-software-review-recognised">External Software Review Recognised</a></li>
               
-                <li><a href="#why-jorn-will-not-calculate-a-score">Why JORN will not calculate a score</a></li>
+                <li><a href="#possible-future-claims">Possible future claims</a></li>
               
-                <li><a href="#examples">Examples</a></li>
+                <li><a href="#required-badge-record">Required badge record</a></li>
               
-                <li><a href="#possible-future-badges">Possible future badges</a></li>
+                <li><a href="#partial-unsuccessful-and-changed-outcomes">Partial, unsuccessful and changed outcomes</a></li>
               
             </ul>
           </div>
@@ -261,12 +283,14 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Connected research. Independent review. One accountable record.</p>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="../publications/">Research</a>
+          <a href="../guide/">Implementation Guide</a>
+          <a href="../readiness/">Readiness Check</a>
+          <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
           <a href="../editorial-process/">Editorial process</a>
           <a href="../pilot/">Founding pilot</a>
@@ -274,7 +298,8 @@
         </div>
         <div>
           <h2>About</h2>
-          <a href="../about/model/">Publishing model</a>
+          <a href="../open-research-record/">Open Research Record</a>
+          <a href="../scientific-review/">Scientific review</a>
           <a href="../certification/">Certification</a>
           <a href="./">Evidence badges</a>
           <a href="../about/governance/">Governance</a>
@@ -284,7 +309,8 @@
         <div>
           <h2>Participate</h2>
           <a href="../pilot/">Founding pilot</a>
-          <a href="../network/#reviewers">Become a reviewer</a>
+          <a href="../reviewers/">Join the reviewer network</a>
+          <a href="../services/">Suggest a service</a>
           <a href="../support/">Support JORN</a>
           <a href="../faq/">Frequently asked questions</a>
           <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.">
+    <meta name="description" content="A proposed Diamond Open Access overlay journal for connected and certified open research records.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/">
     <link rel="icon" href="/jorn/assets/favicon.svg" type="image/svg+xml">
@@ -22,7 +22,7 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
         "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
@@ -74,9 +74,49 @@
                 
               </li>
             
-              <li class=" ">
+              <li class=" has-children">
                 
-                  <a href="/jorn/publications/">Research</a>
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="/jorn/publications/">Published records</a></li>
+                    
+                      <li class=""><a href="/jorn/publications/illustrative-record/">Illustrative record</a></li>
+                    
+                      <li class=""><a href="/jorn/research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="/jorn/guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="/jorn/readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="/jorn/implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="/jorn/services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="/jorn/data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="/jorn/synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="/jorn/software/">Software and code</a></li>
+                    
+                      <li class=""><a href="/jorn/figures/">Figures and media</a></li>
+                    
+                  </ul>
                 
               </li>
             
@@ -94,7 +134,11 @@
                     
                       <li class=""><a href="/jorn/scope/">Aims & scope</a></li>
                     
+                      <li class=""><a href="/jorn/author-guidance/">Author guidance</a></li>
+                    
                       <li class=""><a href="/jorn/editorial-process/">Editorial process</a></li>
+                    
+                      <li class=""><a href="/jorn/ai-triage/">AI-assisted triage</a></li>
                     
                   </ul>
                 
@@ -103,14 +147,42 @@
               <li class=" has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Certification
+                    Review & certification
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
+                      <li class=""><a href="/jorn/scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="/jorn/review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="/jorn/reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="/jorn/open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="/jorn/artifact-assessment/">Artifact assessment</a></li>
+                    
                       <li class=""><a href="/jorn/certification/">JORN certification</a></li>
                     
                       <li class=""><a href="/jorn/badges/">Evidence badges</a></li>
+                    
+                      <li class=""><a href="/jorn/external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="/jorn/network/">Participate</a></li>
+                    
+                      <li class=""><a href="/jorn/community/relationships/">Relationship register</a></li>
                     
                   </ul>
                 
@@ -128,29 +200,17 @@
                     
                       <li class=""><a href="/jorn/about/model/">Publishing model</a></li>
                     
+                      <li class=""><a href="/jorn/open-research-record/">Open Research Record</a></li>
+                    
                       <li class=""><a href="/jorn/about/governance/">Governance</a></li>
                     
                       <li class=""><a href="/jorn/about/policies/">Policies</a></li>
                     
+                      <li class=""><a href="/jorn/support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="/jorn/faq/">FAQ</a></li>
+                    
                   </ul>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="/jorn/network/">Network</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="/jorn/support/">Support</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="/jorn/faq/">FAQ</a>
                 
               </li>
             
@@ -179,12 +239,14 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Connected research. Independent review. One accountable record.</p>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="/jorn/publications/">Research</a>
+          <a href="/jorn/guide/">Implementation Guide</a>
+          <a href="/jorn/readiness/">Readiness Check</a>
+          <a href="/jorn/publications/">Published records</a>
           <a href="/jorn/scope/">Aims &amp; scope</a>
           <a href="/jorn/editorial-process/">Editorial process</a>
           <a href="/jorn/pilot/">Founding pilot</a>
@@ -192,7 +254,8 @@
         </div>
         <div>
           <h2>About</h2>
-          <a href="/jorn/about/model/">Publishing model</a>
+          <a href="/jorn/open-research-record/">Open Research Record</a>
+          <a href="/jorn/scientific-review/">Scientific review</a>
           <a href="/jorn/certification/">Certification</a>
           <a href="/jorn/badges/">Evidence badges</a>
           <a href="/jorn/about/governance/">Governance</a>
@@ -202,7 +265,8 @@
         <div>
           <h2>Participate</h2>
           <a href="/jorn/pilot/">Founding pilot</a>
-          <a href="/jorn/network/#reviewers">Become a reviewer</a>
+          <a href="/jorn/reviewers/">Join the reviewer network</a>
+          <a href="/jorn/services/">Suggest a service</a>
           <a href="/jorn/support/">Support JORN</a>
           <a href="/jorn/faq/">Frequently asked questions</a>
           <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>

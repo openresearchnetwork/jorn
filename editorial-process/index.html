@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Follow JORN's proposed editorial stages, decision taxonomy, open-review model, safeguards, appeals, and post-publication process.">
+    <meta name="description" content="JORN's proposed 21-stage editorial workflow, AI safeguards, review routing, decisions, revisions, publication and stewardship.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/editorial-process/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -22,7 +22,7 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
         "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
@@ -74,9 +74,49 @@
                 
               </li>
             
-              <li class=" ">
+              <li class=" has-children">
                 
-                  <a href="../publications/">Research</a>
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../publications/">Published records</a></li>
+                    
+                      <li class=""><a href="../publications/illustrative-record/">Illustrative record</a></li>
+                    
+                      <li class=""><a href="../research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="../readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="../implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="../services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="../data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="../synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="../software/">Software and code</a></li>
+                    
+                      <li class=""><a href="../figures/">Figures and media</a></li>
+                    
+                  </ul>
                 
               </li>
             
@@ -94,7 +134,11 @@
                     
                       <li class=""><a href="../scope/">Aims & scope</a></li>
                     
+                      <li class=""><a href="../author-guidance/">Author guidance</a></li>
+                    
                       <li class="is-active"><a href="./">Editorial process</a></li>
+                    
+                      <li class=""><a href="../ai-triage/">AI-assisted triage</a></li>
                     
                   </ul>
                 
@@ -103,14 +147,42 @@
               <li class=" has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Certification
+                    Review & certification
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
+                      <li class=""><a href="../scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="../review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="../reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="../open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="../artifact-assessment/">Artifact assessment</a></li>
+                    
                       <li class=""><a href="../certification/">JORN certification</a></li>
                     
                       <li class=""><a href="../badges/">Evidence badges</a></li>
+                    
+                      <li class=""><a href="../external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../network/">Participate</a></li>
+                    
+                      <li class=""><a href="../community/relationships/">Relationship register</a></li>
                     
                   </ul>
                 
@@ -128,29 +200,17 @@
                     
                       <li class=""><a href="../about/model/">Publishing model</a></li>
                     
+                      <li class=""><a href="../open-research-record/">Open Research Record</a></li>
+                    
                       <li class=""><a href="../about/governance/">Governance</a></li>
                     
                       <li class=""><a href="../about/policies/">Policies</a></li>
                     
+                      <li class=""><a href="../support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="../faq/">FAQ</a></li>
+                    
                   </ul>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../network/">Network</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../support/">Support</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../faq/">FAQ</a>
                 
               </li>
             
@@ -167,81 +227,89 @@
             <a href="..">Home</a><span aria-hidden="true">/</span><span>Editorial process</span>
           </nav>
           <p class="eyebrow">Proposed workflow</p>
-          <h1>From repository deposit to a formal journal decision.</h1>
-          <p class="page-lede">JORN will connect repository-hosted research objects to independent scientific review, optional technical assessment, an unconflicted editorial decision, and continuing stewardship.</p>
+          <h1>From preparation to a maintained Open Research Record.</h1>
+          <p class="page-lede">Readiness screening, scientific review, open-science review and technical assessment remain distinct. An unconflicted JORN editor makes the final publication decision.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <div class="info-banner"><strong>Workflow under development.</strong> The process below is proposed. Detailed service levels, forms, criteria, roles, and policies must be approved before formal submissions open.</div>
+          <div class="info-banner"><strong>Workflow under development.</strong> Formal submissions are not open. Roles, service levels, forms, systems, criteria and policies require approval before operation.</div>
 
-<h2 id="editorial-stages">Editorial stages<a class="headerlink" href="#editorial-stages" title="Link to this section">&para;</a></h2>
+<h2 id="the-21-stages">The 21 stages<a class="headerlink" href="#the-21-stages" title="Link to this section">&para;</a></h2>
 <div class="process-list">
-  <article><span>01</span><div><h3>Repository deposit</h3><p>Authors deposit the manuscript and supporting objects in eligible repositories with persistent identifiers, explicit versions, licenses or access terms, and sufficient metadata.</p></div></article>
-  <article><span>02</span><div><h3>Submission or pilot proposal</h3><p>Authors identify the article type, exact objects, contributor roles, funding, interests, ethics, access conditions, and known limitations. During the founding phase this is only an expression of interest.</p></div></article>
-  <article><span>03</span><div><h3>Technical and ethical screening</h3><p>Journal staff check scope, completeness, repository eligibility, versioning, ethics, data restrictions, conflicts, integrity signals, and whether responsible review is feasible.</p></div></article>
-  <article><span>04</span><div><h3>Editor assignment</h3><p>An unconflicted editor with suitable subject and methodological expertise takes responsibility for reviewer selection, process quality, and the final recommendation or decision.</p></div></article>
-  <article><span>05</span><div><h3>Scientific peer review</h3><p>Independent reviewers assess the contribution, methodological validity, reporting, analysis, integrity, traceability, and whether conclusions are supported within stated limitations.</p></div></article>
-  <article><span>06</span><div><h3>Artifact evaluation where applicable</h3><p>A qualified evaluator may assess specified data, software, documentation, and environments for a bounded purpose. This is separate from scientific review and is not required for every article.</p></div></article>
-  <article><span>07</span><div><h3>Computational check where applicable</h3><p>A qualified evaluator may execute a specified workflow and compare identified outputs against stated criteria or tolerance. This is not an independent replication of the study.</p></div></article>
-  <article><span>08</span><div><h3>Revision and version update</h3><p>Authors respond to reports and deposit a new repository version. The record preserves which version was reviewed, what changed, and which version is proposed for acceptance.</p></div></article>
-  <article><span>09</span><div><h3>Editorial decision</h3><p>The unconflicted editor evaluates the manuscript, reviews, responses, technical evidence, ethics, and limitations, then records a formal decision. A badge outcome does not substitute for this judgment.</p></div></article>
-  <article><span>10</span><div><h3>Publication and certification</h3><p>After acceptance, JORN publishes the citable Publication Record, assigns or registers its DOI, identifies the exact accepted objects, publishes the review history, and applies the universal Certified Record seal.</p></div></article>
-  <article><span>11</span><div><h3>Continuing stewardship</h3><p>JORN maintains metadata, corrections, appeals, complaints, certification changes, expressions of concern, retractions, and links to superseding versions.</p></div></article>
+<article><span>01</span><div><h3>Use the Implementation Guide</h3><p>Authors assess applicable research objects, practices and evidence.</p></div></article>
+<article><span>02</span><div><h3>Complete readiness self-assessment</h3><p>Gaps, restrictions, external assessments and human-verification needs are recorded without a score.</p></div></article>
+<article><span>03</span><div><h3>Deposit and version objects</h3><p>The manuscript, data, software, workflows and other applicable materials receive exact versions, identifiers and access terms.</p></div></article>
+<article><span>04</span><div><h3>Receive proposal or submission</h3><p>During the founding phase, JORN receives only pilot expressions of interest—not formal journal submissions.</p></div></article>
+<article><span>05</span><div><h3>Run deterministic technical checks</h3><p>Approved tools resolve identifiers, validate files and links, detect metadata or licence fields, and compare checksums where appropriate.</p></div></article>
+<article><span>06</span><div><h3>Conduct AI-assisted triage</h3><p>If approved and consented, an AI system analyses authorised materials for readiness and routing—not acceptance.</p></div></article>
+<article><span>07</span><div><h3>Editor confirms triage</h3><p>A human confirms, changes or escalates every pilot result and records disagreement.</p></div></article>
+<article><span>08</span><div><h3>Screen scope, ethics and completeness</h3><p>An editor determines whether responsible evaluation is possible and requests remediation where appropriate.</p></div></article>
+<article><span>09</span><div><h3>Select scientific-review route</h3><p>The editor assesses external, coordinated or JORN internal review against the required expertise profile.</p></div></article>
+<article><span>10</span><div><h3>Use an external community where suitable</h3><p>Qualified, version-specific external review may reduce duplication under published recognition criteria.</p></div></article>
+<article><span>11</span><div><h3>Recruit JORN reviewers where needed</h3><p>When no suitable community is available, JORN appoints qualified scientific reviewers directly.</p></div></article>
+<article><span>12</span><div><h3>Fill expertise gaps</h3><p>Supplementary reviewers address gaps in external review, methods, statistics, governance or domain coverage.</p></div></article>
+<article><span>13</span><div><h3>Review open-science implementation</h3><p>Qualified reviewers verify documentation, identifiers, access, licences, versions, provenance and connections.</p></div></article>
+<article><span>14</span><div><h3>Assess artifacts where applicable</h3><p>Evaluators inspect function, usability, workflows, synthetic data, secure verification or reproduction for bounded claims.</p></div></article>
+<article><span>15</span><div><h3>Authors revise exact versions</h3><p>Responses and new repository versions preserve what changed and why.</p></div></article>
+<article><span>16</span><div><h3>Evaluate revisions</h3><p>Reviewers or editors check responses and changed objects within their expertise and declared scope.</p></div></article>
+<article><span>17</span><div><h3>JORN editor decides</h3><p>An unconflicted editor integrates all evidence and formally accepts or rejects the exact package. AI and badges do not decide.</p></div></article>
+<article><span>18</span><div><h3>Produce the Open Research Record</h3><p>JORN prepares the citation, DOI metadata, object relationships, reports, decisions, statements and status.</p></div></article>
+<article><span>19</span><div><h3>Approve certification and badges</h3><p>Human approvers verify each level and bounded claim against exact evidence and criteria.</p></div></article>
+<article><span>20</span><div><h3>Publish and preserve</h3><p>Accessible HTML, PDF, citation exports and structured metadata are released under the JORN title.</p></div></article>
+<article><span>21</span><div><h3>Maintain stewardship</h3><p>JORN manages corrections, updates, expressions of concern, withdrawal, retraction, links and certification status.</p></div></article>
 </div>
 
-<h2 id="distinct-forms-of-assessment">Distinct forms of assessment<a class="headerlink" href="#distinct-forms-of-assessment" title="Link to this section">&para;</a></h2>
-<p><strong>Scientific review</strong> asks whether the methods, analysis, reporting, contribution, and claims support publication. <strong>Artifact evaluation</strong> asks a bounded question about specified research objects. <strong>Computational checking</strong> asks whether specified outputs can be obtained in a stated environment and tolerance. Different people may perform these roles because the required expertise and conflicts differ.</p>
-<p>An article may be accepted without either optional badge. Conversely, functioning software or reproduced outputs do not by themselves make a manuscript publishable.</p>
+<h2 id="screening-outcomes-are-not-decisions">Screening outcomes are not decisions<a class="headerlink" href="#screening-outcomes-are-not-decisions" title="Link to this section">&para;</a></h2>
+<p>“Ready for human review,” “author action required,” and “human editorial triage required” are routing outcomes. During the pilot, AI cannot autonomously reject work. Authors may correct factual errors and request human reconsideration.</p>
 <h2 id="decision-taxonomy">Decision taxonomy<a class="headerlink" href="#decision-taxonomy" title="Link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Decision</th>
+<th>Accountable actor</th>
 <th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Decline before review</td>
-<td>The work is outside scope, incomplete, not reviewable, or cannot be handled responsibly with available expertise</td>
+<td>JORN editor</td>
+<td>Outside scope or not responsibly reviewable after human screening</td>
 </tr>
 <tr>
-<td>Major revision</td>
-<td>Substantial changes or new evaluation are required before a decision</td>
-</tr>
-<tr>
-<td>Minor revision</td>
-<td>Limited, specified changes are required</td>
+<td>Major or minor revision</td>
+<td>JORN editor</td>
+<td>Specified changes are required</td>
 </tr>
 <tr>
 <td>Accept</td>
-<td>The exact identified version is accepted for JORN publication</td>
+<td>JORN editor</td>
+<td>Exact identified version accepted for JORN publication</td>
 </tr>
 <tr>
 <td>Reject</td>
-<td>The work does not meet the journal’s publication criteria after evaluation</td>
+<td>JORN editor</td>
+<td>Publication criteria not met after accountable evaluation</td>
 </tr>
 <tr>
 <td>Withdraw</td>
-<td>The authors or journal end the process under the withdrawal policy</td>
+<td>Author or journal under policy</td>
+<td>Process ended with reason and record handling defined</td>
 </tr>
 <tr>
 <td>Pause</td>
-<td>Review stops while an ethics, integrity, access, or legal question is resolved</td>
+<td>JORN editor</td>
+<td>Ethics, integrity, access, expertise or legal question must be resolved</td>
 </tr>
 </tbody>
 </table>
-<h2 id="open-peer-review">Open peer review<a class="headerlink" href="#open-peer-review" title="Link to this section">&para;</a></h2>
-<p>The proposed default is to publish peer-review reports, author responses, and editorial decisions after acceptance. Reviewers may sign by consent; reviewer identities may remain confidential. Confidential review or restricted disclosure will be permitted where openness creates a credible risk. Authors and reviewers must know the terms before participating.</p>
-<p>Reports for rejected or withdrawn work will not be made public without an approved policy and participant consent. Final rules are <strong>[TO BE CONFIRMED BEFORE PILOT LAUNCH]</strong>.</p>
-<h2 id="conflicts-and-editorial-independence">Conflicts and editorial independence<a class="headerlink" href="#conflicts-and-editorial-independence" title="Link to this section">&para;</a></h2>
-<p>Reviewer and editor conflicts will be documented. An editor must not decide a submission where they have a disqualifying relationship or interest. Submissions from editorial or governance members require independent handling. Open Science Labs, Open Research Network participants, funders, partners, and infrastructure providers receive no authority over individual decisions.</p>
-<h2 id="appeals-complaints-and-integrity-concerns">Appeals, complaints, and integrity concerns<a class="headerlink" href="#appeals-complaints-and-integrity-concerns" title="Link to this section">&para;</a></h2>
-<p>Authors should be able to appeal a decision on procedural or substantive grounds through a route separate from the original handling editor. Anyone should be able to raise a complaint about conduct or process. Integrity allegations require confidential triage, protection against retaliation, appropriate expertise, documented outcomes, and recusal rules.</p>
-<p>Contacts, response targets, responsible roles, and escalation routes are <strong>[TO BE CONFIRMED BEFORE PILOT LAUNCH]</strong>.</p>
-<h2 id="after-publication">After publication<a class="headerlink" href="#after-publication" title="Link to this section">&para;</a></h2>
-<p>Repository-hosted objects may change, move, or become unavailable. JORN will preserve the accepted identifiers and its editorial evidence, update metadata, and state whether the publication remains current, corrected, superseded, suspended, withdrawn, or retracted. Material changes require a visible journal notice rather than silently replacing the historical record.</p>
+<h2 id="public-review-record">Public review record<a class="headerlink" href="#public-review-record" title="Link to this section">&para;</a></h2>
+<p>The proposed default after acceptance is public commissioned reports, author responses and editorial decisions. Reviewers sign only by consent. External reports show their source and recognised scope. Public comments remain labelled as community feedback. Rejected or withdrawn work requires separate consent and policy.</p>
+<h2 id="appeals-and-integrity">Appeals and integrity<a class="headerlink" href="#appeals-and-integrity" title="Link to this section">&para;</a></h2>
+<p>Appeals must go to an unconflicted editor or panel not responsible for the original decision. Complaints and integrity concerns require confidential intake, recusal, appropriate expertise, evidence handling and protection against retaliation. Routes and service targets are <strong>[TO BE CONFIRMED BEFORE PILOT OPERATION]</strong>.</p>
+<p><a class="button button--ink" href="../scientific-review/">Compare the review routes</a>
+<a class="button button--outline" href="../open-research-record/">Read the Open Research Record specification</a></p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -249,19 +317,15 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#editorial-stages">Editorial stages</a></li>
+                <li><a href="#the-21-stages">The 21 stages</a></li>
               
-                <li><a href="#distinct-forms-of-assessment">Distinct forms of assessment</a></li>
+                <li><a href="#screening-outcomes-are-not-decisions">Screening outcomes are not decisions</a></li>
               
                 <li><a href="#decision-taxonomy">Decision taxonomy</a></li>
               
-                <li><a href="#open-peer-review">Open peer review</a></li>
+                <li><a href="#public-review-record">Public review record</a></li>
               
-                <li><a href="#conflicts-and-editorial-independence">Conflicts and editorial independence</a></li>
-              
-                <li><a href="#appeals-complaints-and-integrity-concerns">Appeals, complaints, and integrity concerns</a></li>
-              
-                <li><a href="#after-publication">After publication</a></li>
+                <li><a href="#appeals-and-integrity">Appeals and integrity</a></li>
               
             </ul>
           </div>
@@ -278,12 +342,14 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Connected research. Independent review. One accountable record.</p>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="../publications/">Research</a>
+          <a href="../guide/">Implementation Guide</a>
+          <a href="../readiness/">Readiness Check</a>
+          <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
           <a href="./">Editorial process</a>
           <a href="../pilot/">Founding pilot</a>
@@ -291,7 +357,8 @@
         </div>
         <div>
           <h2>About</h2>
-          <a href="../about/model/">Publishing model</a>
+          <a href="../open-research-record/">Open Research Record</a>
+          <a href="../scientific-review/">Scientific review</a>
           <a href="../certification/">Certification</a>
           <a href="../badges/">Evidence badges</a>
           <a href="../about/governance/">Governance</a>
@@ -301,7 +368,8 @@
         <div>
           <h2>Participate</h2>
           <a href="../pilot/">Founding pilot</a>
-          <a href="../network/#reviewers">Become a reviewer</a>
+          <a href="../reviewers/">Join the reviewer network</a>
+          <a href="../services/">Suggest a service</a>
           <a href="../support/">Support JORN</a>
           <a href="../faq/">Frequently asked questions</a>
           <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>

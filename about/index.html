@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Learn what makes JORN a journal, what its Publication Record adds, what certification covers, and which founding decisions remain open.">
+    <meta name="description" content="Learn what makes JORN a journal, what its Open Research Record adds, what certification covers, and which founding decisions remain open.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/about/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -22,7 +22,7 @@
         "name": "Journal of the Open Research Network",
         "alternateName": "JORN",
         "url": "https://openresearchnet.org/jorn/",
-        "description": "A proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.",
+        "description": "A proposed Diamond Open Access overlay journal for connected and certified open research records.",
         "sponsor": {"@type": "Organization", "name": "Open Science Labs"},
         "isAccessibleForFree": true
       }
@@ -74,9 +74,49 @@
                 
               </li>
             
-              <li class=" ">
+              <li class=" has-children">
                 
-                  <a href="../publications/">Research</a>
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Research
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../publications/">Published records</a></li>
+                    
+                      <li class=""><a href="../publications/illustrative-record/">Illustrative record</a></li>
+                    
+                      <li class=""><a href="../research/">Search and browse</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Prepare
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../guide/">Implementation Guide</a></li>
+                    
+                      <li class=""><a href="../readiness/">Readiness Check</a></li>
+                    
+                      <li class=""><a href="../implementation-levels/">Implementation levels</a></li>
+                    
+                      <li class=""><a href="../services/">Services and tools</a></li>
+                    
+                      <li class=""><a href="../data/">Data and responsible access</a></li>
+                    
+                      <li class=""><a href="../synthetic-data/">Synthetic data</a></li>
+                    
+                      <li class=""><a href="../software/">Software and code</a></li>
+                    
+                      <li class=""><a href="../figures/">Figures and media</a></li>
+                    
+                  </ul>
                 
               </li>
             
@@ -94,7 +134,11 @@
                     
                       <li class=""><a href="../scope/">Aims & scope</a></li>
                     
+                      <li class=""><a href="../author-guidance/">Author guidance</a></li>
+                    
                       <li class=""><a href="../editorial-process/">Editorial process</a></li>
+                    
+                      <li class=""><a href="../ai-triage/">AI-assisted triage</a></li>
                     
                   </ul>
                 
@@ -103,14 +147,42 @@
               <li class=" has-children">
                 
                   <button type="button" class="nav-parent" aria-expanded="false">
-                    Certification
+                    Review & certification
                     <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
                   </button>
                   <ul class="nav-dropdown">
                     
+                      <li class=""><a href="../scientific-review/">Scientific review</a></li>
+                    
+                      <li class=""><a href="../review-communities/">Review communities</a></li>
+                    
+                      <li class=""><a href="../reviewers/">Reviewer network</a></li>
+                    
+                      <li class=""><a href="../open-science-review/">Open-science review</a></li>
+                    
+                      <li class=""><a href="../artifact-assessment/">Artifact assessment</a></li>
+                    
                       <li class=""><a href="../certification/">JORN certification</a></li>
                     
                       <li class=""><a href="../badges/">Evidence badges</a></li>
+                    
+                      <li class=""><a href="../external-assessments/">External assessments</a></li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li class=" has-children">
+                
+                  <button type="button" class="nav-parent" aria-expanded="false">
+                    Community
+                    <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+                  </button>
+                  <ul class="nav-dropdown">
+                    
+                      <li class=""><a href="../network/">Participate</a></li>
+                    
+                      <li class=""><a href="../community/relationships/">Relationship register</a></li>
                     
                   </ul>
                 
@@ -128,29 +200,17 @@
                     
                       <li class=""><a href="model/">Publishing model</a></li>
                     
+                      <li class=""><a href="../open-research-record/">Open Research Record</a></li>
+                    
                       <li class=""><a href="governance/">Governance</a></li>
                     
                       <li class=""><a href="policies/">Policies</a></li>
                     
+                      <li class=""><a href="../support/">Sustainability</a></li>
+                    
+                      <li class=""><a href="../faq/">FAQ</a></li>
+                    
                   </ul>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../network/">Network</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../support/">Support</a>
-                
-              </li>
-            
-              <li class=" ">
-                
-                  <a href="../faq/">FAQ</a>
                 
               </li>
             
@@ -167,14 +227,16 @@
             <a href="..">Home</a><span aria-hidden="true">/</span><span>About JORN</span>
           </nav>
           <p class="eyebrow">Journal identity</p>
-          <h1>A journal for research that lives across repositories.</h1>
-          <p class="page-lede">JORN is a proposed Diamond Open Access overlay journal for connected and independently certified records of reproducible computational research.</p>
+          <h1>Prepare, review, publish, connect, and certify open research.</h1>
+          <p class="page-lede">JORN is a proposed Diamond Open Access overlay journal for connected and certified open research records.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
           <div class="info-banner"><strong>Current status:</strong> JORN is in a founding and feasibility phase. It is not accepting formal submissions and has not published or certified any research.</div>
 
+<h2 id="jorn-in-one-sentence">JORN in one sentence<a class="headerlink" href="#jorn-in-one-sentence" title="Link to this section">&para;</a></h2>
+<p>JORN helps researchers prepare, assess, review, publish, connect, and certify complete open research records.</p>
 <h2 id="the-problem-jorn-addresses">The problem JORN addresses<a class="headerlink" href="#the-problem-jorn-addresses" title="Link to this section">&para;</a></h2>
 <p>Computational research rarely exists as one document. A manuscript may be in a preprint repository, data in a specialist archive, software in a source repository and preservation service, and protocols or environments elsewhere. A reader can struggle to determine which versions were actually reviewed and how they relate to the editorial decision.</p>
 <p>JORN is designed to add an accountable scholarly-publication layer without taking over the work of suitable repositories.</p>
@@ -187,10 +249,10 @@
 <p>JORN will qualify as a journal because it will receive eligible submissions, appoint qualified editors, coordinate independent peer review, request and evaluate revisions, make formal acceptance or rejection decisions, publish accepted work under the JORN title, register publication metadata, and maintain corrections, retractions, appeals, and continuing status.</p>
 <p>Technical checks or a certification seal alone do not constitute journal publication.</p>
 <h2 id="what-makes-the-record-distinctive">What makes the record distinctive<a class="headerlink" href="#what-makes-the-record-distinctive" title="Link to this section">&para;</a></h2>
-<p>After acceptance, JORN will publish a permanent <strong>JORN Publication Record</strong> containing the citation and DOI, abstract, exact accepted manuscript, data and software versions, computational environment, declarations, peer-review reports, author responses, editorial decision, certification profile, optional badge evidence, limitations, and current status.</p>
+<p>After acceptance, JORN will publish a permanent <strong>JORN Open Research Record</strong> containing the citation and DOI, abstract, exact accepted manuscript, data and software versions, computational environment, declarations, peer-review reports, author responses, editorial decision, certification profile, optional badge evidence, limitations, and current status.</p>
 <p>The JORN DOI will identify this journal record. Repository identifiers will continue to identify their underlying research objects. Structured metadata will connect them.</p>
 <h2 id="what-jorn-certifies">What JORN certifies<a class="headerlink" href="#what-jorn-certifies" title="Link to this section">&para;</a></h2>
-<p>The universal <strong>JORN Certified Record</strong> seal will state that JORN peer-reviewed, accepted, published, and connected the exact versions identified in the Publication Record. It applies only to the assessment scope described there.</p>
+<p>The universal <strong>JORN Certified Open Research Record</strong> seal will state that JORN peer-reviewed, accepted, published, and connected the exact versions identified in the Open Research Record. It applies only to the assessment scope described there.</p>
 <p>Certification does not guarantee permanent correctness, complete error detection, open access to all data, computational reproduction of every result, independent replication, or immunity from future software and platform changes.</p>
 <p>JORN is therefore different from a standalone reproducibility-checking service. Computational checking may contribute optional evidence, but acceptance requires formal scientific and editorial judgment.</p>
 <h2 id="institutional-relationships">Institutional relationships<a class="headerlink" href="#institutional-relationships" title="Link to this section">&para;</a></h2>
@@ -237,12 +299,25 @@
 <p>The title, legal publisher, platform, DOI and preservation arrangements, editorial appointments, pilot dates, final policies, partner relationships, funding route, and submission process require confirmation. The website labels proposed features explicitly so that a design intention is not mistaken for an operational service.</p>
 <p><a class="button button--ink" href="model/">Explore the publishing model</a>
 <a class="button button--outline" href="../pilot/">Read the founding pilot plan</a></p>
+<h2 id="six-connected-functions">Six connected functions<a class="headerlink" href="#six-connected-functions" title="Link to this section">&para;</a></h2>
+<ol>
+<li>The public <strong>Open Science Implementation Guide</strong> helps anyone assess and improve a research package.</li>
+<li>A <strong>Readiness Check</strong> and approved, human-supervised AI triage may identify missing evidence before review.</li>
+<li><strong>Scientific review</strong> uses qualified external disciplinary communities where suitable and JORN-appointed reviewers where none is available.</li>
+<li><strong>Open-science and artifact assessment</strong> evaluates exact data, software, workflows, identifiers, access and reproducibility claims.</li>
+<li><strong>Evidence-based certification</strong> publishes a dimensional profile, verified claims, exceptions, badges and limitations.</li>
+<li>The <strong>JORN Open Research Record</strong> connects the accepted package, reviews and decision under one maintained JORN DOI.</li>
+</ol>
+<h2 id="what-jorn-does-not-replace">What JORN does not replace<a class="headerlink" href="#what-jorn-does-not-replace" title="Link to this section">&para;</a></h2>
+<p>JORN does not seek to replace repositories, preprint servers, disciplinary peer-review communities, software-review organisations, data archives, protocol platforms, reproducibility services or research infrastructures. It defines interoperable outcomes, routes and coordinates review, recognises qualifying evidence, fills gaps, makes the final journal decision and maintains the authoritative record.</p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
           <div class="toc-card">
             <p>On this page</p>
             <ul>
+              
+                <li><a href="#jorn-in-one-sentence">JORN in one sentence</a></li>
               
                 <li><a href="#the-problem-jorn-addresses">The problem JORN addresses</a></li>
               
@@ -255,6 +330,10 @@
                 <li><a href="#institutional-relationships">Institutional relationships</a></li>
               
                 <li><a href="#present-status">Present status</a></li>
+              
+                <li><a href="#six-connected-functions">Six connected functions</a></li>
+              
+                <li><a href="#what-jorn-does-not-replace">What JORN does not replace</a></li>
               
             </ul>
           </div>
@@ -271,12 +350,14 @@
             <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 16.5 24 11l10 5.5v12L24 34l-10-5.5zM14 16.5l10 5.7 10-5.7M24 22.2V34" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="16.5" r="2.6"/><circle cx="24" cy="11" r="2.6"/><circle cx="34" cy="16.5" r="2.6"/><circle cx="14" cy="28.5" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="28.5" r="2.6"/></svg>
             <span class="brand__text"><strong>JORN</strong><span>Journal of the Open<br>Research Network</span></span>
           </a>
-          <p>Connected research. Independent review. One accountable record.</p>
+          <p>Prepare, assess, review, publish, connect, and certify complete open research records.</p>
           <span class="footer-badge">Diamond Open Access</span>
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="../publications/">Research</a>
+          <a href="../guide/">Implementation Guide</a>
+          <a href="../readiness/">Readiness Check</a>
+          <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
           <a href="../editorial-process/">Editorial process</a>
           <a href="../pilot/">Founding pilot</a>
@@ -284,7 +365,8 @@
         </div>
         <div>
           <h2>About</h2>
-          <a href="model/">Publishing model</a>
+          <a href="../open-research-record/">Open Research Record</a>
+          <a href="../scientific-review/">Scientific review</a>
           <a href="../certification/">Certification</a>
           <a href="../badges/">Evidence badges</a>
           <a href="governance/">Governance</a>
@@ -294,7 +376,8 @@
         <div>
           <h2>Participate</h2>
           <a href="../pilot/">Founding pilot</a>
-          <a href="../network/#reviewers">Become a reviewer</a>
+          <a href="../reviewers/">Join the reviewer network</a>
+          <a href="../services/">Suggest a service</a>
           <a href="../support/">Support JORN</a>
           <a href="../faq/">Frequently asked questions</a>
           <a href="https://github.com/openresearchnetwork/jorn">GitHub <span aria-hidden="true">↗</span></a>
