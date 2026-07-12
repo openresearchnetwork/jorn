@@ -28,6 +28,8 @@ Each applicable dimension receives Level 0 **Not documented**, Level 1 **Transpa
 
 Controlled access can satisfy Level 2 when the restriction, metadata, governance and responsible verification route meet the criteria. No level is a quality, impact or prestige score.
 
+The [Open Science Workflow and Services Guide](../guide/) maps these levels to identity, plans, manuscripts, data, software, environments, figures, review, and stewardship requirements.
+
 | Dimension | Level | Verification state | Exact evidence | Differences and limits |
 | --- | --- | --- | --- | --- |
 | Manuscript | 0–3 | One of four states | Identifier and version | Unavailable or excluded elements |

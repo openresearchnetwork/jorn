@@ -20,7 +20,7 @@ nav:
       - Illustrative record: publications/illustrative-record/index.md
       - Search and browse: research/index.md
   - Prepare:
-      - Implementation Guide: guide/index.md
+      - Workflow & services guide: guide/index.md
       - Readiness Check: readiness/index.md
       - Implementation levels: implementation-levels/index.md
       - Services and tools: services/index.md
@@ -34,7 +34,7 @@ nav:
       - Aims & scope: scope/index.md
       - Author guidance: author-guidance/index.md
       - Editorial process: editorial-process/index.md
-      - AI-assisted triage: ai-triage/index.md
+      - AI-assisted editorial triage: ai-triage/index.md
   - Review & certification:
       - Scientific review: scientific-review/index.md
       - Review communities: review-communities/index.md

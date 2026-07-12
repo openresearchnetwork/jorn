@@ -69,7 +69,7 @@ The legal publisher, responsible governance body, editor authority, privacy cont
 
 ## Expanded policy set required for the pilot
 
-The register must include separate, versioned policies for AI-assisted triage, AI confidentiality, AI disclosure and human reconsideration; external scientific review; internal reviewer recruitment; review-platform use; implementation levels; synthetic data; research software; service recommendations; external-assessment recognition; certification and badge approval or withdrawal; Open Research Record metadata and machine-readable exports; and appeals, complaints, corrections, expressions of concern and retractions.
+The register must include separate, versioned policies for AI-assisted editorial triage, AI confidentiality, AI disclosure and human reconsideration; external scientific review; internal reviewer recruitment; review-platform use; implementation levels; synthetic data; research software; service recommendations; external-assessment recognition; certification and badge approval or withdrawal; Open Research Record metadata and machine-readable exports; and appeals, complaints, corrections, expressions of concern and retractions.
 
 ## Ethical and editorial design audit
 

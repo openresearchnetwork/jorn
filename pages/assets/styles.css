@@ -256,6 +256,7 @@ button { color: inherit; }
 .prose p { margin: 0 0 20px; color: var(--ink-soft); }
 .prose strong { color: var(--ink); }
 .prose a:not(.button):not(.text-link) { color: var(--teal); font-weight: 600; }
+.prose a[href^="http"]:not(.button):not(.text-link)::after { content: " ↗"; speak: never; font-size: .78em; }
 .prose ul, .prose ol { padding-left: 24px; color: var(--ink-soft); }
 .prose li { margin: 8px 0; padding-left: 6px; }
 .prose hr { margin: 50px 0; border: 0; border-top: 1px solid var(--line); }
@@ -263,6 +264,11 @@ button { color: inherit; }
 .prose th { padding: 13px 15px; color: var(--white); background: var(--ink-deep); text-align: left; }
 .prose td { padding: 15px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .prose tr:nth-child(even) td { background: #f4f6f2; }
+.matrix-table { width: 100%; margin: 30px 0; overflow-x: auto; }
+.matrix-table table { min-width: 1180px; margin: 0; }
+.lifecycle-map { display: flex; align-items: stretch; gap: 10px; margin: 30px 0; padding: 24px; overflow-x: auto; background: var(--cream); border: 1px solid var(--line); }
+.lifecycle-map span { display: flex; min-width: 145px; align-items: center; justify-content: center; padding: 14px; color: var(--ink-deep); background: var(--white); border-top: 3px solid var(--teal); font-size: 12px; font-weight: 700; text-align: center; }
+.lifecycle-map b { align-self: center; color: var(--teal); font-weight: 400; }
 .prose .headerlink { margin-left: 8px; color: var(--muted); opacity: 0; font-size: .55em; text-decoration: none; }
 .prose h2:hover .headerlink, .prose h3:hover .headerlink, .prose .headerlink:focus { opacity: 1; }
 
@@ -529,4 +535,19 @@ button { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+@media print {
+  .notice-bar, .site-header, .site-footer, .page-aside, .button, .search-modal { display: none !important; }
+  body { color: #000; background: #fff; font-size: 11pt; }
+  .page-masthead, .page-layout { padding: 20px 0; background: #fff; }
+  .page-layout { display: block; }
+  .shell, .shell--text { width: 100%; max-width: none; }
+  .prose a { color: #000; text-decoration: underline; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; }
+  .prose table { display: table; font-size: 8pt; }
+  .matrix-table { overflow: visible; }
+  .matrix-table table { min-width: 0; }
+  .lifecycle-map { flex-wrap: wrap; }
+  h2, h3, table, blockquote, .info-banner { break-inside: avoid; }
 }

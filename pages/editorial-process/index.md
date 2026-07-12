@@ -16,7 +16,7 @@ description: JORN's proposed 21-stage editorial workflow, AI safeguards, review 
 <article><span>03</span><div><h3>Deposit and version objects</h3><p>The manuscript, data, software, workflows and other applicable materials receive exact versions, identifiers and access terms.</p></div></article>
 <article><span>04</span><div><h3>Receive proposal or submission</h3><p>During the founding phase, JORN receives only pilot expressions of interest—not formal journal submissions.</p></div></article>
 <article><span>05</span><div><h3>Run deterministic technical checks</h3><p>Approved tools resolve identifiers, validate files and links, detect metadata or licence fields, and compare checksums where appropriate.</p></div></article>
-<article><span>06</span><div><h3>Conduct AI-assisted triage</h3><p>If approved and consented, an AI system analyses authorised materials for readiness and routing—not acceptance.</p></div></article>
+<article><span>06</span><div><h3>Conduct AI-assisted editorial triage</h3><p>If approved and consented, an AI system analyses authorised materials for readiness and routing—not acceptance.</p></div></article>
 <article><span>07</span><div><h3>Editor confirms triage</h3><p>A human confirms, changes or escalates every pilot result and records disagreement.</p></div></article>
 <article><span>08</span><div><h3>Screen scope, ethics and completeness</h3><p>An editor determines whether responsible evaluation is possible and requests remediation where appropriate.</p></div></article>
 <article><span>09</span><div><h3>Select scientific-review route</h3><p>The editor assesses external, coordinated or JORN internal review against the required expertise profile.</p></div></article>

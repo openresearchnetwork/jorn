@@ -1,5 +1,5 @@
 ---
-title: AI-assisted triage
+title: AI-assisted editorial triage
 eyebrow: Publish
 display_title: Preliminary screening with accountable human control.
 lede: AI may help determine whether a research package appears ready for responsible human evaluation. It is not peer review and never makes JORN’s publication decision.

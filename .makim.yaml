@@ -22,7 +22,11 @@ groups:
         hooks:
           pre-run:
             - task: pages.pre-build
-        run: mkdocs build --verbose --clean
+        backend: bash
+        run: |
+          set -euo pipefail
+          mkdocs build --strict --clean
+          python scripts/check_site.py build
 
       preview:
         help: preview the web page dynamically

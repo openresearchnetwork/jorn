@@ -27,6 +27,18 @@
         "isAccessibleForFree": true
       }
     </script>
+    {% if page %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": {{ (page.meta.display_title or page.meta.title or page.title) | tojson }},
+        "description": {{ (page.meta.description or config.site_description) | tojson }},
+        "url": {{ page.canonical_url | tojson }},
+        "isPartOf": {"@type": "WebSite", "name": {{ config.site_name | tojson }}, "url": {{ config.site_url | tojson }}}
+      }
+    </script>
+    {% endif %}
   </head>
   <body class="{{ page.meta.body_class if page and page.meta.body_class else '' }}">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -133,7 +145,7 @@
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="{{ 'guide/' | url }}">Implementation Guide</a>
+          <a href="{{ 'guide/' | url }}">Workflow &amp; services guide</a>
           <a href="{{ 'readiness/' | url }}">Readiness Check</a>
           <a href="{{ 'publications/' | url }}">Published records</a>
           <a href="{{ 'scope/' | url }}">Aims &amp; scope</a>

@@ -35,7 +35,7 @@ That statement must appear prominently on every non-verified export. Official ba
 
 The self-assessment is controlled by the user. A future approved AI component may extract identifiers, detect licences and versions, find internal inconsistencies, and draft a remediation report. It must show its uncertainty and evidence. Authors can correct factual errors and request human reconsideration.
 
-An AI result remains **AI-assisted screening**, even when all items appear complete. It cannot establish scientific quality, ethical adequacy, misconduct, certification, or acceptance. See the [AI-assisted triage framework](../ai-triage/).
+An AI result remains **AI-assisted screening**, even when all items appear complete. It cannot establish scientific quality, ethical adequacy, misconduct, certification, or acceptance. See the [AI-assisted editorial triage framework](../ai-triage/).
 
 ## Example output
 

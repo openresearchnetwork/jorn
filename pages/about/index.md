@@ -67,7 +67,7 @@ The title, legal publisher, platform, DOI and preservation arrangements, editori
 
 ## Six connected functions
 
-1. The public **Open Science Implementation Guide** helps anyone assess and improve a research package.
+1. The public **Open Science Workflow and Services Guide** helps anyone assess and improve a research package.
 2. A **Readiness Check** and approved, human-supervised AI triage may identify missing evidence before review.
 3. **Scientific review** uses qualified external disciplinary communities where suitable and JORN-appointed reviewers where none is available.
 4. **Open-science and artifact assessment** evaluates exact data, software, workflows, identifiers, access and reproducibility claims.

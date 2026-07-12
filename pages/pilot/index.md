@@ -62,4 +62,13 @@ A pilot does not commit JORN to launch. The responsible governance body should r
 
 The founding pilot should also measure Guide usability; readiness-check usefulness; AI false positives, false negatives and unsupported flags; human overrides and author corrections; external-community routing and recognition; JORN reviewer recruitment; synthetic and controlled-data handling; service-directory usefulness; dimensional-profile consistency; and production of accessible, machine-readable Open Research Records.
 
-A staged implementation should separate **publish now** (clearly labelled guide and framework), **pilot preparation** (governance, policies, systems, people and measures), **pilot operation** (limited consented cases and public aggregate evaluation), **public launch** (only after safeguards and capacity are verified), and **later expansion** (new disciplines, badges or integrations supported by evidence).
+It should test service recommendations and equivalent-alternative decisions; authenticated ORCID and truthful affiliation workflows; ROR and CRediT metadata; data and software licensing; cloud-hosted scholarly records; repository suitability; archived software releases; and the ability to distinguish external software assessment from scientific review.
+
+## Phased rollout
+
+1. **Phase 1 — Content-only initial guide:** publish the static lifecycle, service matrix, cross-links, and printable checklist without automated certification.
+2. **Phase 2 — Pilot readiness checklist:** test a downloadable or interactive self-assessment labelled as neither reviewed nor certified.
+3. **Phase 3 — Editorial integration:** test approved AI-assisted editorial triage, external-review routing, JORN reviewer recruitment, privacy, correction, and human reconsideration.
+4. **Phase 4 — Verified profiles:** publish article-level implementation profiles, approved certification and badges, and machine-readable exports only after acceptance.
+
+Public launch or later expansion requires evidence that governance, safeguards, staffing, and sustainable capacity are operational.

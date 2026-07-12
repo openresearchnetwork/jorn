@@ -54,13 +54,17 @@ Restrictions involving privacy, consent, security, Indigenous or community gover
 
 ## Declarations to prepare
 
-- Full authorship, affiliations, ORCIDs, and CRediT contributor roles
+- Full authorship, truthful affiliation status, and ROR identifiers for genuine named organisations where applicable
+- Authenticated ORCID iDs for every living individual author before final acceptance; documented handling for deceased or collective authors
+- CRediT roles reviewed and confirmed by authors and named contributors
 - Funding and competing-interest statements
 - Ethics approval, consent, or a reason why these are not applicable
 - Data, software, environment, and material-availability statements
 - Relevant prior publication, preprint, protocol, and preregistration details
 - Use of artificial intelligence where disclosure is required
 - Known limitations and deviations from a preregistered or planned workflow
+
+The [Open Science Workflow and Services Guide](../guide/) defines the required outcomes and evidence. Authors may use an equivalent repository, platform, registry, or archive when it meets the published criteria; a recommended service is not mandatory or a JORN partner.
 
 ## What authors should expect
 
@@ -110,6 +114,8 @@ In addition to the repository and declaration information above, a future pilot 
 - data restrictions, lawful access route and secure-verification needs;
 - synthetic-data purpose, generation, utility and disclosure-risk documentation;
 - software-review or artifact-assessment evidence; and
-- separate informed consent or opt-out terms for any approved AI-assisted triage.
+- separate informed consent or opt-out terms for any approved AI-assisted editorial triage.
 
 Passing a readiness check or AI screen does not guarantee pilot selection, external review recognition, journal acceptance, certification or a badge.
+
+[Assess the research package](../guide/){ .button .button--ink }

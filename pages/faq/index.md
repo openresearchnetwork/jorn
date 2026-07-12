@@ -8,15 +8,47 @@ description: Questions about JORN's guide, AI triage, review routes, data, certi
 
 ## Can I use the Guide without submitting?
 
-Yes. The draft JORN Open Science Implementation Guide is intended for researchers, groups, reviewers, librarians, stewards, institutions, students and independent researchers. Use does not imply endorsement, review, certification or acceptance.
+Yes. The draft JORN Open Science Workflow and Services Guide is intended for researchers, groups, reviewers, librarians, stewards, institutions, students and independent researchers. Use does not imply endorsement, review, certification or acceptance.
+
+## Is ORCID required?
+
+The proposed policy requires an authenticated ORCID iD—not a manually typed identifier—for every living individual author before final acceptance. Deceased authors and collective or consortium authorship need a documented editorial route **[TO BE CONFIRMED]**. Reviewer and editor iDs may be collected privately; confidential reviewer identities are not disclosed through the publication record.
+
+## Must I have an institutional affiliation?
+
+No. Every author must state their status truthfully, but independent, unaffiliated, self-employed, retired or emeritus, community or civil-society, and other accurate statuses are acceptable. A ROR identifier is required only when a genuine named organisation has an appropriate ROR record.
+
+## Can I publish as an independent researcher?
+
+Yes, subject to the same scope, evidence, ethics, and review requirements. JORN will not require anyone to join an organisation. IGDORE and the Ronin Institute are optional examples for researchers who genuinely qualify; JORN does not assign those affiliations and has no confirmed partnership with either organisation.
+
+## Must I use a recommended platform?
+
+No. JORN requires outcomes such as persistent identification, exact versioning, documentation, rights, preservation, and export. An equivalent service is acceptable when it meets the published criteria. Recommendation does not imply partnership or automatic acceptance.
+
+## Can cloud-hosted data satisfy JORN requirements?
+
+Potentially, but a bucket or cloud URL alone is insufficient. The frozen release also needs a persistent scholarly citation record, metadata landing page, exact version, manifest, sizes and checksums, rights or access terms, custodian, provenance, retention and preservation plan, and exit or migration route.
+
+## Which data licences are accepted?
+
+The proposed initial open-data list is CC0, CC BY 4.0, ODC-By, ODbL, and PDDL when the rightsholder intentionally selects an appropriate option. The final list needs qualified legal review **[TO BE CONFIRMED]**. Restricted personal, patient, confidential, or controlled data require access terms rather than an open licence.
+
+## Does every image need a DOI?
+
+No. Every substantive visual must be traceable to source data, generation method, rights, version, provenance, caption, and accessible alternative text. A single versioned figure-and-source package is often preferable to separate identifiers for every panel or decorative element.
+
+## Does a JOSS, pyOpenSci, or rOpenSci review replace scientific review?
+
+No. Their software-review processes have different scopes. JORN may evaluate a version-specific external report as evidence for a bounded software dimension **[TO BE CONFIRMED]**, but software review does not establish the scientific validity of the associated paper or guarantee JORN acceptance.
 
 ## Are implementation levels quality scores?
 
 No. Levels describe documentation, responsible accessibility and independent verification for each applicable dimension. They do not score correctness, novelty, importance, ethics, safety, prestige or impact. JORN will not issue an aggregate openness or trust score.
 
-## Does AI decide whether my paper is accepted?
+## Does AI decide whether my paper is reviewed or published?
 
-No. AI may assist with preliminary completeness and routing checks. An unconflicted JORN editor makes every formal accept or reject decision.
+No. AI may assist with preliminary completeness and routing checks. An editor confirms whether a package enters the human-review pipeline, appoints reviewers, and makes every formal accept or reject decision.
 
 ## What does passing AI triage mean?
 

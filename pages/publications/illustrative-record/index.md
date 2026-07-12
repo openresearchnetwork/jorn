@@ -32,7 +32,7 @@ A fictional research team tested fictional software on fictional protected clini
 
 **Review route:** coordinated external-community route involving the Fictional Clinical Imaging Review Collective **[FICTIONAL COMMUNITY; NOT A JORN PARTNER]**. The fictional community coordinated a clinician and statistical reviewer; a fictional JORN handling editor appointed a privacy reviewer and artifact evaluator. The fictional decision cited clear versioning and bounded secure verification while noting limited demographic and external-site evidence. **All strengths, limitations and outcomes in this section are invented.**
 
-## AI-assisted triage statement — fictional
+## AI-assisted editorial triage statement — fictional
 
 Fictional JORN Triage System 0.4 analysed only the fictional public preprint, metadata, synthetic dataset and public software on 2 February 2028 against fictional criteria 0.3. It did not receive patient data or confidential reviews. It identified a missing software licence and unclear subgroup documentation; the fictional authors corrected both. A fictional editor confirmed “ready for human review.” AI suggested expertise but neither selected reviewers nor made the publication decision. **No such system or screening occurred.**
 

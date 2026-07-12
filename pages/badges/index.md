@@ -12,9 +12,13 @@ description: Proposed JORN evidence badges, evidence fields, limitations, correc
 
 An independent evaluator confirmed that the specified artifacts were sufficiently documented, available to the evaluator, and functional for the declared purpose. The report names versions, environment, procedures, outcomes, differences and exclusions. It does not establish scientific validity or general reusability.
 
+The artifact must first satisfy the applicable object and evidence requirements in the [Open Science Workflow and Services Guide](../guide/).
+
 ## Computational Results Reproduced
 
 An independent evaluator executed the specified workflow and obtained the identified outputs within stated comparison criteria or tolerance. The claim is limited to those outputs, objects and environment. It is not independent replication.
+
+The software, data, and environment requirements are defined in the [Guide](../guide/#requirements-and-services-map).
 
 ## External Software Review Recognised
 

@@ -30,6 +30,8 @@ Acceptance will not depend on receiving an optional evidence badge. Scientific p
 
 ## Common eligibility requirements
 
+The [Open Science Workflow and Services Guide](../guide/) explains the evidence and equivalent-service criteria behind these common requirements. The Guide covers the wider research lifecycle; it does not broaden the founding-pilot scope described on this page.
+
 Every submission should provide:
 
 - a clear research contribution or well-defined reproduction or replication question;
