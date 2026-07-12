@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#082f35">
-    <meta name="description" content="Use the JORN Open Science Implementation Guide to assess and improve connected, citable, documented, accessible, and reusable research.">
+    <meta name="description" content="JORN's founding-stage workflow and services guide for research objects, identifiers, licences, evidence, review routes, implementation levels, and equivalent platforms.">
     <meta name="author" content="Open Science Labs">
     <link rel="canonical" href="https://openresearchnet.org/jorn/guide/">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-    <title>Open Science Implementation Guide · Journal of the Open Research Network</title>
+    <title>Open Science Workflow and Services Guide · Journal of the Open Research Network</title>
     
       <link rel="stylesheet" href="../assets/styles.css">
     
@@ -27,6 +27,18 @@
         "isAccessibleForFree": true
       }
     </script>
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Prepare a complete, connected research package.",
+        "description": "JORN\u0027s founding-stage workflow and services guide for research objects, identifiers, licences, evidence, review routes, implementation levels, and equivalent platforms.",
+        "url": "https://openresearchnet.org/jorn/guide/",
+        "isPartOf": {"@type": "WebSite", "name": "Journal of the Open Research Network", "url": "https://openresearchnet.org/jorn/"}
+      }
+    </script>
+    
   </head>
   <body class="">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -100,7 +112,7 @@
                   </button>
                   <ul class="nav-dropdown">
                     
-                      <li class="is-active"><a href="./">Implementation Guide</a></li>
+                      <li class="is-active"><a href="./">Workflow & services guide</a></li>
                     
                       <li class=""><a href="../readiness/">Readiness Check</a></li>
                     
@@ -138,7 +150,7 @@
                     
                       <li class=""><a href="../editorial-process/">Editorial process</a></li>
                     
-                      <li class=""><a href="../ai-triage/">AI-assisted triage</a></li>
+                      <li class=""><a href="../ai-triage/">AI-assisted editorial triage</a></li>
                     
                   </ul>
                 
@@ -224,106 +236,438 @@
       <div class="page-masthead">
         <div class="shell shell--text">
           <nav class="breadcrumbs" aria-label="Breadcrumb">
-            <a href="..">Home</a><span aria-hidden="true">/</span><span>Open Science Implementation Guide</span>
+            <a href="..">Home</a><span aria-hidden="true">/</span><span>Open Science Workflow and Services Guide</span>
           </nav>
           <p class="eyebrow">Prepare</p>
-          <h1>Assess, improve, and connect your research.</h1>
-          <p class="page-lede">The JORN Open Science Implementation Guide is a public, vendor-neutral resource for planning research, finding missing elements, and documenting evidence.</p>
+          <h1>Prepare a complete, connected research package.</h1>
+          <p class="page-lede">Follow the research lifecycle, distinguish required outcomes from optional services, assess what is missing, and understand what JORN may verify or recognise.</p>
         </div>
       </div>
       <div class="shell page-layout">
         <article class="prose">
-          <div class="info-banner"><strong>Status: draft guide for public testing.</strong> Using this guide does not imply JORN endorsement, peer review, certification, scientific validity, journal acceptance, or compliance with every legal or ethical obligation.</div>
+          <div class="info-banner"><strong>Status: draft guide for public testing.</strong> JORN is in a founding and feasibility phase. These requirements are proposed for the pilot and become operational only after approval. Using this guide does not imply endorsement, peer review, certification, scientific validity, journal acceptance, or compliance with every legal or ethical duty.</div>
 
-<h2 id="who-the-guide-is-for">Who the guide is for<a class="headerlink" href="#who-the-guide-is-for" title="Link to this section">&para;</a></h2>
-<p>Researchers may use the guide while planning a project or preparing a paper. It is also designed for research groups, peer reviewers, librarians, research-software engineers, data stewards, funders, institutions, students, and independent researchers. Use does not require an intention to publish with JORN.</p>
-<h2 id="seven-questions-to-answer">Seven questions to answer<a class="headerlink" href="#seven-questions-to-answer" title="Link to this section">&para;</a></h2>
-<ol>
-<li>How open and connected is the research now?</li>
-<li>What is missing or insufficiently documented?</li>
-<li>Why does each element matter?</li>
-<li>What practical action would improve it?</li>
-<li>Which standards, repositories, services, or communities could help?</li>
-<li>What evidence would JORN require for verification?</li>
-<li>Which claims require human, disciplinary, ethical, privacy, or technical review?</li>
-</ol>
-<h2 id="work-through-the-dimensions">Work through the dimensions<a class="headerlink" href="#work-through-the-dimensions" title="Link to this section">&para;</a></h2>
+<h2 id="assess-your-research-package">Assess your research package<a class="headerlink" href="#assess-your-research-package" title="Link to this section">&para;</a></h2>
+<p>Use this guide to identify the objects and declarations your work needs, separate mandatory outcomes from recommended practices, compare suitable services, record responsible exceptions, and prepare evidence for human review.</p>
+<p><a class="button button--ink" href="../assets/jorn-open-science-readiness-checklist.csv">Download the readiness checklist (CSV)</a>
+<a class="button button--outline" href="../submit/">Propose pilot work</a></p>
+<blockquote>
+<p><strong>Self-assessment—not reviewed or certified by JORN.</strong></p>
+</blockquote>
+<h2 id="research-lifecycle">Research lifecycle<a class="headerlink" href="#research-lifecycle" title="Link to this section">&para;</a></h2>
+<div class="lifecycle-map" aria-label="Open-science lifecycle from identity to continuing stewardship">
+<span>1. Identity & contributors</span><b aria-hidden="true">→</b><span>2. Plan & register</span><b aria-hidden="true">→</b><span>3. Manuscript & objects</span><b aria-hidden="true">→</b><span>4. Screen & review</span><b aria-hidden="true">→</b><span>5. Decide & certify</span><b aria-hidden="true">→</b><span>6. Preserve & correct</span>
+</div>
+
+<p>The detailed sequence is: researcher identity; affiliation; contributor roles; planning and collaboration; protocols and preregistration; manuscript and preprint; research data; sensitive data; synthetic and simulated data; source code; archived software release; computational environment and workflow; figures and media; resources and materials; scientific peer review; open-science review; artifact assessment; AI-assisted editorial triage; certification and badges; the JORN Open Research Record; and continuing stewardship.</p>
+<h2 id="how-to-read-the-labels">How to read the labels<a class="headerlink" href="#how-to-read-the-labels" title="Link to this section">&para;</a></h2>
+<div class="card-grid card-grid--two">
+<div class="plain-card">
+<h3 id="required-standard-or-outcome">Required standard or outcome<a class="headerlink" href="#required-standard-or-outcome" title="Link to this section">&para;</a></h3>
+<p>The author must satisfy the outcome unless a published exception applies. A required outcome does not make one platform mandatory.</p>
+</div>
+<div class="plain-card">
+<h3 id="recommended-service">Recommended service<a class="headerlink" href="#recommended-service" title="Link to this section">&para;</a></h3>
+<p>A practical option. An equivalent service is acceptable when it meets the same criteria. Recommendation is not partnership, universal endorsement, guaranteed preservation, or automatic certification.</p>
+</div>
+<div class="plain-card">
+<h3 id="recognised-assessment-provider">Recognised assessment provider<a class="headerlink" href="#recognised-assessment-provider" title="Link to this section">&para;</a></h3>
+<p>JORN may accept a defined, version-specific external assessment as evidence after reviewing its criteria, process, report, limitations, and need for supplementary assessment. <strong>None is confirmed yet.</strong></p>
+</div>
+<div class="plain-card">
+<h3 id="integrated-provider-or-formal-partner">Integrated provider or formal partner<a class="headerlink" href="#integrated-provider-or-formal-partner" title="Link to this section">&para;</a></h3>
+<p>Integration requires a working, documented technical exchange. Partnership requires a formal agreement covering responsibilities, data, conflicts, governance, branding, duration, and editorial independence. <strong>None is confirmed yet.</strong></p>
+</div>
+</div>
+<p>JORN prescribes outcomes and evidence, not vendors. Service availability, fees, scope, access controls, and terms may change; authors must check the official service documentation and choose an appropriate option.</p>
+<h2 id="implementation-levels">Implementation levels<a class="headerlink" href="#implementation-levels" title="Link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Area</th>
-<th>Check</th>
-<th>Evidence to retain</th>
+<th>Level</th>
+<th>Meaning</th>
+<th>Minimum evidence</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>People and organisations</td>
-<td>Authors, ORCIDs, affiliations, ROR identifiers, CRediT roles, contacts</td>
-<td>Identifier records and contribution statement</td>
+<td><strong>0 — Not documented</strong></td>
+<td>The applicable object or practice is absent, unclear, or not assessable.</td>
+<td>Gap and next action recorded</td>
 </tr>
 <tr>
-<td>Research plan</td>
-<td>Protocol, preregistration, governance, deviations, ethics and consent</td>
-<td>Persistent records, approvals, amendments and explanations</td>
+<td><strong>1 — Transparent</strong></td>
+<td>Existence, location, owner, access status, restrictions, and limitations are disclosed.</td>
+<td>Versioned statement and links</td>
 </tr>
 <tr>
-<td>Manuscript</td>
-<td>Discoverable deposit, exact version, licence, methods and declarations</td>
-<td>Identifier, version, licence and checksum where appropriate</td>
+<td><strong>2 — Accessible, citable, and responsibly managed</strong></td>
+<td>The object is appropriately deposited or registered, identified, versioned, documented, connected, licensed or governed, and preserved.</td>
+<td>Exact object, metadata, identifier, version, rights, and access evidence</td>
 </tr>
 <tr>
-<td>Data</td>
-<td>Access category, identifier, version, documentation, licence or terms, provenance</td>
-<td>Repository record, data-management and access documentation</td>
-</tr>
-<tr>
-<td>Software and models</td>
-<td>Source, archived release, identifier, licence, tests, dependencies and citation</td>
-<td>Release DOI or SWHID, commit, environment and test evidence</td>
-</tr>
-<tr>
-<td>Workflows and environments</td>
-<td>Executable steps, notebooks, containers, dependency locks and expected outputs</td>
-<td>Versioned workflow and execution instructions</td>
-</tr>
-<tr>
-<td>Figures and media</td>
-<td>Source data, generation process, captions, attribution, alt text and provenance</td>
-<td>Versioned source-material package and relationships</td>
-</tr>
-<tr>
-<td>Review and evaluation</td>
-<td>Scientific review, open-science review and artifact checks kept distinct</td>
-<td>Reports, exact assessed versions, criteria and responses</td>
-</tr>
-<tr>
-<td>Stewardship</td>
-<td>Preservation, maintenance, corrections, access changes and status history</td>
-<td>Preservation route, owner and update plan</td>
+<td><strong>3 — Independently verified</strong></td>
+<td>JORN or a qualifying external evaluator examined the exact object under published criteria.</td>
+<td>Assessor, date, criteria, report, outcomes, differences, exclusions, and limits</td>
 </tr>
 </tbody>
 </table>
-<p>The complete dimensional set also covers synthetic or simulated data, models, materials, licences, persistent identifiers, citation, accessibility, community or Indigenous governance, reproduction, replication, and maintenance.</p>
-<h2 id="for-each-dimension">For each dimension<a class="headerlink" href="#for-each-dimension" title="Link to this section">&para;</a></h2>
-<p>Record its applicability, current <a href="../implementation-levels/">implementation level</a>, readiness state, evidence, gaps, next action, responsible person, dependencies, restrictions, and review needs. Do not calculate a numerical openness score.</p>
-<h3 id="assessment-states">Assessment states<a class="headerlink" href="#assessment-states" title="Link to this section">&para;</a></h3>
-<ul>
-<li><strong>Self-assessed:</strong> completed by an author or group without independent verification.</li>
-<li><strong>Evidence supplied:</strong> links and documentation have been supplied, but JORN has not verified them.</li>
-<li><strong>AI-assisted screening:</strong> an approved system generated a preliminary report on a public or securely authorised package. This is neither certification nor peer review.</li>
-<li><strong>JORN verified:</strong> a qualified JORN editor, reviewer, evaluator, or recognised external assessor examined the evidence under a published criteria version.</li>
-</ul>
-<p>Only <strong>JORN verified</strong> evidence may support official JORN certification.</p>
-<h2 id="improve-responsibly">Improve responsibly<a class="headerlink" href="#improve-responsibly" title="Link to this section">&para;</a></h2>
-<p>Open does not mean public at any cost. Research data should be as open as ethically, legally, and methodologically possible, and as restricted as necessary. Controlled access can meet the framework when the restriction, public metadata, governance, and responsible verification route are adequate.</p>
-<p>JORN prescribes outcomes and evidence, not vendors. The <a href="../services/">Services and Tools Guide</a> lists selection criteria and examples; equivalent services are acceptable when they meet the same requirements.</p>
-<div class="action-panel">
-<h3 id="test-the-draft-guide">Test the draft guide<a class="headerlink" href="#test-the-draft-guide" title="Link to this section">&para;</a></h3>
-<p>Start with the readiness states, record your evidence, and note where the guidance is unclear. A public feedback route is <strong>[TO BE CONFIRMED BEFORE PUBLICATION]</strong>.</p>
-<p><a class="button button--lime" href="../readiness/">Use the Readiness Check</a>
-<a class="button button--ghost" href="../implementation-levels/">Review implementation levels</a></p>
+<p>For every dimension, record the current level, evidence, missing elements, next action, verifier, and limitations. Do not average levels into a score. Any overall designation would conservatively use the lowest level among applicable mandatory dimensions <strong>[TO BE CONFIRMED]</strong>.</p>
+<blockquote>
+<p>This level describes implementation of the JORN Open Science Framework. It is not a measure of scientific quality, correctness, novelty, importance, or impact.</p>
+</blockquote>
+<p><a href="../implementation-levels/">Read the full implementation-level explanation</a></p>
+<h2 id="requirements-and-services-map">Requirements and services map<a class="headerlink" href="#requirements-and-services-map" title="Link to this section">&para;</a></h2>
+<div class="matrix-table">
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Research object or practice</th>
+<th>Required outcome</th>
+<th>Mandatory?</th>
+<th>Recommended services</th>
+<th>Equivalent alternative</th>
+<th>External assessment</th>
+<th>Evidence and JORN check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identity</td>
+<td>Individual author</td>
+<td>Authenticated ORCID iD before final acceptance</td>
+<td>Required for each living individual author; exceptions below</td>
+<td><a href="https://orcid.org/">ORCID</a></td>
+<td>No equivalent identifier for this proposed requirement</td>
+<td>None confirmed</td>
+<td>Authentication record; match to author; connection to final record</td>
+</tr>
+<tr>
+<td>Affiliation</td>
+<td>Author status and organisation</td>
+<td>Truthful status; ROR when a genuine named organisation has a suitable record</td>
+<td>Required</td>
+<td><a href="https://ror.org/">ROR</a> for organisations</td>
+<td>Independent, unaffiliated, self-employed, retired, community, or another accurate status</td>
+<td>None</td>
+<td>Author declaration; current genuine relationship; ROR match where applicable</td>
+</tr>
+<tr>
+<td>Contributions</td>
+<td>Contributor statement</td>
+<td>Confirmed CRediT roles</td>
+<td>Required</td>
+<td><a href="https://credit.niso.org/">CRediT</a></td>
+<td>Mapped structured roles only if JORN approves equivalence</td>
+<td>None</td>
+<td>Each contributor confirms assigned roles</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>Collaborative project record</td>
+<td>Access, history, documentation, versioned files, export, and links</td>
+<td>Recommended unless needed by design or policy</td>
+<td><a href="https://osf.io/">OSF</a></td>
+<td>Institutional environments, Git, ELNs, or disciplinary systems meeting the outcome</td>
+<td>None</td>
+<td>Project record and export; access and change history</td>
+</tr>
+<tr>
+<td>Registration</td>
+<td>Protocol or preregistration</td>
+<td>Timestamped, versioned plan and transparent deviations</td>
+<td>Required when applicable to design or claim</td>
+<td><a href="https://help.osf.io/article/330-welcome-to-registrations">OSF Registrations</a>, <a href="https://www.protocols.io/">protocols.io</a>, <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, <a href="https://www.crd.york.ac.uk/prospero/">PROSPERO</a></td>
+<td>Qualified discipline-specific registry</td>
+<td>None</td>
+<td>Identifier, timestamp, version, terms, plan–study comparison</td>
+</tr>
+<tr>
+<td>Manuscript</td>
+<td>Preprint or repository manuscript</td>
+<td>Public, stable, versioned, citable manuscript; restricted-review exception where justified</td>
+<td>Required</td>
+<td><a href="https://arxiv.org/">arXiv</a>, <a href="https://www.biorxiv.org/">bioRxiv</a>, <a href="https://www.medrxiv.org/">medRxiv</a>, <a href="https://preprints.scielo.org/">SciELO Preprints</a>, <a href="https://zenodo.org/">Zenodo</a></td>
+<td>Suitable disciplinary or institutional repository</td>
+<td>External scientific review may be assessed separately</td>
+<td>Identifier, version, title, authors, ORCIDs, licence, date, abstract, object links</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>Claim-supporting dataset</td>
+<td>Identified, versioned, cited, documented, governed, preserved, and connected</td>
+<td>Required when data support a claim</td>
+<td>Discipline repository first; then institutional; <a href="https://dataverse.org/">Dataverse</a>, <a href="https://datadryad.org/">Dryad</a>, <a href="https://zenodo.org/">Zenodo</a>, <a href="https://figshare.com/">Figshare</a>; discover via <a href="https://www.re3data.org/">re3data</a></td>
+<td>Any repository meeting JORN criteria</td>
+<td>Qualified data assessment <strong>[TO BE CONFIRMED]</strong></td>
+<td>DOI/PID, version, metadata, provenance, dictionary, licence/access, preservation</td>
+</tr>
+<tr>
+<td>Sensitive data</td>
+<td>Controlled dataset</td>
+<td>Public metadata plus lawful access, governance, custodian, and verification route</td>
+<td>Required where applicable</td>
+<td>Qualified controlled-access or institutional repository</td>
+<td>Secure environment meeting policy</td>
+<td>Secure verification <strong>[TO BE CONFIRMED]</strong></td>
+<td>Data-use terms, permissions, security, retention, disclosure limits</td>
+</tr>
+<tr>
+<td>Cloud data</td>
+<td>Large externally stored release</td>
+<td>Scholarly citation and metadata layer over frozen, manifested cloud objects</td>
+<td>Required if cloud storage is used</td>
+<td>Repository or institutional <a href="https://datacite.org/">DataCite</a> record; <a href="https://www.researchobject.org/ro-crate/">RO-Crate</a></td>
+<td>Any compliant PID, landing page, manifest, governance, and preservation layer</td>
+<td>None confirmed</td>
+<td>DOI/PID, version IDs, checksums, manifest, custodian, retention and exit plan</td>
+</tr>
+<tr>
+<td>Synthetic data</td>
+<td>Synthetic or simulated release</td>
+<td>Purpose, method, source relationship, risk, utility, provenance, licence, and limits</td>
+<td>Required where supplied</td>
+<td>Appropriate data repository</td>
+<td>Equivalent repository meeting data criteria</td>
+<td>Utility/privacy/secure verification assessed separately <strong>[TO BE CONFIRMED]</strong></td>
+<td>DOI, exact generator/version, risk and fidelity evidence; claims kept distinct</td>
+</tr>
+<tr>
+<td>Source code</td>
+<td>Development repository</td>
+<td>Public history, documentation, OSI-approved licence, tag, tests where practical, and object links</td>
+<td>Required when code materially supports a claim</td>
+<td><a href="https://github.com/">GitHub</a>, <a href="https://gitlab.com/">GitLab</a>, <a href="https://codeberg.org/">Codeberg</a></td>
+<td>Institutional or community Git service with equivalent access and export</td>
+<td>JOSS, pyOpenSci, rOpenSci are candidates only</td>
+<td>Repository, history, licence file, tag, docs, dependencies, tests</td>
+</tr>
+<tr>
+<td>Software release</td>
+<td>Immutable archived release</td>
+<td>DOI, SWHID, or equivalent PID for the exact release</td>
+<td>Required when software materially supports a claim</td>
+<td><a href="https://zenodo.org/">Zenodo</a>, <a href="https://www.softwareheritage.org/">Software Heritage</a></td>
+<td>Qualified institutional software archive</td>
+<td>External software assessment may be recognised <strong>[TO BE CONFIRMED]</strong></td>
+<td>Release, commit, archive PID, citation metadata, manuscript/data relationships</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Computational environment</td>
+<td>Sufficient versioned information and instructions to recreate execution</td>
+<td>Required when computation is central</td>
+<td>Conda or language lockfiles, <a href="https://www.docker.com/">Docker</a>, <a href="https://apptainer.org/">Apptainer</a>, <a href="https://mybinder.org/">Binder</a></td>
+<td>Any equivalent environment or workflow technology</td>
+<td>Artifact evaluator</td>
+<td>Lockfile, manifest, image ID, OS/hardware, seeds, commands, archived release</td>
+</tr>
+<tr>
+<td>Figures</td>
+<td>Substantive visual or media package</td>
+<td>Traceable source, method, rights, version, provenance, caption, and alt text</td>
+<td>Required where applicable</td>
+<td><a href="https://figshare.com/">Figshare</a>, <a href="https://zenodo.org/">Zenodo</a>, disciplinary image repositories</td>
+<td>Institutional or specialist repository meeting criteria</td>
+<td>Artifact or accessibility assessment where applicable</td>
+<td>Source data/code, package version, licence, attribution, alt text, manuscript link</td>
+</tr>
+<tr>
+<td>Resources</td>
+<td>Materials, models, samples, instruments</td>
+<td>Identified, described, accessible or responsibly restricted, and connected</td>
+<td>Required when material to a claim</td>
+<td>Discipline registries and repositories</td>
+<td>Equivalent persistent record</td>
+<td>Specialist assessment where applicable</td>
+<td>Identifier, version/batch, provider, terms, provenance and availability</td>
+</tr>
+<tr>
+<td>Scientific review</td>
+<td>Manuscript and claims</td>
+<td>Qualified disciplinary review of methods, analysis, interpretation, ethics, and conclusions</td>
+<td>Required for publication</td>
+<td>Qualified external community where available</td>
+<td>JORN-appointed reviewers</td>
+<td><a href="https://peercommunityin.org/">PCI</a>, <a href="https://www.reviewcommons.org/">Review Commons</a>, <a href="https://prereview.org/">PREreview</a> are candidates for investigation, not recognised providers</td>
+<td>Exact reviewed version, expertise, selection, conflicts, reports, responses, revisions</td>
+</tr>
+<tr>
+<td>Open-science review</td>
+<td>Implementation evidence</td>
+<td>Review of identifiers, versions, repositories, rights, access, metadata, and provenance</td>
+<td>Required for certification</td>
+<td>JORN reviewer or qualifying external evaluator</td>
+<td>Equivalent qualified assessment</td>
+<td>None confirmed</td>
+<td>Criteria version, evidence, level, assessor, differences and limits</td>
+</tr>
+<tr>
+<td>Artifact review</td>
+<td>Software, data, workflow, outputs</td>
+<td>Bounded functional, usability, execution, or reproduction finding</td>
+<td>When claimed or required by article type</td>
+<td>JORN evaluator or qualifying specialist</td>
+<td>Equivalent documented assessment</td>
+<td>JOSS, pyOpenSci, rOpenSci and other communities assessed claim by claim</td>
+<td>Exact artifact, version, environment, commands, outcomes, tolerances, exclusions</td>
+</tr>
+<tr>
+<td>Triage</td>
+<td>Submitted research package</td>
+<td>Human-confirmed route into review</td>
+<td>Proposed pilot stage</td>
+<td>Approved deterministic tools and AI system <strong>[TO BE CONFIRMED]</strong></td>
+<td>Human editorial triage</td>
+<td>Not an external assessment or peer review</td>
+<td>Inputs, system/version, criteria, uncertainty, report, editor confirmation, corrections</td>
+</tr>
+<tr>
+<td>Certification</td>
+<td>Dimensional profile and badges</td>
+<td>Exact, bounded, human-approved verified claims</td>
+<td>Required after acceptance for certification</td>
+<td>JORN record</td>
+<td>None</td>
+<td>Qualifying evidence may be recognised</td>
+<td>Levels, evidence, verifier, criteria, date, limitations and status</td>
+</tr>
+<tr>
+<td>Publication</td>
+<td>JORN Open Research Record</td>
+<td>One citable record connecting exact objects, reviews, decisions, evidence, and status</td>
+<td>Required after acceptance</td>
+<td>JORN platform and DOI route <strong>[TO BE CONFIRMED]</strong>; metadata may use <a href="https://www.crossref.org/documentation/">Crossref</a>, <a href="https://datacite.org/">DataCite</a>, <a href="https://www.researchobject.org/ro-crate/">RO-Crate</a>, or <a href="https://coar-notify.net/">COAR Notify</a> where applicable</td>
+<td>No substitute for the journal record</td>
+<td>Recognised evidence linked, not relabelled</td>
+<td>Accessible HTML/PDF, DOI, BibTeX, RIS, CSL JSON, JSON-LD, RO-Crate or equivalent</td>
+</tr>
+<tr>
+<td>Stewardship</td>
+<td>Preservation and status</td>
+<td>Maintain metadata, corrections, concerns, withdrawals, retractions, and current links</td>
+<td>Required</td>
+<td>JORN plus underlying repositories</td>
+<td>Approved preservation and migration routes</td>
+<td>None</td>
+<td>Change history, notices, checks, current status, closure plan</td>
+</tr>
+</tbody>
+</table>
 </div>
+<p>No named service is a JORN partner, integration, or currently recognised provider unless it appears with evidence in the <a href="../community/relationships/">relationship register</a>.</p>
+<h2 id="detailed-lifecycle-guidance">Detailed lifecycle guidance<a class="headerlink" href="#detailed-lifecycle-guidance" title="Link to this section">&para;</a></h2>
+<h3 id="1-researcher-identity">1. Researcher identity<a class="headerlink" href="#1-researcher-identity" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose and applicability:</strong> identify every individual author and connect contributions reliably. <strong>Required:</strong> every living individual author authenticates an ORCID iD before final acceptance; manually typed iDs do not satisfy the proposed rule. <strong>Evidence/JORN check:</strong> OAuth authentication record, author match, and connection to the Open Research Record. <strong>Exceptions:</strong> deceased authors cannot authenticate; the editor documents identity and contribution. Consortium authorship must identify accountable individuals and group-author metadata. Reviewer and editor iDs may be collected privately and are disclosed only under the review policy. <strong>Common mistake:</strong> copying an ORCID from a manuscript without authentication. <strong>Next action:</strong> authenticate through the approved workflow <strong>[TO BE CONFIRMED]</strong>.</p>
+<h3 id="2-affiliation-and-organisations">2. Affiliation and organisations<a class="headerlink" href="#2-affiliation-and-organisations" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> report a truthful research context without excluding independent scholars. <strong>Required:</strong> choose an accurate organisational, independent, unaffiliated, self-employed, retired or emeritus, community or civil-society, or other described status. Add a ROR identifier only for a current, genuine organisation with an appropriate record. <strong>Recommended examples:</strong> <a href="https://igdore.org/affiliation/">IGDORE</a> and the <a href="https://www.ronin-institute.org/terms-of-membership">Ronin Institute</a> may support eligible independent researchers under their own current terms, but membership is optional and must be genuine; JORN neither assigns those affiliations nor claims partnership. <strong>Mistake:</strong> joining or naming an organisation only to appear eligible. <strong>Next action:</strong> confirm the status and current relationship.</p>
+<h3 id="3-contributor-roles">3. Contributor roles<a class="headerlink" href="#3-contributor-roles" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> make responsibility and credit explicit. <strong>Required:</strong> assign CRediT roles to authors and named contributors and let each person review them. CRediT complements rather than determines authorship. <strong>Evidence:</strong> confirmed contribution statement. <strong>Mistake:</strong> assigning roles without contributor review. <strong>Next action:</strong> circulate the final role matrix for confirmation.</p>
+<h3 id="4-project-planning-and-collaboration">4. Project planning and collaboration<a class="headerlink" href="#4-project-planning-and-collaboration" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> preserve decisions, access, history, and links before publication. <strong>Recommended:</strong> OSF is one option; institutional environments, Git repositories, electronic lab notebooks, and discipline platforms are equivalent when they support appropriate access, documentation, versioning, registration, export, and links. <strong>Exception:</strong> the platform may remain private during active work. <strong>JORN check:</strong> only the evidence needed for the declared claim. <strong>Next action:</strong> export or freeze the relevant project history.</p>
+<h3 id="5-protocols-and-preregistration">5. Protocols and preregistration<a class="headerlink" href="#5-protocols-and-preregistration" title="Link to this section">&para;</a></h3>
+<p><strong>Applicability:</strong> required when relevant to the design or stated claim, not for every study. <strong>Required evidence:</strong> PID, timestamp, exact version, licence or access terms, and a transparent comparison of plan and final study. <strong>Recommended services:</strong> OSF Registrations, protocols.io, ClinicalTrials.gov, PROSPERO, or a suitable disciplinary registry. <strong>Mistakes:</strong> retrospective registration presented as prospective; silent deviations. <strong>Responsible exception:</strong> explain why registration was not applicable or could not be public. <strong>Next action:</strong> link the plan and deviation statement.</p>
+<h3 id="6-manuscript-and-preprint">6. Manuscript and preprint<a class="headerlink" href="#6-manuscript-and-preprint" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> preserve the exact scholarly argument reviewed and accepted. <strong>Required:</strong> a public, versioned, citable manuscript unless a documented restricted-review exception applies; include PID, version, title, authors, authenticated ORCIDs by acceptance, licence, date, abstract, and object links. Choose a service by discipline and policy. <strong>Mistake:</strong> linking a mutable file or only a project homepage. <strong>JORN check:</strong> exact version and accepted-version preservation. <strong>Next action:</strong> deposit or version the manuscript.</p>
+<h3 id="7-research-data">7. Research data<a class="headerlink" href="#7-research-data" title="Link to this section">&para;</a></h3>
+<p><strong>Applicability:</strong> required whenever data support a claim. Prefer a suitable disciplinary repository, then trusted institutional, then general repository. <strong>Required:</strong> PID, exact version, citation, access status, metadata, provenance, documentation or dictionary, licence or terms, preservation plan, and relationships. <strong>Initial open-data licence options:</strong> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> for maximum reuse, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> where attribution is a legal condition, and <a href="https://opendatacommons.org/licenses/">ODC-By, ODbL, or PDDL</a> for intentionally selected database terms. The accepted list requires qualified legal review <strong>[TO BE CONFIRMED]</strong>. <strong>Mistake:</strong> applying an open licence without authority or to controlled personal data. <strong>Next action:</strong> select a repository and obtain rights review.</p>
+<h3 id="8-sensitive-and-controlled-access-data">8. Sensitive and controlled-access data<a class="headerlink" href="#8-sensitive-and-controlled-access-data" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> enable accountable review without irresponsible disclosure. <strong>Required:</strong> public metadata where appropriate, access conditions, data-use agreement, permitted purposes, security and disclosure controls, retention or destruction terms, custodian, and lawful verification route. Do not apply an open licence to restricted patient, personal, confidential, security-sensitive, or community-governed data. <strong>JORN check:</strong> justification and whether qualified review is possible; JORN has no confirmed secure-data capability. <strong>Next action:</strong> document governance before proposing work.</p>
+<h3 id="9-synthetic-and-simulated-data">9. Synthetic and simulated data<a class="headerlink" href="#9-synthetic-and-simulated-data" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> support workflow demonstration or a defined evaluation where real data cannot be shared. Distinguish synthetic companion, synthetic evaluation, simulation-generated, controlled real data, and secure verification. <strong>Required:</strong> purpose, generator and version, source relationship, population, privacy risk, statistical and task utility, subgroup behaviour, domain review, limitations, use stage, real-data validation, ethics, DOI, version, licence, and provenance. <strong>Mistake:</strong> saying synthetic means anonymous or clinically validated. <strong>JORN check:</strong> keep workflow execution, utility, privacy, restricted-data verification, and independent real-data validation as separate claims. <strong>Next action:</strong> state exactly which claim the synthetic release supports.</p>
+<h3 id="10-software-and-source-code">10. Software and source code<a class="headerlink" href="#10-software-and-source-code" title="Link to this section">&para;</a></h3>
+<p><strong>Applicability:</strong> required when code materially supports a claim. <strong>Required:</strong> public source, version history, tagged release, documentation, execution instructions, dependencies, environment, tests where practical, citation metadata, object relationships, and a licence from the <a href="https://opensource.org/licenses">OSI-approved list</a>. <strong>Recommended:</strong> GitHub, GitLab, Codeberg, or equivalent Git service. <strong>Mistake:</strong> using a Creative Commons content licence for source code or linking only a mutable branch. <strong>Next action:</strong> add the licence file, documentation, tag, and archive link.</p>
+<h3 id="11-archived-software-releases">11. Archived software releases<a class="headerlink" href="#11-archived-software-releases" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> make the exact assessed software immutable and citable. <strong>Required:</strong> archive the tagged release with DOI, SWHID, or equivalent identifier; a development repository alone is insufficient. <strong>Recommended:</strong> Zenodo, Software Heritage, or qualified institutional archive. <strong>JORN check:</strong> release–commit–manuscript relationship. <strong>Next action:</strong> archive the release and cite it.</p>
+<h3 id="12-computational-environments-and-workflows">12. Computational environments and workflows<a class="headerlink" href="#12-computational-environments-and-workflows" title="Link to this section">&para;</a></h3>
+<p><strong>Applicability:</strong> required when computation is central. <strong>Evidence options:</strong> lockfile, package manifest, container definition and immutable image identifier, workflow, notebook, seeds, hardware and operating-system requirements, instructions, and archived environment. No specific container or language is mandatory. <strong>Mistake:</strong> naming only “Python” or a moving container tag. <strong>JORN check:</strong> whether the declared environment is sufficiently exact for the bounded assessment. <strong>Next action:</strong> freeze dependencies and write execution instructions.</p>
+<h3 id="13-figures-images-tables-and-media">13. Figures, images, tables, and media<a class="headerlink" href="#13-figures-images-tables-and-media" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> connect substantive visuals to their evidence and make them accessible. <strong>Required:</strong> source data, generation method or code, caption, attribution, licence, exact version, provenance, alt text, and manuscript relationship. A separate DOI is not required for every decorative image or panel; one versioned figure-and-source package is usually preferable. <strong>Recommended:</strong> Figshare, Zenodo, specialist image or institutional repositories. <strong>Next action:</strong> package sources and accessibility text.</p>
+<h3 id="14-research-resources-and-materials">14. Research resources and materials<a class="headerlink" href="#14-research-resources-and-materials" title="Link to this section">&para;</a></h3>
+<p><strong>Applicability:</strong> samples, models, reagents, instruments, surveys, stimuli, hardware, or other resources material to a claim. <strong>Required:</strong> stable identifier where available, version or batch, provider, provenance, availability, rights, restrictions, and manuscript relationship. <strong>Exception:</strong> physical or protected material may be described without public distribution. <strong>Next action:</strong> create a persistent catalogue or repository record.</p>
+<h3 id="15-scientific-disciplinary-review">15. Scientific disciplinary review<a class="headerlink" href="#15-scientific-disciplinary-review" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> evaluate field relevance, question, contribution, methods, analysis, interpretation, supported conclusions, ethics, and disciplinary standards. JORN seeks qualified external-community review when suitable; otherwise it appoints reviewers. <strong>Evidence:</strong> exact version, reviewer expertise and selection, conflicts, criteria, reports, response, revisions, transfer permission, and integrity. <strong>Mistake:</strong> treating open comments or software checks as scientific review. <strong>Next action:</strong> identify required expertise and any existing review.</p>
+<h3 id="16-open-science-implementation-review">16. Open-science implementation review<a class="headerlink" href="#16-open-science-implementation-review" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> assess identifiers, versions, repositories, licences, access, metadata, documentation, provenance, and levels. <strong>Required for certification:</strong> version-specific report with evidence and limits. It does not determine scientific correctness. <strong>External recognition:</strong> none confirmed. <strong>Next action:</strong> resolve Level 0 and Level 1 gaps before verification.</p>
+<h3 id="17-artifact-and-reproducibility-assessment">17. Artifact and reproducibility assessment<a class="headerlink" href="#17-artifact-and-reproducibility-assessment" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> make bounded findings about software function, data usability, environment execution, outputs, synthetic-data utility, or secure verification. <strong>Candidate providers:</strong> <a href="https://joss.readthedocs.io/en/latest/review_criteria.html">JOSS</a>, <a href="https://www.pyopensci.org/software-peer-review/">pyOpenSci</a>, <a href="https://ropensci.org/software-review/">rOpenSci</a>, and qualified disciplinary communities; none is currently recognised by JORN. Their scopes differ, and their software review does not validate the associated paper. JORN may assess artifacts directly. <strong>Next action:</strong> identify the exact artifact, version, claim, environment, and tolerance.</p>
+<h3 id="18-ai-assisted-editorial-triage">18. AI-assisted editorial triage<a class="headerlink" href="#18-ai-assisted-editorial-triage" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> help determine whether the package appears sufficiently complete, in scope, and reviewable to enter the human-review pipeline. Outcomes are <strong>Ready for human review</strong>, <strong>Author action required</strong>, or <strong>Human editorial triage required</strong>. During the pilot, an editor confirms every route; authors can correct facts and request human reconsideration; AI cannot autonomously reject, select reviewers, certify, or decide publication. Confidential or restricted content must not enter an unapproved system. <strong>Next action:</strong> review the <a href="../ai-triage/">detailed triage safeguards</a>.</p>
+<h3 id="19-certification-and-evidence-badges">19. Certification and evidence badges<a class="headerlink" href="#19-certification-and-evidence-badges" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> publish a dimensional implementation profile and independent bounded claims after acceptance. <strong>Required evidence:</strong> exact object, version, assessor, date, criteria, checks, results, differences, exclusions, limits, and status. Self-assessment cannot generate a badge. JORN will not add new pilot badges without policy approval. <strong>Next action:</strong> read <a href="../certification/">certification</a> and <a href="../badges/">badge criteria</a>.</p>
+<h3 id="20-jorn-open-research-record">20. JORN Open Research Record<a class="headerlink" href="#20-jorn-open-research-record" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> provide the citable journal publication after a JORN editor accepts the exact package. It connects title, abstracts, authors, ORCIDs, affiliations, RORs, CRediT roles, manuscript, preprint, data, synthetic data, software, releases, environments, workflows, figures, protocols, reviews, responses, external assessments, triage disclosure, levels, certification, badges, limits, corrections, and current status. The JORN record receives the journal DOI; underlying objects retain their identifiers. Planned outputs include accessible HTML and PDF plus BibTeX, RIS, CSL JSON, JSON-LD, and RO-Crate or equivalent export <strong>[TO BE CONFIRMED BEFORE PUBLICATION]</strong>. <strong>Next action:</strong> review the <a href="../open-research-record/">record specification</a>.</p>
+<h3 id="21-preservation-corrections-and-continuing-status">21. Preservation, corrections, and continuing status<a class="headerlink" href="#21-preservation-corrections-and-continuing-status" title="Link to this section">&para;</a></h3>
+<p><strong>Purpose:</strong> keep the meaning and status of the publication clear when objects, links, evidence, or conclusions change. <strong>Required:</strong> preserved metadata, monitored critical links, visible version and status history, correction and integrity notices, migration and closure arrangements. <strong>Mistake:</strong> silently replacing an accepted object. <strong>Next action:</strong> identify the steward and preservation route for every critical object.</p>
+<h2 id="responsible-exceptions">Responsible exceptions<a class="headerlink" href="#responsible-exceptions" title="Link to this section">&para;</a></h2>
+<p>A responsible exception is documented, justified, reviewable, and no broader than necessary. It does not silently waive a requirement.</p>
+<ul>
+<li><strong>Identity:</strong> deceased authors cannot authenticate; group authorship needs accountable individuals and structured group metadata.</li>
+<li><strong>Affiliation:</strong> independent or unaffiliated status is acceptable; false or convenience affiliations are not.</li>
+<li><strong>Registration:</strong> applicability depends on design and claim; explain non-applicability and deviations.</li>
+<li><strong>Manuscript:</strong> temporary restricted review may be considered only under an approved policy.</li>
+<li><strong>Data and materials:</strong> privacy, consent, security, community or Indigenous governance, legal restrictions, and physical limits may require controlled access or non-distribution.</li>
+<li><strong>Synthetic data:</strong> may support a demonstration or defined evaluation, but cannot silently substitute for real-data validation.</li>
+<li><strong>Discipline variation:</strong> a different identifier, repository, workflow, or evidence form may be accepted when it meets the published outcome and an editor documents equivalence.</li>
+</ul>
+<h2 id="review-routing">Review routing<a class="headerlink" href="#review-routing" title="Link to this section">&para;</a></h2>
+<p><code>text
+AI-assisted editorial triage
+        ↓
+Editor confirmation
+        ↓
+Qualified external community available?
+        ├── Yes → external or coordinated review
+        └── No  → JORN-appointed reviewers
+        ↓
+Open-science and artifact assessment
+        ↓
+JORN editorial decision
+        ↓
+Open Research Record and certification</code></p>
+<p>An external review can be recognised in full, in part, supplemented, or declined. Public comments do not automatically become commissioned peer review. In every route, an unconflicted JORN editor remains responsible for reviewer sufficiency, revisions, and the final decision.</p>
+<h2 id="readiness-checklist">Readiness checklist<a class="headerlink" href="#readiness-checklist" title="Link to this section">&para;</a></h2>
+<p>For each lifecycle stage, record:</p>
+<ul>
+<li>applicable, not applicable, or restricted with justification;</li>
+<li>Level 0, 1, 2, or 3;</li>
+<li>required outcome met, partial, or missing;</li>
+<li>exact identifier and version;</li>
+<li>evidence link and access status;</li>
+<li>licence or access terms;</li>
+<li>external assessment and its scope;</li>
+<li>missing element and next action;</li>
+<li>responsible person;</li>
+<li>human or specialist verification required;</li>
+<li>known limitations.</li>
+</ul>
+<p><a class="button button--ink" href="../assets/jorn-open-science-readiness-checklist.csv">Download the readiness checklist (CSV)</a>
+<a class="button button--outline" href="../readiness/">Use the readiness guidance</a></p>
+<blockquote>
+<p><strong>Self-assessment—not reviewed or certified by JORN.</strong></p>
+</blockquote>
+<h2 id="decisions-required-before-operation">Decisions required before operation<a class="headerlink" href="#decisions-required-before-operation" title="Link to this section">&para;</a></h2>
+<p>The founding bodies must approve the final ORCID exceptions and authentication workflow; ROR matching rule; CRediT confirmation process; accepted data-licence list; cloud-data and repository criteria; recognised repositories and software reviews; external-review recognition process; implementation-level applicability and any overall designation; AI provider, inputs, privacy, security, performance thresholds, and reconsideration route; secure-data capability; and reviewer workload and compensation model.</p>
+<p>Until a decision is published with an owner, criteria version, date, and change history, it remains <strong>[TO BE CONFIRMED]</strong>.</p>
+<h2 id="related-jorn-pages">Related JORN pages<a class="headerlink" href="#related-jorn-pages" title="Link to this section">&para;</a></h2>
+<ul>
+<li><a href="../scope/">Aims and scope</a></li>
+<li><a href="../editorial-process/">Editorial process</a></li>
+<li><a href="../pilot/">Founding pilot</a></li>
+<li><a href="../submit/">Propose pilot work</a></li>
+<li><a href="../certification/">Certification</a></li>
+<li><a href="../badges/">Evidence badges</a></li>
+<li><a href="../reviewers/">Reviewer network</a></li>
+<li><a href="../about/policies/">Policy register</a></li>
+<li><a href="../faq/">Frequently asked questions</a></li>
+</ul>
+<h2 id="ownership-review-and-change-history">Ownership, review, and change history<a class="headerlink" href="#ownership-review-and-change-history" title="Link to this section">&para;</a></h2>
+<p><strong>Content owner:</strong> <strong>[TO BE CONFIRMED BEFORE POLICY APPROVAL]</strong>
+<strong>Editorial and legal review:</strong> <strong>[TO BE CONFIRMED]</strong>
+<strong>Review schedule:</strong> at least annually and whenever a named service, criteria version, licence policy, or JORN workflow materially changes <strong>[TO BE APPROVED]</strong>
+<strong>Current version:</strong> Draft 0.2 · 12 July 2026
+<strong>Change history:</strong> Draft 0.2 adds identity, affiliation, cloud-data, licensing, service-equivalence, review-routing, and lifecycle requirements. Earlier drafts remain available through the public source history.</p>
         </article>
         
         <aside class="page-aside" aria-label="On this page">
@@ -331,15 +675,29 @@
             <p>On this page</p>
             <ul>
               
-                <li><a href="#who-the-guide-is-for">Who the guide is for</a></li>
+                <li><a href="#assess-your-research-package">Assess your research package</a></li>
               
-                <li><a href="#seven-questions-to-answer">Seven questions to answer</a></li>
+                <li><a href="#research-lifecycle">Research lifecycle</a></li>
               
-                <li><a href="#work-through-the-dimensions">Work through the dimensions</a></li>
+                <li><a href="#how-to-read-the-labels">How to read the labels</a></li>
               
-                <li><a href="#for-each-dimension">For each dimension</a></li>
+                <li><a href="#implementation-levels">Implementation levels</a></li>
               
-                <li><a href="#improve-responsibly">Improve responsibly</a></li>
+                <li><a href="#requirements-and-services-map">Requirements and services map</a></li>
+              
+                <li><a href="#detailed-lifecycle-guidance">Detailed lifecycle guidance</a></li>
+              
+                <li><a href="#responsible-exceptions">Responsible exceptions</a></li>
+              
+                <li><a href="#review-routing">Review routing</a></li>
+              
+                <li><a href="#readiness-checklist">Readiness checklist</a></li>
+              
+                <li><a href="#decisions-required-before-operation">Decisions required before operation</a></li>
+              
+                <li><a href="#related-jorn-pages">Related JORN pages</a></li>
+              
+                <li><a href="#ownership-review-and-change-history">Ownership, review, and change history</a></li>
               
             </ul>
           </div>
@@ -361,7 +719,7 @@
         </div>
         <div>
           <h2>Journal</h2>
-          <a href="./">Implementation Guide</a>
+          <a href="./">Workflow &amp; services guide</a>
           <a href="../readiness/">Readiness Check</a>
           <a href="../publications/">Published records</a>
           <a href="../scope/">Aims &amp; scope</a>
